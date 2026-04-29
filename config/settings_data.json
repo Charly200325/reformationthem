@@ -32,6 +32,10 @@
     "product_aspect_ratio": "portrait",
     "sale_badge_type": "save_percentage",
     "sibling_style": "swatch",
+    "cart_drawer_add_discounts": false,
+    "cart_drawer_notes": false,
+    "free_shipping_minimum": "0",
+    "search_product_collection": "baby-carriers",
     "lazy_loading": false,
     "sections": {
       "announcement-bar": {
