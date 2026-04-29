@@ -197,6 +197,109 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "custom_reviews_LLgyUw": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_KUegPM": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Sarah Wardley",
+            "date": "1 day ago",
+            "title": "The best babywearing solution I've",
+            "body": "<p>The best babywearing solution I've ever tried!</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "",
+            "read_more_link": ""
+          }
+        },
+        "review_dEPjJh": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Paul Edwards",
+            "date": "13 March",
+            "title": "Very easy website to navigate around",
+            "body": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>",
+            "reply_author": "BABYGO.UK",
+            "reply_date": "17 March",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_KpgXpY": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Paul Edwards",
+            "date": "13 March",
+            "title": "Very easy website to navigate around",
+            "body": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>",
+            "reply_author": "BABYGO.UK",
+            "reply_date": "17 March",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_R49H8V": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Paul Edwards",
+            "date": "13 March",
+            "title": "Very easy website to navigate around",
+            "body": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>",
+            "reply_author": "BABYGO.UK",
+            "reply_date": "17 March",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_KUegPM",
+        "review_dEPjJh",
+        "review_KpgXpY",
+        "review_R49H8V"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.custom-reviews-section {padding-bottom: 60px !important; }}",
+        "@media screen and (min-width: 769px) {.custom-reviews-bg {top: -20px !important; bottom: -20px !important; }}"
+      ],
+      "name": "Avis personnalisés",
+      "settings": {
+        "heading": "Excellent",
+        "rating_text": "5 étoiles sur 5",
+        "review_count": "898 reviews",
+        "subtext_before": "Based on",
+        "subtext_after": "on",
+        "brand_name": "Trustpilot",
+        "show_read_more_top": false,
+        "read_more_label": "Read more",
+        "read_more_link": "",
+        "background_image": "shopify://shop_images/trustpilot-widget-bg-2.webp",
+        "section_bg": "#ffffff",
+        "background_opacity": 100,
+        "content_width": 860,
+        "section_padding_top": 0,
+        "section_padding_bottom": 36,
+        "section_padding_top_mobile": 28,
+        "section_padding_bottom_mobile": 28
+      }
     }
   },
   "order": [
@@ -204,6 +307,7 @@
     "custom_liquid_W3mLrm",
     "collection_list_xCj9Kp",
     "featured_collection_hcWRVJ",
-    "gallery_MkJH67"
+    "gallery_MkJH67",
+    "custom_reviews_LLgyUw"
   ]
 }
