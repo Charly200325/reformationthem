@@ -586,7 +586,186 @@
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_WQ4zzi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_9Kw8rM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "From what age can my baby use the Momplush carrier?",
+            "open": false,
+            "content": "<p>The Momplush baby carrier is designed for babies from around 9 months, or as soon as your child can hold their head up independently.</p><p>It is fully adjustable to grow with your baby, supporting them up to approximately 4 years old (20 kg).</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_zHhgWE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I adjust the Momfoam baby carrier?",
+            "open": false,
+            "content": "<p>The Momplush carrier is easy to adjust thanks to its adjustable straps and intuitive design.</p><p>Simply place your baby in the carrier, then adjust the straps around the shoulders and hips for a secure and comfortable fit — and you're ready to go.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_TknM8E": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is the baby carrier adjustable for different body types?",
+            "open": false,
+            "content": "<p>Absolutely. Our baby carriers are fully adjustable and designed to fit a wide range of body types, ensuring optimal comfort for both parent and child.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_i7LXFp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I clean the Momplush baby carrier?",
+            "open": false,
+            "content": "<p>We recommend hand washing your Momfoam carrier and avoiding bleach or tumble drying to help preserve the quality of the fabric.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_htFyKN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does it take to receive my order?",
+            "open": false,
+            "content": "<p>Delivery across Europe typically takes 5 to 8 working days. We do our best to ensure your order arrives as quickly as possible, so you can start enjoying it without delay.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_WBPUYa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "open": false,
+            "content": "<p>We offer many different payment methods including major providers like American Express, Meastro, Mastercard, Union Pay, Visa, PayPal, Shop Pay, Google Pay, and Apple Pay. We also offer different local payment methods depending on your location, including iDEAL, Sofort, giropay, and many more.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_8hxBFG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer refunds?",
+            "open": false,
+            "content": "<p>Yes, we offer a 30-day guarantee.</p><p>If you experience any issue with your baby carrier, simply contact our customer support team for an exchange or a full refund.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_UzyNEq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Return My Items?",
+            "open": false,
+            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_9Kw8rM",
+        "collapsible_tab_zHhgWE",
+        "collapsible_tab_TknM8E",
+        "collapsible_tab_i7LXFp",
+        "collapsible_tab_htFyKN",
+        "collapsible_tab_WBPUYa",
+        "collapsible_tab_8hxBFG",
+        "collapsible_tab_UzyNEq"
+      ],
+      "settings": {
+        "heading": "F.A.Q.",
+        "description": "",
+        "uppercase_heading": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1777490779b4f592aa": {
+      "type": "apps",
+      "blocks": {
+        "ag_product_reviews_app_block_review_list_AwziEm": {
+          "type": "shopify://apps/ag-product-reviews/blocks/app-block-review-list/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_blockreviews_summaryHeading": "Reviews",
+            "air_blockreviews_layout": "list",
+            "air_blockreviews_singleStarColor": "#16A086",
+            "air_blockreviews_primaryColor": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "ag_product_reviews_app_block_review_list_AwziEm"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "spacer_3nQJy8": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "text_with_icons_pbwz4c": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_cpztwJ": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "heading": "Free Worldwide Shipping",
+            "text": "<p>We ship worldwide for free.</p>"
+          }
+        },
+        "icon_GiwpRe": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Easy Returns",
+            "text": "<p>Return within 30 days.</p>"
+          }
+        },
+        "icon_zik8jG": {
+          "type": "icon",
+          "settings": {
+            "icon": "silhouette",
+            "heading": "MOMPLUSH® Support Team",
+            "text": "<p>Here To Help</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_cpztwJ",
+        "icon_GiwpRe",
+        "icon_zik8jG"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "#f7f7f7",
+        "color_heading": "#737373",
+        "color_text": "#737373",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     }
   },
@@ -598,6 +777,10 @@
     "rich_text_NxwLDg",
     "custom_reviews_KgPArc",
     "custom_html_GzNNJH",
-    "product-recommendations"
+    "product-recommendations",
+    "collapsible_content_WQ4zzi",
+    "1777490779b4f592aa",
+    "spacer_3nQJy8",
+    "text_with_icons_pbwz4c"
   ]
 }
