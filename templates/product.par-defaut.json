@@ -122,7 +122,7 @@
       ],
       "settings": {
         "full_width": false,
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "enable_sticky_add_to_cart": true,
         "show_taxes_included": false,
         "media_layout": "collage",
