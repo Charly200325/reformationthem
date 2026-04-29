@@ -56,50 +56,30 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "megamenu": {
-          "type": "megamenu",
-          "settings": {
-            "position": "1",
-            "promo_1_heading": "Sparkle Everywhere",
-            "promo_1_link_label": "Shop",
-            "promo_1_link": "",
-            "promo_2_heading": "Promotion heading",
-            "promo_2_link_label": "Shop",
-            "promo_2_link": "",
-            "promo_3_heading": "Promotion heading",
-            "promo_3_link_label": "Shop",
-            "promo_3_link": "",
-            "promo_4_heading": "Promotion heading",
-            "promo_4_link_label": "Shop",
-            "promo_4_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "megamenu"
-      ],
       "settings": {
         "sticky_header": true,
-        "logo_height_range": 69,
-        "logo_height_range_mobile": 50,
-        "style": "style4",
+        "logo": "shopify://shop_images/Design_sans_titre_37_1.png",
+        "logo_height_range": 34,
+        "logo_height_range_mobile": 32,
+        "style": "style2",
         "header_shadow": "header--shadow-small",
         "menu": "main-menu",
         "cart_icon": "bag",
         "use_icon_account": false,
-        "transparent_header": false,
-        "transparent_header_border": false,
+        "transparent_header": true,
+        "logo_light": "shopify://shop_images/Adobe_Express_-_file.png",
+        "transparent_header_border": true,
         "transparent_header_background": false,
         "transparent_header_background_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01) 60%)",
         "show_shopify_account_menu": true,
-        "shopify_account_menu_menu": "",
-        "show_language_switcher": false,
-        "show_currency_switcher": false,
+        "shopify_account_menu_menu": "footer",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
         "mobile_secondary_menu": "",
-        "mobile_promo_heading": "Promotion heading",
-        "mobile_promo_link_label": "Shop",
-        "mobile_promo_link": ""
+        "mobile_promo_image": "shopify://shop_images/7c4545a9-6309-42f0-9a6b-936ce794c09c.png",
+        "mobile_promo_heading": "SPRING DEALS - UP TO 40% OFF",
+        "mobile_promo_link_label": "Shop Now",
+        "mobile_promo_link": "shopify://collections/baby-carriers"
       }
     }
   },
