@@ -134,74 +134,58 @@
         "enable_video_looping": false
       }
     },
-    "spacer_WDzrfV": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 30,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "multicolumn_igWkgK": {
-      "type": "multicolumn",
+    "text_with_icons_PCRGt7": {
+      "type": "text-with-icons",
       "blocks": {
-        "column_h37VyM": {
-          "type": "column",
+        "icon_mUigEx": {
+          "type": "icon",
           "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "retina": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "truck",
+            "heading": "Free Worldwide Shipping",
+            "text": "<p>We ship worldwide for free.</p>"
           }
         },
-        "column_WMBLYz": {
-          "type": "column",
+        "icon_jzB3pR": {
+          "type": "icon",
           "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "retina": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "return",
+            "heading": "Easy Returns",
+            "text": "<p>Return within 30 days.</p>"
           }
         },
-        "column_UAd4pf": {
-          "type": "column",
+        "icon_GdgRWq": {
+          "type": "icon",
           "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "retina": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "silhouette",
+            "heading": "MOMPLUSH® Support Team",
+            "text": "<p>Here To Help</p>"
           }
         }
       },
       "block_order": [
-        "column_h37VyM",
-        "column_WMBLYz",
-        "column_UAd4pf"
+        "icon_mUigEx",
+        "icon_jzB3pR",
+        "icon_GdgRWq"
+      ],
+      "custom_css": [
+        "/* Réduction hauteur section */.text-with-icons {padding-top: 10px; padding-bottom: 10px;}",
+        " /* Réduction espace entre blocs */.text-with-icons__block {padding: 5px 10px;}",
+        " /* Réduction espace icône / texte */.text-with-icons__icon {margin-bottom: 5px;}",
+        " /* Réduction espace texte */.text-with-icons__block-content h6 {margin-bottom: 2px;}",
+        ".text-with-icons__block-content p {margin-top: 0; margin-bottom: 0;}",
+        " /* Réduction espace entre colonnes */.text-with-icons__inner {gap: 5px;}"
       ],
       "settings": {
-        "heading": "Multicolumn",
-        "heading_left": false,
-        "description": "",
-        "full_width": false,
-        "display_type": "grid",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "text_alignment": "left",
-        "heading_size": "h5",
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "medium",
         "mobile_swipe": true,
-        "show_progress_bar": true,
+        "color_bg": "#f7f7f7",
+        "color_heading": "#737373",
+        "color_text": "#737373",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "image_with_text_e4Pz8e": {
@@ -373,8 +357,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "spacer_WDzrfV",
-    "multicolumn_igWkgK",
+    "text_with_icons_PCRGt7",
     "image_with_text_e4Pz8e",
     "image_with_text_qwdfKK",
     "scrolling_text_FyYzG4",
