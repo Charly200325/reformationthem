@@ -1,0 +1,1151 @@
+<section class="custom-reviews-section" id="section-{{ section.id }}">
+  <div class="custom-reviews-container">
+    <div class="custom-reviews-bg"></div>
+
+    <div class="custom-reviews-header">
+      <div class="custom-reviews-header-top">
+        <span class="custom-reviews-title">{{ section.settings.heading }}</span>
+
+        <div class="custom-reviews-stars trust-stars-large" aria-label="{{ section.settings.rating_text }}">
+          <svg role="img" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g class="tp-star">
+              <path class="tp-star__canvas" fill="#00b67a" d="M0 46.330002h46.375586V0H0z"></path>
+              <path class="tp-star__shape" d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z" fill="#FFF"></path>
+            </g>
+            <g class="tp-star">
+              <path class="tp-star__canvas" fill="#00b67a" d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
+              <path class="tp-star__shape" d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z" fill="#FFF"></path>
+            </g>
+            <g class="tp-star">
+              <path class="tp-star__canvas" fill="#00b67a" d="M102.532209 46.330002h46.375586V0h-46.375586z"></path>
+              <path class="tp-star__shape" d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z" fill="#FFF"></path>
+            </g>
+            <g class="tp-star">
+              <path class="tp-star__canvas" fill="#00b67a" d="M153.815458 46.330002h46.375586V0h-46.375586z"></path>
+              <path class="tp-star__shape" d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+            </g>
+            <g class="tp-star">
+              <path fill="#dcdce6" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
+              <defs>
+                <clipPath id="half-star-{{ section.id }}">
+                  <rect x="205.064416" y="0" width="23" height="46"></rect>
+                </clipPath>
+              </defs>
+              <path clip-path="url(#half-star-{{ section.id }})" fill="#00b67a" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
+              <path d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="custom-reviews-subtext">
+        {{ section.settings.subtext_before }}
+        <strong>{{ section.settings.review_count }}</strong>
+        {{ section.settings.subtext_after }}
+        <span class="brand-inline">
+          <span class="brand-star">★</span> {{ section.settings.brand_name }}
+        </span>
+      </div>
+    </div>
+
+    {% if section.settings.show_read_more_top %}
+      <div class="custom-read-more-bar">
+        <a href="{{ section.settings.read_more_link }}">{{ section.settings.read_more_label }}</a>
+      </div>
+    {% endif %}
+
+    <div class="custom-reviews-note">
+      Showing our 4 & 5 star reviews
+    </div>
+
+    <div class="custom-reviews-scroll">
+      <div class="custom-reviews-list">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'review' %}
+              <article class="custom-review-card" {{ block.shopify_attributes }}>
+                <div class="review-stars-row">
+                  <div class="trust-stars-small" aria-hidden="true">
+                    <svg role="img" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg">
+                      {% assign stars_count = block.settings.stars | default: 5 %}
+
+                      {% if stars_count >= 1 %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#00b67a" d="M0 46.330002h46.375586V0H0z"></path>
+                          <path class="tp-star__shape" d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z" fill="#FFF"></path>
+                        </g>
+                      {% else %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#dcdce6" d="M0 46.330002h46.375586V0H0z"></path>
+                          <path class="tp-star__shape" d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z" fill="#FFF"></path>
+                        </g>
+                      {% endif %}
+
+                      {% if stars_count >= 2 %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#00b67a" d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
+                          <path class="tp-star__shape" d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z" fill="#FFF"></path>
+                        </g>
+                      {% else %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#dcdce6" d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
+                          <path class="tp-star__shape" d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z" fill="#FFF"></path>
+                        </g>
+                      {% endif %}
+
+                      {% if stars_count >= 3 %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#00b67a" d="M102.532209 46.330002h46.375586V0h-46.375586z"></path>
+                          <path class="tp-star__shape" d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% else %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#dcdce6" d="M102.532209 46.330002h46.375586V0h-46.375586z"></path>
+                          <path class="tp-star__shape" d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% endif %}
+
+                      {% if stars_count >= 4 %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#00b67a" d="M153.815458 46.330002h46.375586V0h-46.375586z"></path>
+                          <path class="tp-star__shape" d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% else %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#dcdce6" d="M153.815458 46.330002h46.375586V0h-46.375586z"></path>
+                          <path class="tp-star__shape" d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% endif %}
+
+                      {% if stars_count >= 5 %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#00b67a" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
+                          <path class="tp-star__shape" d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% else %}
+                        <g class="tp-star">
+                          <path class="tp-star__canvas" fill="#dcdce6" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
+                          <path class="tp-star__shape" d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+                        </g>
+                      {% endif %}
+                    </svg>
+                  </div>
+
+                  {% if block.settings.verified %}
+                    <div class="tp-widget-review__source-wrapper">
+                      <div class="tp-widget-review__source">
+                        <div class="verification-label-wrapper">
+                          <a
+                            href="https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="verification-label-link"
+                            aria-label="Verified review. Click to learn more about review types"
+                          >
+                            <div class="verification-label secondary-text">
+                              <div class="label-icon" aria-hidden="true">
+                                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM6.09217 7.81401L9.20311 4.7031C9.44874 4.45757 9.84688 4.45757 10.0923 4.7031C10.338 4.94864 10.338 5.34673 10.0923 5.59226L6.62009 9.06448C6.59573 9.10283 6.56682 9.13912 6.53333 9.17256C6.28787 9.41821 5.88965 9.41821 5.64402 9.17256L3.7059 7.11031C3.46046 6.86464 3.46046 6.46669 3.7059 6.22102C3.95154 5.97548 4.34968 5.97548 4.59512 6.22102L6.09217 7.81401Z" fill="currentColor"></path>
+                                </svg>
+                              </div>
+                              <div class="label-text" aria-hidden="true">Verified</div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="review-meta">
+                  <strong>{{ block.settings.author }}</strong>{% if block.settings.date != blank %}, <span>{{ block.settings.date }}</span>{% endif %}
+                </div>
+
+                {% if block.settings.title != blank %}
+                  <h3 class="review-title">{{ block.settings.title }}</h3>
+                {% endif %}
+
+                <div class="review-expand-wrap" data-review-wrap>
+                  <div class="review-expand-content" data-review-content>
+                    {% if block.settings.body != blank %}
+                      <div class="review-body-wrap">
+                        <div class="review-body review-body-preview" data-review-body-preview></div>
+                        <div class="review-body review-body-full" data-review-body-full>
+                          {{ block.settings.body }}
+                        </div>
+                      </div>
+                    {% endif %}
+
+                    {% if block.settings.reply_author != blank or block.settings.reply_date != blank or block.settings.reply_text != blank %}
+                      <div class="review-reply review-reply-simple {% if block.settings.reply_text != blank %}has-full-reply{% endif %}">
+                        <div class="review-reply-top">
+                          <span class="reply-left">
+                            <span class="reply-icon" aria-hidden="true">
+                              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                                <path d="M6.2 4.2L2.8 7.6L6.2 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.2 7.6H10.4C12.6 7.6 14 9 14 11.2V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </span>
+                            <span>Reply from <strong>{{ block.settings.reply_author }}</strong></span>
+                          </span>
+                          {% if block.settings.reply_date != blank %}
+                            <span class="reply-date">{{ block.settings.reply_date }}</span>
+                          {% endif %}
+                        </div>
+
+                        {% if block.settings.reply_text != blank %}
+                          <div class="review-reply-text">
+                            {{ block.settings.reply_text }}
+                          </div>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  {% if block.settings.show_read_more %}
+                    <div class="review-read-more" data-review-read-more hidden>
+                      <button type="button" class="review-read-more-btn" data-review-toggle>
+                        <span class="label-more">{{ block.settings.read_more_label | default: 'Read more' }}</span>
+                        <span class="label-less">Read less</span>
+                      </button>
+                    </div>
+                  {% endif %}
+                </div>
+              </article>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #section-{{ section.id }} {
+      position: relative;
+      padding: {{ section.settings.section_padding_top }}px 20px {{ section.settings.section_padding_bottom }}px;
+      background: #ffffff;
+    }
+
+    #section-{{ section.id }} .custom-reviews-container {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: {{ section.settings.content_width }}px;
+      margin: 0 auto;
+      overflow: hidden;
+      background: {{ section.settings.section_bg }};
+    }
+
+    #section-{{ section.id }} .custom-reviews-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('{{ section.settings.background_image | image_url: width: 2200 }}');
+      background-size: cover;
+      background-position: center;
+      opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    #section-{{ section.id }} .custom-reviews-header,
+    #section-{{ section.id }} .custom-read-more-bar,
+    #section-{{ section.id }} .custom-reviews-note,
+    #section-{{ section.id }} .custom-reviews-scroll {
+      position: relative;
+      z-index: 1;
+    }
+
+    #section-{{ section.id }} .custom-reviews-header {
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      text-align: center;
+      padding: 12px 18px;
+      margin-bottom: 28px;
+    }
+
+    #section-{{ section.id }} .custom-reviews-header-top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+
+    #section-{{ section.id }} .custom-reviews-title {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 700;
+      color: #111;
+    }
+
+    #section-{{ section.id }} .custom-reviews-stars,
+    #section-{{ section.id }} .trust-stars-small {
+      display: block;
+      line-height: 0;
+    }
+
+    #section-{{ section.id }} .trust-stars-large {
+      width: 150px;
+      flex: 0 0 auto;
+    }
+
+    #section-{{ section.id }} .trust-stars-large svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #section-{{ section.id }} .trust-stars-small {
+      width: 126px;
+      flex: 0 0 auto;
+    }
+
+    #section-{{ section.id }} .trust-stars-small svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #section-{{ section.id }} .custom-reviews-subtext {
+      font-size: 15px;
+      color: #1d1d1d;
+      line-height: 1.4;
+    }
+
+    #section-{{ section.id }} .custom-reviews-subtext strong {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    #section-{{ section.id }} .brand-inline {
+      white-space: nowrap;
+    }
+
+    #section-{{ section.id }} .brand-star {
+      color: #00b67a;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    #section-{{ section.id }} .custom-read-more-bar {
+      background: rgba(255,255,255,0.88);
+      text-align: center;
+      padding: 16px 20px;
+      margin-bottom: 18px;
+      border-radius: 2px;
+    }
+
+    #section-{{ section.id }} .custom-read-more-bar a,
+    #section-{{ section.id }} .review-read-more a {
+      color: #008a5b;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    #section-{{ section.id }} .custom-reviews-scroll {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-right: 8px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+    }
+
+    #section-{{ section.id }} .custom-reviews-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    #section-{{ section.id }} .custom-reviews-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    #section-{{ section.id }} .custom-reviews-scroll::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.22);
+      border-radius: 20px;
+    }
+
+    #section-{{ section.id }} .custom-reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    #section-{{ section.id }} .custom-review-card {
+      background: #f8f9fa;
+      padding: 18px 18px 20px;
+      border-radius: 2px;
+      scroll-snap-align: start;
+    }
+
+    #section-{{ section.id }} .review-stars-row {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    #section-{{ section.id }} .verified-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #6a6a6a;
+      font-size: 14px;
+      margin-left: 4px;
+    }
+
+    #section-{{ section.id }} .verified-icon {
+      font-size: 12px;
+      color: #6a6a6a;
+    }
+
+    #section-{{ section.id }} .review-meta {
+      color: #5d5d5d;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    #section-{{ section.id }} .review-meta strong {
+      color: #3d3d3d;
+    }
+
+    #section-{{ section.id }} .review-title {
+      font-size: 16px;
+      line-height: 1.3;
+      font-weight: 700;
+      color: #111;
+      margin: 0 0 5px;
+    }
+
+    #section-{{ section.id }} .review-body {
+      font-size: 15px;
+      line-height: 1.65;
+      color: #222;
+    }
+
+    #section-{{ section.id }} .review-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    #section-{{ section.id }} .review-reply {
+      margin-top: 18px;
+      background: #ffffff;
+      border-left: 4px solid #00b67a;
+      padding: 16px 18px;
+      border-radius: 2px;
+      position: relative;
+      z-index: 2;
+    }
+
+    #section-{{ section.id }} .review-reply-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: #6b6b6b;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    #section-{{ section.id }} .reply-left {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    #section-{{ section.id }} .reply-left strong {
+      color: #4d4d4d;
+    }
+
+    #section-{{ section.id }} .reply-date {
+      color: #6b6b6b;
+      white-space: nowrap;
+    }
+
+    #section-{{ section.id }} .review-reply-text {
+      display: none;
+      margin-top: 18px;
+      font-size: 14px;
+      line-height: 1.65;
+      color: #222;
+    }
+
+    #section-{{ section.id }} .review-reply-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-reply-text {
+      display: block;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-reply-top {
+      margin-bottom: 8px;
+    }
+
+    #section-{{ section.id }} .review-read-more {
+      text-align: center;
+      margin-top: 16px;
+    }
+
+    @media screen and (min-width: 769px) {
+      #section-{{ section.id }} {
+        padding: 20px 32px;
+      }
+
+      #section-{{ section.id }} .custom-reviews-container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+
+      #section-{{ section.id }} .custom-reviews-header {
+        margin-bottom: 14px;
+        padding: 10px 16px;
+        flex: 0 0 auto;
+      }
+
+      #section-{{ section.id }} .custom-read-more-bar {
+        margin-bottom: 12px;
+        padding: 10px 16px;
+        flex: 0 0 auto;
+      }
+
+      #section-{{ section.id }} .custom-reviews-list {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+      }
+
+      #section-{{ section.id }} .custom-review-card {
+        width: 750px;
+        max-width: 100%;
+        min-height: 151px;
+        padding: 16px;
+        box-sizing: border-box;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #section-{{ section.id }} {
+        padding: {{ section.settings.section_padding_top_mobile }}px 16px {{ section.settings.section_padding_bottom_mobile }}px;
+        background: #ffffff;
+      }
+
+      #section-{{ section.id }} .custom-reviews-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 22px 22px 0;
+        box-sizing: border-box;
+      }
+
+      #section-{{ section.id }} .custom-reviews-header {
+        padding: 14px 12px;
+        margin-bottom: 18px;
+      }
+
+      #section-{{ section.id }} .custom-reviews-title {
+        font-size: 22px;
+      }
+
+      #section-{{ section.id }} .custom-reviews-subtext {
+        font-size: 14px;
+      }
+
+      #section-{{ section.id }} .trust-stars-large {
+        width: 132px;
+      }
+
+      #section-{{ section.id }} .trust-stars-small {
+        width: 112px;
+      }
+
+      #section-{{ section.id }} .custom-read-more-bar {
+        padding: 14px;
+      }
+
+      #section-{{ section.id }} .custom-reviews-scroll {
+  height: 395px;
+  max-height: 395px;
+  padding-right: 0;
+  overflow-y: auto;
+}
+
+      #section-{{ section.id }} .custom-review-card {
+        padding: 14px 12px 16px;
+      }
+
+      #section-{{ section.id }} .review-title {
+        font-size: 15px;
+        margin-bottom: 4px;
+        line-height: 1.25;
+      }
+
+      #section-{{ section.id }} .review-body {
+        font-size: 14px;
+      }
+
+      #section-{{ section.id }} .review-reply {
+        padding: 14px;
+      }
+
+      #section-{{ section.id }} .review-meta {
+        margin-bottom: 4px;
+      }
+    }
+
+    #section-{{ section.id }} .custom-reviews-note {
+      font-size: 14px;
+      color: #6b6b6b;
+      margin-bottom: 12px;
+    }
+
+    @media screen and (min-width: 769px) {
+      #section-{{ section.id }} .custom-reviews-note {
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto 12px;
+        box-sizing: border-box;
+        text-align: left !important;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #section-{{ section.id }} .custom-reviews-note {
+        text-align: left;
+        margin-bottom: 12px;
+      }
+    }
+
+    #section-{{ section.id }} .verified-badge,
+    #section-{{ section.id }} .verified-icon {
+      display: none;
+    }
+
+    #section-{{ section.id }} .tp-widget-review__source-wrapper,
+    #section-{{ section.id }} .tp-widget-review__source,
+    #section-{{ section.id }} .verification-label-wrapper {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    #section-{{ section.id }} .verification-label-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    #section-{{ section.id }} .verification-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #section-{{ section.id }} .label-icon {
+      width: 14px;
+      height: 14px;
+      color: #6b6b6b;
+      flex: 0 0 auto;
+    }
+
+    #section-{{ section.id }} .label-icon svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    #section-{{ section.id }} .label-text {
+      font-size: 14px;
+      color: #6b6b6b;
+      font-weight: 500;
+      line-height: 1;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    #section-{{ section.id }} .verification-label-link:hover .label-text {
+      color: #1c1c1c;
+    }
+
+    #section-{{ section.id }} .trust-stars-small {
+      width: 110px;
+    }
+
+    #section-{{ section.id }} .review-expand-wrap {
+      position: relative;
+    }
+
+    #section-{{ section.id }} .review-expand-content {
+      transition: max-height 0.35s ease;
+    }
+
+    #section-{{ section.id }} .review-read-more {
+      text-align: center;
+      margin-top: 16px;
+    }
+
+    #section-{{ section.id }} .review-read-more-btn {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      color: #008a5b;
+      font-weight: 700;
+      text-decoration: underline;
+      cursor: pointer;
+      font-size: 15px;
+      line-height: 1.2;
+      font-family: inherit;
+    }
+
+    #section-{{ section.id }} .review-read-more-btn .label-less {
+      display: none;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-read-more-btn .label-more {
+      display: none;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-read-more-btn .label-less {
+      display: inline;
+    }
+
+    @media screen and (min-width: 769px) {
+      #section-{{ section.id }} .custom-review-card.is-collapsible:not(.is-expanded) .review-expand-content {
+        max-height: 180px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      #section-{{ section.id }} .custom-review-card.is-collapsible:not(.is-expanded) .review-expand-content::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 54px;
+        z-index: 1;
+        background: linear-gradient(to bottom, rgba(248, 249, 250, 0), #f8f9fa 60%);
+        pointer-events: none;
+      }
+
+      #section-{{ section.id }} .custom-review-card .review-reply {
+        margin-top: 18px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #section-{{ section.id }} .review-expand-content {
+        max-height: none !important;
+        overflow: visible !important;
+      }
+
+      #section-{{ section.id }} .review-expand-content::after {
+        display: none !important;
+      }
+
+      #section-{{ section.id }} .review-read-more {
+        display: block !important;
+      }
+    }
+
+    #section-{{ section.id }} .review-body-full {
+      display: none;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-body-preview {
+      display: none;
+    }
+
+    #section-{{ section.id }} .custom-review-card.is-expanded .review-body-full {
+      display: block;
+    }
+
+    @media screen and (min-width: 769px) {
+      #section-{{ section.id }} .custom-review-card:not(.is-expanded) .review-reply-text {
+        display: none;
+      }
+
+      #section-{{ section.id }} .custom-review-card.is-expanded .review-reply-text {
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #section-{{ section.id }} .review-body-preview,
+      #section-{{ section.id }} .review-body-full {
+        display: none !important;
+      }
+
+      #section-{{ section.id }} .review-reply-text {
+        display: none !important;
+      }
+
+      #section-{{ section.id }} .review-read-more {
+        display: block !important;
+      }
+
+      #section-{{ section.id }} .custom-review-card.is-expanded .review-body-full {
+        display: block !important;
+      }
+
+      #section-{{ section.id }} .custom-review-card.is-expanded .review-reply-text {
+        display: block !important;
+      }
+
+      #section-{{ section.id }} .custom-review-card.is-expanded .review-reply-top {
+        margin-bottom: 8px;
+      }
+    }
+
+    #section-{{ section.id }} .reply-icon {
+      width: 18px;
+      height: 18px;
+      color: #6b6b6b;
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 0;
+    }
+
+    #section-{{ section.id }} .reply-icon svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    @media screen and (min-width: 769px) {
+  #section-{{ section.id }} .custom-reviews-container {
+    overflow: visible;
+  }
+
+  #section-{{ section.id }} .custom-reviews-bg {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 100vw;
+    inset: 0 auto 0 50%;
+    background-image: url('{{ section.settings.background_image | image_url: width: 2200 }}');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  #section-{{ section.id }} .custom-reviews-header,
+  #section-{{ section.id }} .custom-read-more-bar,
+  #section-{{ section.id }} .custom-reviews-note,
+  #section-{{ section.id }} .custom-reviews-scroll {
+    position: relative;
+    z-index: 2;
+  }
+}
+  </style>
+</section>
+
+<script>
+  (function() {
+    const sectionId = "section-{{ section.id }}";
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+
+    const desktopMq = window.matchMedia("(min-width: 769px)");
+    const MAX_CHARS = 250;
+
+    function truncateText(text, maxChars) {
+      const clean = (text || "").replace(/\s+/g, " ").trim();
+      if (clean.length <= maxChars) return clean;
+
+      let truncated = clean.slice(0, maxChars);
+      const lastSpace = truncated.lastIndexOf(" ");
+      if (lastSpace > 0) {
+        truncated = truncated.slice(0, lastSpace);
+      }
+
+      return truncated + "...";
+    }
+
+    function setupReviewToggles() {
+      const cards = section.querySelectorAll(".custom-review-card");
+
+      cards.forEach((card) => {
+        const preview = card.querySelector("[data-review-body-preview]");
+        const full = card.querySelector("[data-review-body-full]");
+        const toggleWrap = card.querySelector("[data-review-read-more]");
+        const toggleBtn = card.querySelector("[data-review-toggle]");
+
+        if (!preview || !full || !toggleWrap || !toggleBtn) return;
+
+        const fullText = full.textContent.replace(/\s+/g, " ").trim();
+        card.classList.remove("is-collapsible", "is-expanded");
+        toggleWrap.hidden = true;
+
+        if (desktopMq.matches) {
+          if (fullText.length > MAX_CHARS) {
+            card.classList.add("is-collapsible");
+            preview.textContent = truncateText(fullText, MAX_CHARS);
+            toggleWrap.hidden = false;
+          } else {
+            preview.textContent = fullText;
+            toggleWrap.hidden = false;
+          }
+        } else {
+          preview.textContent = "";
+          toggleWrap.hidden = false;
+        }
+
+        if (!toggleBtn.dataset.bound) {
+          toggleBtn.addEventListener("click", function() {
+            card.classList.toggle("is-expanded");
+          });
+
+          toggleBtn.dataset.bound = "true";
+        }
+      });
+    }
+
+    setupReviewToggles();
+
+    let resizeTimer;
+    window.addEventListener("resize", function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(setupReviewToggles, 180);
+    });
+
+    document.addEventListener("shopify:section:load", setupReviewToggles);
+    document.addEventListener("shopify:block:select", setupReviewToggles);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Avis personnalisés",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre principal",
+      "default": "Excellent"
+    },
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Texte accessibilité note",
+      "default": "5 étoiles sur 5"
+    },
+    {
+      "type": "text",
+      "id": "review_count",
+      "label": "Nombre d'avis",
+      "default": "898 reviews"
+    },
+    {
+      "type": "text",
+      "id": "subtext_before",
+      "label": "Texte avant le nombre",
+      "default": "Based on"
+    },
+    {
+      "type": "text",
+      "id": "subtext_after",
+      "label": "Texte après le nombre",
+      "default": "on"
+    },
+    {
+      "type": "text",
+      "id": "brand_name",
+      "label": "Nom de marque affiché",
+      "default": "Trustpilot"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_read_more_top",
+      "label": "Afficher la barre “Read more” en haut",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "read_more_label",
+      "label": "Texte bouton haut",
+      "default": "Read more"
+    },
+    {
+      "type": "url",
+      "id": "read_more_link",
+      "label": "Lien bouton haut"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Image de fond"
+    },
+    {
+      "type": "color",
+      "id": "section_bg",
+      "label": "Couleur de fond de secours",
+      "default": "#efefef"
+    },
+    {
+      "type": "range",
+      "id": "background_opacity",
+      "label": "Opacité image de fond",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "label": "Largeur du contenu",
+      "min": 700,
+      "max": 1400,
+      "step": 20,
+      "default": 860
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Padding haut desktop",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Padding bas desktop",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "label": "Padding haut mobile",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "label": "Padding bas mobile",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 28
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Avis",
+      "settings": [
+        {
+          "type": "range",
+          "id": "stars",
+          "label": "Nombre d'étoiles",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "checkbox",
+          "id": "verified",
+          "label": "Afficher “Verified”",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Auteur",
+          "default": "Paul Edwards"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date",
+          "default": "13 March"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre de l'avis",
+          "default": "Very easy website to navigate around"
+        },
+        {
+          "type": "richtext",
+          "id": "body",
+          "label": "Texte de l'avis",
+          "default": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>"
+        },
+        {
+          "type": "text",
+          "id": "reply_author",
+          "label": "Auteur de la réponse",
+          "default": "BABYGO.UK"
+        },
+        {
+          "type": "text",
+          "id": "reply_date",
+          "label": "Date de la réponse",
+          "default": "17 March"
+        },
+        {
+          "type": "richtext",
+          "id": "reply_text",
+          "label": "Texte de la réponse"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_read_more",
+          "label": "Afficher “Read more” sous cet avis",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "read_more_label",
+          "label": "Texte “Read more”",
+          "default": "Read more"
+        },
+        {
+          "type": "url",
+          "id": "read_more_link",
+          "label": "Lien “Read more”"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Avis personnalisés",
+      "blocks": [
+        {
+          "type": "review"
+        },
+        {
+          "type": "review"
+        },
+        {
+          "type": "review"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
