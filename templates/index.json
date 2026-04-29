@@ -1,1 +1,358 @@
-{"sections":{"16479477632637c9a7":{"type":"slideshow","blocks":{"164794776393e76b8e-2":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Too_Fast_Desktop_Wallpaper_6.png","mobile_image":"shopify:\/\/shop_images\/Too_Fast_13.png","slide_link":"shopify:\/\/collections\/it-girl-baby-tees","video_background":true,"video":"","subheading":"","heading":"","heading_size":"h1-xlarge","content":"","description_size":"small","content_position":"bottom-center","text_alignment":"center","content_size":"medium","color_text":"#ffffff","color_button_text":"#151515","overlay_color":"#000000","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_link":"","button_1_outline":true,"button_2_text":"","button_2_link":"","button_2_outline":false}},"164794776393e76b8e-1":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Too_Fast_Desktop_Wallpaper_15.png","mobile_image":"shopify:\/\/shop_images\/Too_Fast_21.png","slide_link":"shopify:\/\/collections\/acid-wash-tees","video_background":false,"video":"","subheading":"","heading":"","heading_size":"h1-xlarge","content":"","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","color_text":"#ffffff","color_button_text":"#151515","overlay_color":"#000000","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_link":"","button_1_outline":true,"button_2_text":"","button_2_link":"","button_2_outline":false}}},"block_order":["164794776393e76b8e-2","164794776393e76b8e-1"],"settings":{"desktop_height":"desktop-height-650","mobile_height":"mobile-height-image","full_width":true,"autoplay":true,"autoplay_length":5,"transition":"fade","disable_top_spacing":true,"disable_bottom_spacing":true}},"1662389920b1295ea2":{"type":"spacer","settings":{"spacer_mobile":25,"spacer_desktop":30,"border_separator":false,"border_separator_full":false}},"collection_list_DUByMa":{"type":"collection-list","name":"Collection list","settings":{"heading":"Shop by Category","heading_left":false,"description":"","full_width":true,"collection_list":["it-girl-baby-tees","drop-sleeved-tees","regular-fit-tees","dresses","shackets"],"image_ratio":"portrait","layout":"carousel","style":"style1","columns_desktop":4,"columns_mobile":"2","show_progress_bar":true,"mobile_swipe":true,"overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":true}},"collection_list_6cFQFt":{"type":"collection-list","name":"Collection list","settings":{"heading":"","heading_left":false,"description":"","full_width":true,"collection_list":["bottoms","co-ord-set","baby-tees-1","tanks","allhoodies"],"image_ratio":"portrait","layout":"carousel","style":"style1","columns_desktop":4,"columns_mobile":"2","show_progress_bar":true,"mobile_swipe":true,"overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":true}},"spacer_FyCcLM":{"type":"spacer","name":"Spacer","settings":{"spacer_mobile":25,"spacer_desktop":30,"border_separator":false,"border_separator_full":false}},"166366563622039b3e":{"type":"featured-collection","settings":{"heading":"New Arrivals","heading_left":false,"description":"","full_width":false,"collection":"acid-wash-tees","display_type":"carousel","product_limit":4,"columns_desktop":4,"show_view_all":true,"mobile_swipe":true,"show_progress_bar":true,"disable_top_spacing":true,"disable_bottom_spacing":true}},"166143150135dd97e2":{"type":"gallery","blocks":{"bbdd3a28-ed72-4073-b920-e0710a00f80b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Banner_Instagram_Post_45_3.png","subheading":"ACID WASH HOODIES","title":"","text":"","link_label":"Explore","link":"shopify:\/\/collections\/acid-wash-hoodies","use_text_button":false,"block_link":"shopify:\/\/collections\/acid-wash-hoodies","product_list":[]}},"6a1c724d-715f-4918-acea-e9f4464d74de":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Banner_Instagram_Post_45_2_b06fc2dd-afc0-43fc-8c5e-464dec73f0bd.png","subheading":"SOLID HOODIES","title":"","text":"","link_label":"Explore","link":"shopify:\/\/collections\/basic-hoodies","use_text_button":false,"block_link":"shopify:\/\/collections\/basic-hoodies","product_list":[]}}},"block_order":["bbdd3a28-ed72-4073-b920-e0710a00f80b","6a1c724d-715f-4918-acea-e9f4464d74de"],"settings":{"columns_desktop":2,"section_width":"full-width-row","mobile_swipe":false,"image_ratio":"square","content_position":"bottom-left","text_alignment":"left","column_spacing":"small","heading_size":"h2","overlay_color":"#000000","overlay_opacity":36,"disable_top_spacing":true,"disable_bottom_spacing":true}},"spacer_tHW7y3":{"type":"spacer","name":"Spacer","settings":{"spacer_mobile":25,"spacer_desktop":30,"border_separator":false,"border_separator_full":false}},"collection_tabs_7PbhxE":{"type":"collection-tabs","blocks":{"collection_7RCcCV":{"type":"collection","settings":{"collection":"women","enable_promotion":false,"title":"Promotion heading","text":"Advertise a promotion or a sale","link_label":"Explore","content_position":"bottom-left","text_alignment":"left","link":"","use_text_button":false,"block_link":"","overlay_color":"#000000","overlay_opacity":70}},"collection_Agh7kN":{"type":"collection","settings":{"collection":"men","enable_promotion":false,"title":"Promotion heading","text":"Advertise a promotion or a sale","link_label":"Explore","content_position":"bottom-left","text_alignment":"left","link":"","use_text_button":false,"block_link":"","overlay_color":"#000000","overlay_opacity":70}}},"block_order":["collection_7RCcCV","collection_Agh7kN"],"name":"Collection tabs","settings":{"heading":"SHOP FOR","heading_left":false,"description":"","full_width":true,"product_limit":12,"columns_desktop":5,"show_view_all":true,"show_progress_bar":true,"disable_top_spacing":true,"disable_bottom_spacing":true}},"16620983071df6eb29":{"type":"text-with-icons","blocks":{"1662098307788ca717-0":{"type":"icon","settings":{"icon":"question_mark","heading":"DM Us. We Reply","text":"<p>Mon–Sat support<\/p>"}},"1662098307788ca717-1":{"type":"icon","settings":{"icon":"return","heading":"Not Your Vibe? Replace It","text":"<p>7-day Exchange window<\/p>"}},"1662098307788ca717-2":{"type":"icon","settings":{"icon":"box","heading":"Packed With Love","text":"<p>Ships in 24–48 hrs<\/p>"}},"2c4a636c-cb89-4faf-82e6-13a0e7241006":{"type":"icon","settings":{"icon":"heart","heading":"Worn By 50,0000+ Baes","text":""}}},"block_order":["1662098307788ca717-0","1662098307788ca717-1","1662098307788ca717-2","2c4a636c-cb89-4faf-82e6-13a0e7241006"],"settings":{"text_alignment":"left","icon_position":"left","icon_size":"large","heading_size":"medium","mobile_swipe":true,"color_bg":"#ffffff","color_heading":"#151515","color_text":"#151515","disable_top_spacing":true,"disable_bottom_spacing":true}}},"order":["16479477632637c9a7","1662389920b1295ea2","collection_list_DUByMa","collection_list_6cFQFt","spacer_FyCcLM","166366563622039b3e","166143150135dd97e2","spacer_tHW7y3","collection_tabs_7PbhxE","16620983071df6eb29"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16479477632637c9a7": {
+      "type": "slideshow",
+      "blocks": {
+        "164794776393e76b8e-2": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "shopify://collections/it-girl-baby-tees",
+            "video_background": true,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "small",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_text": "#ffffff",
+            "color_button_text": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify://collections/acid-wash-tees",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_text": "#ffffff",
+            "color_button_text": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "164794776393e76b8e-2",
+        "164794776393e76b8e-1"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "fade",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662389920b1295ea2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collection_list_DUByMa": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "baby-carriers"
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collection_list_6cFQFt": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "bottoms",
+          "co-ord-set",
+          "baby-tees-1",
+          "tanks",
+          "allhoodies"
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_FyCcLM": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "166366563622039b3e": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "acid-wash-tees",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166143150135dd97e2": {
+      "type": "gallery",
+      "blocks": {
+        "bbdd3a28-ed72-4073-b920-e0710a00f80b": {
+          "type": "image",
+          "settings": {
+            "subheading": "ACID WASH HOODIES",
+            "title": "",
+            "text": "",
+            "link_label": "Explore",
+            "link": "shopify://collections/acid-wash-hoodies",
+            "use_text_button": false,
+            "block_link": "shopify://collections/acid-wash-hoodies",
+            "product_list": []
+          }
+        },
+        "6a1c724d-715f-4918-acea-e9f4464d74de": {
+          "type": "image",
+          "settings": {
+            "subheading": "SOLID HOODIES",
+            "title": "",
+            "text": "",
+            "link_label": "Explore",
+            "link": "shopify://collections/basic-hoodies",
+            "use_text_button": false,
+            "block_link": "shopify://collections/basic-hoodies",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "bbdd3a28-ed72-4073-b920-e0710a00f80b",
+        "6a1c724d-715f-4918-acea-e9f4464d74de"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row",
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 36,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_tHW7y3": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collection_tabs_7PbhxE": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_7RCcCV": {
+          "type": "collection",
+          "settings": {
+            "collection": "women",
+            "enable_promotion": false,
+            "title": "Promotion heading",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70
+          }
+        },
+        "collection_Agh7kN": {
+          "type": "collection",
+          "settings": {
+            "collection": "men",
+            "enable_promotion": false,
+            "title": "Promotion heading",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70
+          }
+        }
+      },
+      "block_order": [
+        "collection_7RCcCV",
+        "collection_Agh7kN"
+      ],
+      "name": "Collection tabs",
+      "settings": {
+        "heading": "SHOP FOR",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "product_limit": 12,
+        "columns_desktop": 5,
+        "show_view_all": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16620983071df6eb29": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1662098307788ca717-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "DM Us. We Reply",
+            "text": "<p>Mon–Sat support</p>"
+          }
+        },
+        "1662098307788ca717-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Not Your Vibe? Replace It",
+            "text": "<p>7-day Exchange window</p>"
+          }
+        },
+        "1662098307788ca717-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "heading": "Packed With Love",
+            "text": "<p>Ships in 24–48 hrs</p>"
+          }
+        },
+        "2c4a636c-cb89-4faf-82e6-13a0e7241006": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "heading": "Worn By 50,0000+ Baes",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662098307788ca717-0",
+        "1662098307788ca717-1",
+        "1662098307788ca717-2",
+        "2c4a636c-cb89-4faf-82e6-13a0e7241006"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "16479477632637c9a7",
+    "1662389920b1295ea2",
+    "collection_list_DUByMa",
+    "collection_list_6cFQFt",
+    "spacer_FyCcLM",
+    "166366563622039b3e",
+    "166143150135dd97e2",
+    "spacer_tHW7y3",
+    "collection_tabs_7PbhxE",
+    "16620983071df6eb29"
+  ]
+}
