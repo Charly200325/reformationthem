@@ -232,6 +232,351 @@
         "disable_bottom_spacing": true
       }
     },
+    "custom_reviews_KgPArc": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_4GXeQg": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Sarah Wardley",
+            "date": "1 day ago",
+            "title": "The best babywearing solution I've",
+            "body": "<p>The best babywearing solution I've ever tried!</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "",
+            "read_more_link": ""
+          }
+        },
+        "review_VKwCrJ": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Jess",
+            "date": "4 days ago",
+            "title": "Absolutely love this toddler carrier!",
+            "body": "<p>Absolutely love this toddler carrier! 🐆✨ Very comfortable for me and safe for my little one. The leopard print is stylish and the quality feels amazing. Highly recommend! 💕</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "",
+            "read_more_link": ""
+          }
+        },
+        "review_xtHHAF": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Abby P",
+            "date": "27 April",
+            "title": "Absolutely a must have.",
+            "body": "<p>Absolutely a must have. Saves loads of back pain</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "28 April",
+            "reply_text": "<p>Hi Abby! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_VQT9Qm": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Amber Hillier",
+            "date": "25 April",
+            "title": "Very convenient equipment to walk",
+            "body": "<p>Very convenient equipment to walk and to travel with toddler. Good fabric and beautiful design. Safety instructions clear and of higher standards. Customer service is very responsive in case of need. Thanks!</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "26 April",
+            "reply_text": "<p>Hi Amber! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_JFaChr": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Elysia",
+            "date": "25 April",
+            "title": "Love the design",
+            "body": "<p><strong>Love the design</strong></p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "26 April",
+            "reply_text": "<p>Hi Elysia! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_9AawCd": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Paul Edwards",
+            "date": "13 April",
+            "title": "Very easy website to navigate around",
+            "body": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>",
+            "reply_author": "BABYGO.UK",
+            "reply_date": "17 April",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_rxPAtd": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Paul Edwards",
+            "date": "13 April",
+            "title": "Very easy website to navigate around",
+            "body": "<p>Very easy website to navigate around, with quick delivery and being kept updated the whole way through.</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "17 April",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_Emg7kf": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Emily Denton",
+            "date": "16 April",
+            "title": "First of all it looks",
+            "body": "<p>First of all it looks super stylish so that’s also why I like to use it. ;-) Our baby was only 9 months when we started using the carrier and first we thought he’s too tiny and not heavy enough (7.5 ish kg) .. but after using it several times it worked better and better, also because our baby knew how to old on to us. For short distances we have used the carrier so far, just because it’s more convenient than the stroller or our other carrier. Also when you put the baby down for playing the carrier can stay on your shoulder as it is so light. Love it</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "18 April",
+            "reply_text": "<p>Hi Emily! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_3pBh6t": {
+          "type": "review",
+          "settings": {
+            "stars": 4,
+            "verified": true,
+            "author": "Anne",
+            "date": "14 April",
+            "title": "Love it, but wish it",
+            "body": "<p>Love it, but wish it had a pocket</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_XiMakh": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Emma Rose",
+            "date": "09 April",
+            "title": "Love love love it!",
+            "body": "<p>Love love love it! A lifesaver on rainy days with an umbrella 🙌 Using it everyday to get my 2yo to kindergarten (15/20 min walk)! He can easily get up and down as many times he needs to on sunny days, but if we do the whole trajectory with him in the carrier, it’s absolutely comfortable! Didn’t thought it would be so comfy using it so many time! 100% recommend</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "10 April",
+            "reply_text": "<p>Hi Emma! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_pJMXW7": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "SZ",
+            "date": "02 April",
+            "title": "I love it! Thanks for",
+            "body": "<p>I love it! Thanks for the great ideia.</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "02 April",
+            "reply_text": "<p>Hi SZ! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_4HYAeR": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Lucy Bagshaw",
+            "date": "19 March",
+            "title": "Perfect! !",
+            "body": "<p><strong>Perfect! !</strong></p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "21 March",
+            "reply_text": "<p>Hi Lucy! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_UDgA99": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Molly",
+            "date": "17 March",
+            "title": "I love this this carrier",
+            "body": "<p>I love this this carrier ' and obviously my daughter does too because she just wants to be carried by mommy all day !! and i honestly love it !</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "17 March",
+            "reply_text": "<p>Hi Molly! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_GhC9qf": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Annabella Vaughan",
+            "date": "14 March",
+            "title": "Will soon use for the",
+            "body": "<p>Will soon use for the airport. Looks great.</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "15 March",
+            "reply_text": "<p>Hi Annabella! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_Ufm9xx": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Silvana",
+            "date": "02 March",
+            "title": "Best carrier ever ! Very",
+            "body": "<p>Best carrier ever ! Very easy to use , lovely color, soft strong fabric 🤎</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "03 March",
+            "reply_text": "<p>Hi Silvana! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_qNMgBW": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Susan Bamber",
+            "date": "27 February",
+            "title": "Great quality, easy use",
+            "body": "<p>Great quality, easy use</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "27 February",
+            "reply_text": "<p>Hi Susan! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        },
+        "review_F4nJW3": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": false,
+            "author": "Candice P",
+            "date": "24 February",
+            "title": "Love my toddler carrier so",
+            "body": "<p>Love my toddler carrier so easy and useful with my 10 months old. He love being on me and when he doesn’t want to stay in the stroller I just carry him on me. Honestly one of my favourite purchase ! Perfect next step after baby carrier. Thank you again</p>",
+            "reply_author": "MOMPLUSH.COM",
+            "reply_date": "25 February",
+            "reply_text": "<p>Hi Candice! Thank you so much for your review ❤️  Welcome to the Momplush world ✨</p>",
+            "show_read_more": true,
+            "read_more_label": "Read more",
+            "read_more_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_4GXeQg",
+        "review_VKwCrJ",
+        "review_xtHHAF",
+        "review_VQT9Qm",
+        "review_JFaChr",
+        "review_9AawCd",
+        "review_rxPAtd",
+        "review_Emg7kf",
+        "review_3pBh6t",
+        "review_XiMakh",
+        "review_pJMXW7",
+        "review_4HYAeR",
+        "review_UDgA99",
+        "review_GhC9qf",
+        "review_Ufm9xx",
+        "review_qNMgBW",
+        "review_F4nJW3"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.custom-reviews-section {padding-bottom: 60px !important; }}",
+        "@media screen and (min-width: 769px) {.custom-reviews-bg {top: -20px !important; bottom: -20px !important; }}"
+      ],
+      "name": "Avis personnalisés",
+      "settings": {
+        "heading": "Excellent",
+        "rating_text": "5 étoiles sur 5",
+        "review_count": "898 reviews",
+        "subtext_before": "Based on",
+        "subtext_after": "on",
+        "brand_name": "Trustpilot",
+        "show_read_more_top": false,
+        "read_more_label": "Read more",
+        "read_more_link": "",
+        "background_image": "shopify://shop_images/trustpilot-widget-bg-2.webp",
+        "section_bg": "#ffffff",
+        "background_opacity": 100,
+        "content_width": 860,
+        "section_padding_top": 0,
+        "section_padding_bottom": 36,
+        "section_padding_top_mobile": 28,
+        "section_padding_bottom_mobile": 28
+      }
+    },
+    "custom_html_GzNNJH": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "title": "",
+        "custom_HTML": "<div id=\"shopify-section-template--27655113015678__brand_content_WXpxN9\" class=\"shopify-section brand-content-container\">\n\n\n<style>\n\n  .brand-content__media {\n     width: 100%;\n    height: auto;\n  }\n  .bc-video-sec__left {\n   background-color: #F9F7F5;\n   width: 100%;\n  }\n  .bc-video-sec {\n    width: 100%;\n    height: auto;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-bottom: 30px;\n}\n.brand-content__video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n    .slider-wrapper {\n  overflow: hidden;\n}\n\n.slider-track {\n  display: flex;\n  transition: transform 0.4s ease;\n}\n\n.slide {\n  min-width: 100%;\n}\n.brand-content__text-wrap h4 {\n    font-family: \"playfair display\", sans-serif;\n    font-size: 24px;\n    font-weight: 400;\n}\n.brand-content__text-wrap p {\n    font-size: 16px;\n    line-height: 150%;\n    font-weight: 400;\n}\n.brand-content-container {\n    padding: 0 15px;\n}\n.brand-content__content {\n    display: flex;\n    flex-direction: row;\n    align-items: flex-start;\n    width: 100%;\n    padding: 0 15px;\n    gap: 15px;\n    margin-top: 24px;\n}\n\n.brand-content__img-wrap {\n    height: 200px;\n    overflow: hidden;\n    position: relative;\n}\n\n.brand-content__img-wrap img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    object-position: 50% 50%;\n}\n\n.brand-content__title {\n    font-family: \"playfair display\", sans-serif;\n    font-size: 30px;\n    padding: 35px 15px;\n    font-weight: 400;\n    margin: 0;\n    line-height: 130%;\n}\n\n.brand-content {\n    background-color: #F9F7F5;\n    padding: 0 0 35px 0;\n}\n\nbutton.arrow.arrow--prev svg {\n    rotate: -180deg;\n}\n\n.arrow-button-wrap {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    width: 100%;\n    justify-content: flex-end;\n    padding-right: 15px;\n    gap: 10px;\n}\n\nbutton.arrow {\n    background-color: #DCD8D4;\n    width: 30px;\n    height: 30px;\n    border-radius: 50%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    \n}\n\nbutton.arrow svg path {\n    stroke: #454544\n}\nspan.brand-content__number {\n    padding-top: 3px;\n}\n\n@media (min-width: 768px) {\n.brand-content__desk {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n    .brand-content-container {\n    padding: 0 45px;\n}\n.brand-content__text {\n    width: 50%;\n}\n\n.brand-content__images {\n    width: 50%;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n.brand-content__img-wrap {\n    cursor: pointer;\n}\n.brand-content__img-wrap::after {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background: rgb(255 255 255 / 51%);\n    opacity: 0;\n    transition: opacity 0.4s ease;\n    pointer-events: none;\n}\n.brand-content__img-wrap.is-inactive::after {\n    opacity: 1;\n}\n.brand-content__text {\n    position: relative;\n}\n.brand-content__content {\n    transition: opacity 0.4s ease, visibility 0.4s ease;\n}\n.brand-content__content.is-inactive {\n    opacity: 0;\n    visibility: hidden;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n}\n\n.brand-content__img-wrap {\n    height: 100%;\n    width: 33.3%;\n}\n.brand-content {\n    position: relative;\n    height: 600px;\n    overflow: hidden;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.brand-content__images {\n    position: absolute;\n    right: 0;\n    height: 100%;\n    top: 0;\n}\n    .brand-content__title {\n        font-size: 40px;\n    }\n    span.brand-content__number.desk {\n    position: absolute;\n    bottom: 10%;\n    z-index: 9;\n    left: 50%;\n    transform: translate(-50%, 50%);\n    color: #ffffff;\n    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);\n}\n.brand-content__img-wrap.is-inactive \nspan.brand-content__number.desk {\n    color: #fff;\n}\nspan.brand-content__number {\n    padding-top: 7px;\n}\n    .bc-video-sec {\n    width: 100%;\n    height: 450px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    margin-bottom: 15px;\n}\n    .brand-content__media {\n        width: 50%;\n        height: 100%;\n    }\n    .bc-video-sec__left {\n        width: 50%;\n        height: 100%;\n        display: flex;\n        align-items: center;\n        order: 1;\n    }\n}\n@media (min-width: 896px) {\n    .brand-content__content {\n    padding: 0 45px;\n    gap: 15px;\n}\n    .brand-content__title {\n         padding: 0 45px;\n    }\n}\n\n</style>\n\n<div class=\"bc-video-sec\">\n  <div class=\"bc-video-sec__left\">\n    \n      <h3 class=\"brand-content__title one\">Comfort & Support for You and Your Baby</h3>\n    \n  </div>\n  \n    <div class=\"brand-content__media\">\n        \n          <video playsinline=\"true\" autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" class=\"brand-content__video\" preload=\"metadata\"><source src=\"https://cdn.shopify.com/videos/c/o/v/28b7addeec094da292aae329ad1874ee.mov\" type=\"video/mp4\"><img src=\"//babygo.uk/cdn/shop/files/preview_images/46573a109a6e4da29ecdcd596fc19fb5.thumbnail.0000000000_690x.jpg?v=1775038194\"></source></video>\n        \n    </div>\n  \n</div>\n\n<div class=\"brand-content slider\">\n  <h3 class=\"brand-content__title\">Why We Made This</h3>\n\n  <div class=\"brand-content__items\" hidden=\"\">\n\n    \n      <div class=\"brand-content__item\" data-number=\"01\" data-title=\"Ready in seconds, even when life isn’t\" data-text=\"<strong style='display:block; font-size:18px; margin-bottom:8px;'>No setup. No stress. Just pick up and go.</strong>\nBuilt for real life — when your toddler suddenly wants to be carried, when you're in a rush, or when things don’t go as planned.\nThis carrier slips on in seconds. Lightweight, intuitive, effortless… it moves with you, never slowing you down.\" data-image-desktop=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_2np7bv2np7bv2np7-Photoroom.png?v=1775328180\" data-image-mobile=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_y4qqpgy4qqpgy4qq-Photoroom_1.png?v=1775328019\">\n</div>\n    \n    <div class=\"brand-content__item\" data-number=\"02\" data-title=\"For little explorers… and their sudden breaks\" data-text=\"<strong style='display:block; font-size:18px; margin-bottom:8px;'>They want to walk… until they don’t.</strong>\nPerfect for toddlers who are always on the move — until they’re not.\nWhen little legs get tired, you’re ready in an instant.\n\nDesigned to comfortably support children <strong>from 9 months to 4 years</strong>, while evenly distributing weight so you can carry without strain — even on one hip.\" data-image-desktop=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_fgjui0fgjui0fgju-Photoroom.png?v=1775327900\" data-image-mobile=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_hkk7azhkk7azhkk7-Photoroom.png?v=1775327593\">\n</div>\n    \n  <div class=\"brand-content__item\" data-number=\"03\" data-title=\"Go anywhere. No stroller needed.\" data-text=\"<strong style='display:block; font-size:18px; margin-bottom:8px;'>The places a stroller can’t go… now you can.</strong>\nStairs, beaches, narrow streets, travel days — this compact carrier makes everything easier.\n\nSmall when you need it to be.\nPowerful in what it gives you: more freedom, more spontaneity, more moments together.\" data-image-desktop=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_us9oqaus9oqaus9o-Photoroom.png?v=1775328256\" data-image-mobile=\"https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Gemini_Generated_Image_qraxgpqraxgpqrax-Photoroom.png?v=1775328404\">\n</div>\n  </div>\n\n  <div class=\"brand-content__output\">\n    <div class=\"slider-wrapper\">\n      <div class=\"slider-track\" style=\"transform: translateX(-100%);\">\n        \n      <div class=\"slide\">\n        <div class=\"brand-content__img-wrap\">\n          <img src=\"//babygo.uk/cdn/shop/files/Baby-Carrier-M-1.jpg?v=1775037686&width=800\" width=\"100%\" height=\"100%\">\n        </div>\n        <div class=\"brand-content__content\">\n          <span class=\"brand-content__number\">01</span>\n          <div class=\"brand-content__text-wrap\">\n            <h4>Support from Day One</h4>\n            <p>We designed this carrier to support both you and your baby from the very beginning. With an adjustable headrest to cradle delicate necks and thick padded shoulder straps to evenly distribute weight, every buckle and strap customises the fit for longer, more comfortable carrying.</p>\n          </div>\n        </div>\n      </div>\n    \n      <div class=\"slide\">\n        <div class=\"brand-content__img-wrap\">\n          <img src=\"//babygo.uk/cdn/shop/files/Baby-Carrier-M-2.jpg?v=1775037686&width=800\" width=\"100%\" height=\"100%\">\n        </div>\n        <div class=\"brand-content__content\">\n          <span class=\"brand-content__number\">02</span>\n          <div class=\"brand-content__text-wrap\">\n            <h4>Made to Grow</h4>\n            <p>Babies change quickly, so your carrier should too. Adjustable leg openings and flexible settings adapt as your little one grows, while built-in support promotes healthy hip development. It’s a practical, ergonomic essential designed to move seamlessly through every stage.</p>\n          </div>\n        </div>\n      </div>\n    \n      <div class=\"slide\">\n        <div class=\"brand-content__img-wrap\">\n          <img src=\"//babygo.uk/cdn/shop/files/Baby-Carrier-M-3.jpg?v=1775037686&width=800\" width=\"100%\" height=\"100%\">\n        </div>\n        <div class=\"brand-content__content\">\n          <span class=\"brand-content__number\">03</span>\n          <div class=\"brand-content__text-wrap\">\n            <h4>Freedom to Carry your Way</h4>\n            <p>Whether you prefer inward snuggles, outward exploring or backpack adventures, we created three secure carry positions to suit your day. Thoughtful features, including a supportive headrest that doubles as a dribble bib, give you versatility, closeness and confidence wherever you go.</p>\n          </div>\n        </div>\n      </div>\n    \n      </div>\n      <div class=\"arrow-button-wrap\">\n        <button class=\"arrow arrow--prev\" style=\"visibility: visible;\">\n          <svg width=\"6\" height=\"10\" viewbox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M1 1L5 5L1 9\" stroke=\"var(--color-body, #151515)\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n          </svg>\n        </button>\n        <button class=\"arrow arrow--next\" style=\"visibility: visible;\">\n          <svg width=\"6\" height=\"10\" viewbox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M1 1L5 5L1 9\" stroke=\"var(--color-body, #151515)\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n          </svg>\n        </button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n// switch from mobile to desk\nconst breakpoint = window.matchMedia('(min-width: 769px)');\n\n// injected code is stored\nconst output = document.querySelector('.brand-content__output');\n\n// declares array\nconst items = [];\n\ndocument.querySelectorAll('.brand-content__item').forEach(function(el) {\n  items.push({\n    number: el.dataset.number,\n    title:  el.dataset.title,\n    text:   el.dataset.text,\n    desktop_image: el.dataset.imageDesktop,\n    mobile_image:  el.dataset.imageMobile\n  });\n});\n\n// mobile\n\nfunction buildMobile() {\n\n  // Build each slide as a string\n  let slidesHTML = '';\n\n  items.forEach(function(item) {\n    slidesHTML += `\n      <div class=\"slide\">\n        <div class=\"brand-content__img-wrap\">\n          <img src=\"${item.mobile_image}\" width=\"100%\" height=\"100%\">\n        </div>\n        <div class=\"brand-content__content\">\n          <span class=\"brand-content__number\">${item.number}</span>\n          <div class=\"brand-content__text-wrap\">\n            <h4>${item.title}</h4>\n            <p>${item.text}</p>\n          </div>\n        </div>\n      </div>\n    `;\n  });\n\n  // Wrap slides in the slider structure and inject into output\n  output.innerHTML = `\n    <div class=\"slider-wrapper\">\n      <div class=\"slider-track\">\n        ${slidesHTML}\n      </div>\n      <div class=\"arrow-button-wrap\">\n        <button class=\"arrow arrow--prev\">\n          <svg width=\"6\" height=\"10\" viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M1 1L5 5L1 9\" stroke=\"var(--color-body, #151515)\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n          </svg>\n        </button>\n        <button class=\"arrow arrow--next\">\n          <svg width=\"6\" height=\"10\" viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M1 1L5 5L1 9\" stroke=\"var(--color-body, #151515)\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n          </svg>\n        </button>\n      </div>\n    </div>\n  `;\n\n  // Start the slider\n  initSlider();\n}\n\n// desktop\n\nfunction buildDesktop() {\n\n  // Build each text block as a string\n  let textHTML = '';\n\n  items.forEach(function(item) {\n    textHTML += `\n      <div class=\"brand-content__content\" data-index=\"${item.number}\">\n        <span class=\"brand-content__number\">${item.number}</span>\n        <div class=\"brand-content__text-wrap\">\n          <h4>${item.title}</h4>\n          <p>${item.text}</p>\n        </div>\n      </div>\n    `;\n  });\n\n  // Build each image block as a string\n  let imagesHTML = '';\n\n  items.forEach(function(item) {\n    imagesHTML += `\n      <div class=\"brand-content__img-wrap\" data-index=\"${item.number}\">\n        <img src=\"${item.desktop_image}\" width=\"100%\" height=\"100%\">\n        <span class=\"brand-content__number desk\">${item.number}</span>\n      </div>\n    `;\n  });\n\n  // Wrap both in the desktop structure and inject into output\n  output.innerHTML = `\n    <div class=\"brand-content__desk\">\n      <div class=\"brand-content__text\">\n        ${textHTML}\n      </div>\n      <div class=\"brand-content__images\">\n        ${imagesHTML}\n      </div>\n    </div>\n  `;\n\n  initDesktopHover();\n}\n\nfunction initDesktopHover() {\n  const imgWraps = document.querySelectorAll('.brand-content__img-wrap');\n  const contents = document.querySelectorAll('.brand-content__content');\n\n  // Set initial state: first active, rest inactive\n  imgWraps.forEach(function(wrap, i) {\n    if (i !== 0) wrap.classList.add('is-inactive');\n  });\n  contents.forEach(function(content, i) {\n    if (i !== 0) content.classList.add('is-inactive');\n  });\n\n  imgWraps.forEach(function(wrap) {\n    wrap.addEventListener('mouseenter', function() {\n      const index = wrap.dataset.index;\n\n      imgWraps.forEach(function(w) {\n        w.classList.toggle('is-inactive', w.dataset.index !== index);\n      });\n      contents.forEach(function(c) {\n        c.classList.toggle('is-inactive', c.dataset.index !== index);\n      });\n    });\n  });\n}\n\n\n// -------------------------\n// SLIDER\n// -------------------------\n\nfunction initSlider() {\n  const track = document.querySelector('.slider-track');\n  const slides = document.querySelectorAll('.slide');\n  const prev = document.querySelector('.arrow--prev');\n  const next = document.querySelector('.arrow--next');\n\n  let current = 0;\n  let startX = 0;\n\n  // Move to a specific slide by index\n  function goTo(index) {\n\n    // Make sure index never goes below 0 or above last slide\n    current = Math.max(0, Math.min(index, slides.length - 1));\n\n    // Slide the track\n    track.style.transform = `translateX(-${current * 100}%)`;\n\n    // Hide prev on first slide, hide next on last slide\n    prev.style.visibility = current === 0 ? 'hidden' : 'visible';\n    next.style.visibility = current === slides.length - 1 ? 'hidden' : 'visible';\n  }\n\n  // Arrow buttons\n  next.addEventListener('click', function() {\n    goTo(current + 1);\n  });\n\n  prev.addEventListener('click', function() {\n    goTo(current - 1);\n  });\n\n  // Touch swipe for mobile\n  track.addEventListener('touchstart', function(e) {\n    startX = e.touches[0].clientX;\n  });\n\n  track.addEventListener('touchend', function(e) {\n    const diff = startX - e.changedTouches[0].clientX;\n\n    // Swiped left — go forward\n    if (diff > 50) goTo(current + 1);\n\n    // Swiped right — go back\n    if (diff < -50) goTo(current - 1);\n  });\n\n  // Hide prev arrow on load as we start on first slide\n  prev.style.visibility = 'hidden';\n}\n\n\n// -------------------------\n// INIT\n// -------------------------\n\nfunction init() {\n\n  // Wipe the output div\n  output.innerHTML = '';\n\n  // Build the correct layout for the current screen size\n  if (breakpoint.matches) {\n    buildDesktop();\n  } else {\n    buildMobile();\n  }\n}\n\n// Re-run init when screen size crosses the breakpoint\nbreakpoint.addEventListener('change', function() {\n  init();\n});\n\n// Run on page load\ninit();\n</script>\n\n\n\n</div>"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -251,6 +596,8 @@
     "text_with_icons_PCRGt7",
     "custom_html_yn96ir",
     "rich_text_NxwLDg",
+    "custom_reviews_KgPArc",
+    "custom_html_GzNNJH",
     "product-recommendations"
   ]
 }
