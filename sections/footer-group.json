@@ -58,6 +58,9 @@
         "menu_qHgPqN",
         "signup_R6ECnD"
       ],
+      "custom_css": [
+        "a[href*=\"shopify.com?utm_campaign=poweredby\"] {display: none !important;}"
+      ],
       "settings": {
         "full_width": true,
         "copyright_text": "All rights reserved.",
