@@ -24,110 +24,94 @@
             "show_custom_badges": true
           }
         },
-        "0b3e272b-c86a-4dba-946c-c6912251371c": {
-          "type": "description",
+        "custom_liquid_nQVbh4": {
+          "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "seo_text_max_height": 1000,
-            "seo_text_read_more": "Read more",
-            "seo_text_read_less": "Read less"
+            "custom_liquid": "<style>\n/* 🔥 cible le bloc produit complet */\n.product__info-wrapper * {\n  min-height: unset !important;\n}\n\n/* 🔥 cible TON bloc précisément */\n.product__info-wrapper p {\n  margin-top: 4px !important;\n  margin-bottom: 10px !important;\n}\n\n/* 🔥 supprime espace du container */\n.product__info-wrapper > * {\n  margin-bottom: 8px !important;\n}\n</style>\n\n<p class=\"not-rte\" style=\"display: flex; align-items: center; gap: 8px; font-size: 0.6875rem; letter-spacing: 0.02em; color: #000; opacity: 0.5;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0012/5137/7230/files/bag-icon.svg\" \n    alt=\"Bag icon\"\n    style=\"width: 14px; height: 14px; opacity: 0.7;\"\n  >\n  <span><strong style=\"font-weight: 500;\">In 100+ bags</strong> in the last month</span>\n</p>"
           }
         },
-        "siblings_cPy7dw": {
-          "type": "siblings",
+        "custom_liquid_wQJbyY": {
+          "type": "custom_liquid",
           "settings": {
-            "siblings_collection": "",
-            "sibling_color": "",
-            "color_picker_size": "large",
-            "margin_bottom": 20
+            "custom_liquid": "<div class=\"product-benefits\">\n  <p>✓ ORDERED ON WEEKDAYS BEFORE 4 PM, SHIPPED THE SAME DAY</p>\n\n  <p>✓ FREE SHIPPING IN EUROPE</p>\n\n  <p>✓ FROM 9 MONTHS TO 4 YEARS (max 20kg)</p>\n\n  <p>✓ A UNIQUE, TRENDY AND COMFORTABLE BABY CARRIER<br>\n  (RELIEVES BACK &amp; SHOULDER STRAIN)</p>\n\n  <p>✓ LESS BULKY THAN A STROLLER, MUCH MORE PRACTICAL</p>\n</div>\n\n<div id=\"inventory-template--24770738553208__main-product\" class=\"product-inventory-notice--wrapper\">\n  <div class=\"product-inventory-notice product-inventory-notice--normal\">\n    <div class=\"product-inventory-notice--text\">\n      <div class=\"product-inventory-notice--pulse\"></div>\n      In stock\n    </div>\n  </div>\n</div>\n\n<style>\n.product-benefits {\n  margin-top: 4px;\n}\n\n.product-benefits p {\n  text-transform: uppercase;\n  font-size: 0.6875rem;\n  letter-spacing: 0.1em;\n  opacity: 0.6;\n  margin: 0 0 10px 0;\n}\n\n.not-rte {\n  margin-bottom: 2px !important;\n  padding-left: 0 !important;\n  margin-left: -2px !important;\n}\n</style>"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "custom_liquid_ar84P9": {
+          "type": "custom_liquid",
           "settings": {
-            "picker_type": "button",
-            "color_picker": true,
-            "color_picker_size": "regular",
-            "color_picker_use_variants": false,
-            "variant_is_disabled": true,
-            "sizing_guide_variant": "Size",
-            "sizing_guide_text": "Sizing guide",
-            "sizing_guide_icon": "ruler",
-            "sizing_guide_page": "",
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n  /* Conteneur général */\n  .custom-color-swatches-wrapper {\n    margin-top: 10px;\n  }\n\n  /* Titre */\n  .custom-color-swatches-title {\n    font-weight: normal;   /* plus de gras */\n    font-size: 14px;\n    margin-bottom: 5px;   /* réduit l’espace */\n  }\n\n  /* Swatches */\n  .custom-color-swatches {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    list-style: none; /* supprime les points noirs */\n    padding: 0;\n    margin: 0;\n  }\n\n  .custom-color-swatches a {\n    width: 45px;\n    height: 45px;\n    border-radius: 50%;\n    overflow: hidden;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    border: 2px solid transparent;\n    transition: border 0.3s ease;\n    text-decoration: none;\n  }\n\n  .custom-color-swatches a img {\n    display: block; /* empêche les petits points */\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n\n  .custom-color-swatches a:hover {\n    border: 2px solid #000;\n  }\n\n  /* Mobile responsive */\n  @media (max-width: 600px) {\n    .custom-color-swatches {\n      gap: 8px; /* réduit l’espace entre cercles */\n    }\n\n    .custom-color-swatches a {\n      width: 44px;  /* légèrement plus grand sur mobile */\n      height: 44px;\n    }\n  }\n.custom-color-swatches a {\n  background: none !important; /* supprime la ligne parasite */\n}\n\n</style>\n\n<div class=\"custom-color-swatches-wrapper\">\n  <div class=\"custom-color-swatches-title\">Color:</div>\n  <div class=\"custom-color-swatches\">\n   {%- assign variants = \"\nNoir|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_26.png?v=1775425743|https://momplush.com/products/toddler-sling-carrier-black,\nBeige|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_27.png?v=1775425859|https://momplush.com/products/toddler-sling-carriere-beige,\nVert|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_28.png?v=1775425950|https://momplush.com/products/toddler-sling-carrier-corduroy-olive-green,\nBlanc|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_29.png?v=1775425990|https://momplush.com/products/toddler-sling-carrier-corduroy-white,\nZèbre|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_30.png?v=1775426045|https://momplush.com/products/toddler-sling-carrier-zebra-print,\nLéopard|https://cdn.shopify.com/s/files/1/1006/5130/3260/files/Design_sans_titre_31.png?v=1775426043|https://momplush.com/products/toddler-sling-carrier-wild-leopard\n\" | split: \",\" -%}\n\n    {%- for variant in variants -%}\n      {%- assign parts = variant | split: \"|\" -%}\n      {%- assign name = parts[0] | strip -%}\n      {%- assign image = parts[1] | strip -%}\n      {%- assign url = parts[2] | strip -%}\n      <a href=\"{{ url }}\" aria-label=\"{{ name }}\">\n        <img src=\"{{ image }}\" alt=\"{{ name }}\">\n      </a>\n    {%- endfor -%}\n  </div>\n</div>"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "outline_button": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
-        "collapsible_tab_JKQwdi": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_dtc79e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_CtyTGL": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
-          "type": "side_panel",
-          "settings": {
-            "side_panel_1_label": "Materials",
-            "side_panel_1_icon": "ruler",
-            "side_panel_1_content": "",
-            "side_panel_1_page": "",
-            "side_panel_2_label": "Shipping &amp; Returns",
-            "side_panel_2_icon": "box",
-            "side_panel_2_content": "",
-            "side_panel_2_page": "",
-            "side_panel_3_label": "Care Guide",
-            "side_panel_3_icon": "washing",
-            "side_panel_3_content": "",
-            "side_panel_3_page": ""
-          }
-        },
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
-          "type": "share",
+        "payment_icons_pfFJzj": {
+          "type": "payment_icons",
           "settings": {}
+        },
+        "custom_liquid_KUKXQx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"tp-widget-wrap\">\n  <div\n    class=\"trustpilot-widget\"\n    data-locale=\"fr-FR\"\n    data-template-id=\"5419b637fa0340045cd0c936\"\n    data-businessunit-id=\"5c4983bd4ec3280001977e4f\"\n    data-style-height=\"20px\"\n    data-style-width=\"100%\"\n    data-theme=\"light\">\n  </div>\n</div>\n\n<style>\n/* Desktop uniquement */\n@media screen and (min-width: 768px) {\n\n  .payment-icons {\n    display: flex !important;\n    justify-content: center !important; /* centre les badges */\n    align-items: center;\n    flex-wrap: wrap; /* évite que ça casse si trop long */\n    gap: 8px; /* espace propre entre les icônes */\n  }\n\n  .payment-icons figure {\n    margin: 0 !important;\n  }\n/* centre les badges paiement partout */\n.payment-icons {\n  display: flex !important;\n  justify-content: center !important;\n  align-items: center;\n  flex-wrap: wrap; /* passe à la ligne si besoin sur mobile */\n  gap: 8px; /* espace propre entre les logos */\n  text-align: center;\n}\n\n/* enlève les marges parasites */\n.payment-icons figure {\n  margin: 0 !important;\n}\n}\n.tp-widget-wrap {\n  margin-top: -30px !important;   /* remonte le badge vers les payment icons */\n  margin-bottom: 20px !important;\n  padding: 0 !important;\n  text-align: center;\n  line-height: 1 !important;\n}\n\n.tp-widget-wrap .trustpilot-widget {\n  max-width: 300px;\n  margin: 0 auto !important;\n  min-height: 20px;\n}\n\n.tp-widget-wrap iframe {\n  pointer-events: none !important;\n  display: block !important;\n  margin: 0 auto !important;\n}\n\n/* enlève l’espace automatique avant la description */\n.tp-widget-wrap + * {\n  margin-top: 8px !important;\n}\n</style>\n\n<script>\n(function () {\n  function initTP() {\n    var el = document.querySelector('.tp-widget-wrap .trustpilot-widget');\n    if (!el) return;\n\n    if (window.Trustpilot) {\n      window.Trustpilot.loadFromElement(el, true);\n    } else {\n      var script = document.createElement('script');\n      script.src = 'https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js';\n      script.async = true;\n      script.onload = function () {\n        if (window.Trustpilot) {\n          window.Trustpilot.loadFromElement(el, true);\n        }\n      };\n      document.head.appendChild(script);\n    }\n  }\n\n  initTP();\n  document.addEventListener('shopify:section:load', initTP);\n})();\n</script>"
+          }
+        },
+        "collapsible_tab_7Mx4XW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PRODUCT DESCRIPTION",
+            "open": false,
+            "content": "<p>Imagine moving freely again…<br/>Through narrow streets, sandy beaches, forest paths — anywhere life takes you.</p><p>With <strong>Momplush</strong>, every outing becomes lighter, smoother, and beautifully simple.</p><p>Designed for modern parents who value both <strong>comfort and connection</strong>, this toddler carrier brings your child closer while giving you back your freedom. No more struggling with bulky strollers — just effortless movement, wherever you go.</p><p>Crafted from <strong>100% natural cotton</strong>, it feels soft, breathable, and gentle against your child’s skin, while remaining strong enough for everyday adventures. Lightweight and easy to carry, it adapts seamlessly to every season.</p><p>Its intuitive design allows you to <strong>carry your child in seconds</strong>. No adjustments, no stress — just a natural, balanced fit. Whether you’re left- or right-handed, Momplush moves with you.</p><h3>Why parents choose Momplush ?</h3><ul><li><strong>Instant use</strong> – On and off in seconds</li><li><strong>Lightweight & compact</strong> – Folds easily, perfect for travel</li><li><strong>Ergonomic comfort</strong> – Designed for both parent and child</li><li><strong>Freedom over strollers</strong> – Go where wheels can’t</li><li><strong>Perfect for toddlers</strong> – From 9 months to 4 years (up to 20 kg / 44 lbs)</li><li><strong>Certified safety</strong> – Tested to meet strict quality standards</li><li><strong>Eco-conscious</strong> – Minimal plastic packaging<br/></li></ul><h3>Product Details :</h3><ul><li>Suitable for children from <strong>9 months to 4 years</strong> (max. 20 kg)</li><li>Seat made from <strong>100% cotton</strong></li><li>Strap made from <strong>polyester</strong></li><li>Durable clip in <strong>PU</strong></li><li>Premium finishing details (logo varies by colour)</li><li>Universal design, suitable for all caregivers<br/></li></ul><p><em>Please note: Colours may appear slightly different depending on lighting and screen settings.</em></p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_4M6Nkt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SHIPPING & DELIVERY",
+            "open": false,
+            "content": "<p>We deliver <strong>worldwide</strong>, so you can enjoy Momplush wherever life takes you, effortlessly.</p><ul><li><strong>Free Worldwide Delivery</strong> – No minimum order</li><li><strong>Tracked Shipping</strong> – Follow your order every step of the way</li><li><strong>Processing Time</strong> – Orders are prepared within 1–2 business days<br/></li></ul><p><strong>Estimated delivery times:</strong></p><ul><li><strong>Europe</strong>: up to 5 business days</li><li><strong>North America</strong>: up to 10–15 business days</li><li><strong>South America</strong>: up to 20–25 business days</li><li><strong>Middle East</strong>: up to 15–20 business days</li><li><strong>Asia</strong>: up to 15–23 business days</li><li><strong>Africa</strong>: up to 20–25 business days<br/></li></ul><p>Please note: Delivery times may vary slightly during peak periods or due to customs delays.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_B6HRtz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RETURNS & GUARANTEE",
+            "open": false,
+            "content": "<p>Try Momplush with complete peace of mind.</p><ul><li><strong>30-Day Risk-Free Trial</strong> – Not satisfied? Get your money back</li><li><strong>Easy Returns</strong> – Simple and hassle-free process</li><li><strong>Support That Cares</strong> – Our team is here for you every step of the way<br/></li></ul><p>Your comfort and your child’s always comes first.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "complementary_YL4PR6": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 10
+          }
         }
       },
       "block_order": [
         "title",
-        "0b3e272b-c86a-4dba-946c-c6912251371c",
-        "siblings_cPy7dw",
-        "variant_picker",
+        "custom_liquid_nQVbh4",
+        "custom_liquid_wQJbyY",
+        "custom_liquid_ar84P9",
         "buy_buttons",
-        "collapsible_tab_JKQwdi",
-        "collapsible_tab_dtc79e",
-        "collapsible_tab_CtyTGL",
-        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+        "payment_icons_pfFJzj",
+        "custom_liquid_KUKXQx",
+        "collapsible_tab_7Mx4XW",
+        "collapsible_tab_4M6Nkt",
+        "collapsible_tab_B6HRtz",
+        "complementary_YL4PR6"
       ],
       "custom_css": [
         "#AddToCart {background: #2e413d !important; color: #fff !important; border: none !important;}",
