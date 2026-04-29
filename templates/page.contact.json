@@ -1,26 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "1661619382b4020fa2": {
+    "slideshow_EQz4a9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_MVQRhA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/wildride-toddler-carrier-black-rib-outdoors-banner2_1.webp",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "CONTACT US",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "small",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "color_text": "#ffffff",
+            "color_button_text": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_MVQRhA"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_KPyXwF": {
       "type": "rich-text",
       "blocks": {
-        "166161938159ca8988-1": {
+        "heading_q4YTz6": {
           "type": "heading",
           "settings": {
-            "text": "CONTACT US",
+            "text": "Contact The MOMPLUSH® Team",
             "size": "h2"
           }
         },
-        "166161938159ca8988-2": {
+        "text_UmAeyh": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p>Available Monday to Saturday from 9am to 5pm. Please fill out the contact form below, and we will get back to you as soon as possible.</p>",
+            "custom_liquid": "",
             "size": "text-size-regular"
           }
         }
       },
       "block_order": [
-        "166161938159ca8988-1",
-        "166161938159ca8988-2"
+        "heading_q4YTz6",
+        "text_UmAeyh"
       ],
       "settings": {
         "section_width": "grid",
@@ -34,13 +91,79 @@
         "disable_bottom_spacing": true
       }
     },
-    "1652268757b7c53383": {
+    "contact_form_EzeKQq": {
       "type": "contact-form",
       "settings": {
+        "heading": "",
         "description": "",
-        "show_phone_number": true,
+        "show_phone_number": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_gmcC4X": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "TODDLER SLING CARRIERS",
+        "heading_left": true,
+        "description": "<p><em>From 9 months - 4 years (max. 20 kg)</em></p>",
+        "full_width": true,
+        "collection": "baby-carriers",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "text_with_icons_rQPxwV": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_D8kA9Q": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "heading": "Free Worldwide Shipping",
+            "text": "<p>We ship worldwide for free.</p>"
+          }
+        },
+        "icon_fakeAD": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Easy Returns",
+            "text": "<p>Return within 30 days.</p>"
+          }
+        },
+        "icon_xVXY6r": {
+          "type": "icon",
+          "settings": {
+            "icon": "silhouette",
+            "heading": "MOMPLUSH® Support Team",
+            "text": "<p>Here To Help</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_D8kA9Q",
+        "icon_fakeAD",
+        "icon_xVXY6r"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "#f7f7f7",
+        "color_heading": "#737373",
+        "color_text": "#737373",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "1652081672ff9b3c2c": {
@@ -49,6 +172,7 @@
         "51991586-af35-4d5d-be99-a2f76ab90b27": {
           "type": "pin",
           "settings": {
+            "open": false,
             "pin_retina": true,
             "pin_lat": "41.510395",
             "pin_long": "-87.644287",
@@ -60,6 +184,7 @@
       "block_order": [
         "51991586-af35-4d5d-be99-a2f76ab90b27"
       ],
+      "disabled": true,
       "settings": {
         "googlemaps_api_key": "",
         "desktop_height": "desktop-height-550",
@@ -76,8 +201,11 @@
     }
   },
   "order": [
-    "1661619382b4020fa2",
-    "1652268757b7c53383",
+    "slideshow_EQz4a9",
+    "rich_text_KPyXwF",
+    "contact_form_EzeKQq",
+    "featured_collection_gmcC4X",
+    "text_with_icons_rQPxwV",
     "1652081672ff9b3c2c"
   ]
 }
