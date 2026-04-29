@@ -18,9 +18,10 @@
     "color_announcement_bar_bg": "#2e413d",
     "color_header_bg": "#ffffff",
     "color_dots": "#151515",
-    "color_footer_bg": "#d77021",
+    "color_footer_border": "#ffffff",
+    "color_footer_bg": "#2e413d",
     "section_spacing_desktop": 90,
-    "social_instagram_link": "https://www.instagram.com/burger.bae/",
+    "social_instagram_link": "",
     "product_aspect_ratio": "portrait",
     "sibling_style": "swatch",
     "sections": {

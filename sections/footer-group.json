@@ -1,1 +1,74 @@
-{"type":"header","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"text-2":{"type":"text","settings":{"column_size":"large","title":"","image":"shopify:\/\/shop_images\/logo_4f369f7e-1ba6-4dda-844d-df760221cdd3.png","text":"","text_size":"large","button_text":"","button_link":"","show_social_links":false}},"menu-1":{"type":"menu","settings":{"column_size":"medium","title":"Main Menu","menu":"main-menu"}},"menu-2":{"type":"menu","settings":{"column_size":"medium","title":"Quick Links","menu":"footer"}},"menu-3":{"type":"menu","settings":{"column_size":"medium","title":"SUPPORT","menu":"support"}},"signup":{"type":"signup","settings":{"column_size":"medium","title":"NEWSLETTER","text":"<p>Sign up for our newsletter and receive 10% off your first order!<\/p>"}}},"block_order":["text-2","menu-1","menu-2","menu-3","signup"],"settings":{"full_width":true,"copyright_text":"All rights reserved.","show_language_switcher":false,"show_currency_switcher":false,"show_payment_icons":true,"enable_follow_on_shop":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_6a3E4h": {
+          "type": "text",
+          "settings": {
+            "column_size": "small",
+            "title": "",
+            "image": "shopify://shop_images/Adobe_Express_-_file.png",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": true
+          }
+        },
+        "menu_hqgnpN": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "SHOP",
+            "menu": "main-menu"
+          }
+        },
+        "menu_qHgPqN": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "SUPPORT",
+            "menu": "support"
+          }
+        },
+        "signup_R6ECnD": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "NEWSLETTER",
+            "text": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6a3E4h",
+        "menu_hqgnpN",
+        "menu_qHgPqN",
+        "signup_R6ECnD"
+      ],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "show_payment_icons": true,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
