@@ -9,6 +9,84 @@
  */
 {
   "sections": {
+    "slideshow_yCeeEz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_j4hHi3": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Sans_titre_1.png",
+            "mobile_image": "shopify://shop_images/Copie_de_Sans_titre_1.png",
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "subheading": "THE TODDLER SLING CARRIER",
+            "heading": "MOMPLUSH",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_text": "#ffffff",
+            "color_button_text": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 18,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "SHOP CARRIERS",
+            "button_2_link": "shopify://collections/baby-carriers",
+            "button_2_outline": false
+          }
+        },
+        "slide_RAyxrH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Sans_titre_1.png",
+            "mobile_image": "shopify://shop_images/Copie_de_Sans_titre_1.png",
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "subheading": "SPRING SPECIAL OFFER",
+            "heading": "SAVE UP TO 40%",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_text": "#ffffff",
+            "color_button_text": "#151515",
+            "overlay_color": "#000000",
+            "overlay_opacity": 18,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "SHOP CARRIERS",
+            "button_2_link": "shopify://collections/baby-carriers",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_j4hHi3",
+        "slide_RAyxrH"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 10,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
@@ -344,6 +422,7 @@
     }
   },
   "order": [
+    "slideshow_yCeeEz",
     "16479477632637c9a7",
     "1662389920b1295ea2",
     "collection_list_DUByMa",
