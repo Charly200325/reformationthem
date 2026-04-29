@@ -129,13 +129,20 @@
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
+      "custom_css": [
+        "#AddToCart {background: #2e413d !important; color: #fff !important; border: none !important;}",
+        "#AddToCart:hover {background: #fff !important; color: #2e413d !important; border: 1px solid #2e413d !important;}",
+        "#AddToCart:before,#AddToCart:after {display: none !important;}",
+        ".shopify-payment-button__button--unbranded {background: #2e413d !important; color: #fff !important; border: 1px solid #fff !important;}",
+        ".shopify-payment-button__button--unbranded:hover {background: #fff !important; color: #2e413d !important; border-color: #2e413d !important;}"
+      ],
       "settings": {
-        "full_width": true,
-        "enable_sticky_info": true,
+        "full_width": false,
+        "enable_sticky_info": false,
         "enable_sticky_add_to_cart": true,
-        "show_taxes_included": true,
+        "show_taxes_included": false,
         "media_layout": "collage",
-        "display_slider_pagination": true,
+        "display_slider_pagination": false,
         "media_aspect_ratio": "adapt",
         "display_captions": true,
         "hide_variants": false,

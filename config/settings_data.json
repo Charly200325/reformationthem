@@ -22,8 +22,15 @@
     "color_footer_bg": "#2e413d",
     "section_spacing_desktop": 90,
     "social_instagram_link": "",
+    "social_share_facebook": false,
+    "social_share_twitter": false,
+    "social_share_pinterest": false,
+    "social_share_whatsapp": false,
+    "social_share_clipboard": false,
     "product_aspect_ratio": "portrait",
+    "sale_badge_type": "save_percentage",
     "sibling_style": "swatch",
+    "lazy_loading": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
