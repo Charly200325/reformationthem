@@ -34,6 +34,7 @@
     "sibling_style": "swatch",
     "cart_drawer_add_discounts": false,
     "cart_drawer_notes": false,
+    "free_shipping": true,
     "free_shipping_minimum": "0",
     "search_product_collection": "baby-carriers",
     "lazy_loading": false,
@@ -180,14 +181,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "6603664506335945664": {
-        "type": "shopify://apps/transtore/blocks/switcher_embed_block/afeffe82-e563-4f78-90f4-f1e3d96286c3",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "installed_preset_name": "Reformation",
   "presets": {
