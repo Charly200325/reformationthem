@@ -107,7 +107,7 @@
         "custom_liquid_HxCPtY": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% comment %} Calcul de la livraison et du compte à rebours {% endcomment %}\n{% assign now = 'now' | date: '%s' | plus: 0 %}\n\n{% comment %} Définir le jour et heure limite de commande (ex: dimanche 3 mai, minuit) {% endcomment %}\n{% assign delivery_day = \"Dimanche 3 mai\" %}\n{% assign cutoff_hours = 4 %}\n{% assign cutoff_minutes = 59 %}\n\n<div class=\"flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]\">\n  <img src=\"{{ 'truck.svg' | asset_url }}\" alt=\"\" class=\"w-[24px] h-[24px] shrink-0\">\n  <div class=\"ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase leading-[110%] [text-box:trim-both_cap_alphabetic]\">\n    <p>Livraison estimée le {{ delivery_day | upcase }}.</p>\n    <p>Commandez dans les {{ cutoff_hours }}h{{ cutoff_minutes }}min.</p>\n  </div>\n</div>"
+            "custom_liquid": "{% assign seconds_in_day = 86400 %}\n{% assign days_to_add = 3 %}\n{% assign offset_seconds = seconds_in_day | times: days_to_add | plus: 7200 %}\n{% assign delivery_timestamp = 'now' | date: '%s' | plus: offset_seconds %}\n\n<div class=\"flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]\">\n  <img src=\"{{ 'truck.svg' | asset_url }}\" alt=\"\" class=\"w-[24px] h-[24px] shrink-0\">\n  <div class=\"ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase leading-[110%] [text-box:trim-both_cap_alphabetic]\">\n    <p>Livraison estimée le {{ delivery_timestamp | date: '%A %-d %B' | upcase }}.</p>\n    <p>Commandez dans les 4h59min.</p>\n  </div>\n</div>"
           }
         }
       },
