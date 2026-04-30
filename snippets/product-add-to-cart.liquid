@@ -76,9 +76,7 @@
 				</button>
 				{%- if show_dynamic_checkout -%}
   {% if product.selected_or_first_available_variant.available %}
-    <div class="product-dynamic-checkout-buttons">
-      {{ content_for_additional_checkout_buttons }}
-    </div>
+    {{ form | payment_button }}
   {% endif %}
 {%- endif -%}
 		  </div>
