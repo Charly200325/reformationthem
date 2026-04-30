@@ -128,39 +128,6 @@
         "enable_video_looping": false
       }
     },
-    "177756143809c2fcab": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_3ab446d_3RyPHF": {
-          "type": "ai_gen_block_3ab446d",
-          "settings": {
-            "show_heading": false,
-            "heading": "Express checkout",
-            "heading_font_size": 16,
-            "heading_color": "#000000",
-            "heading_spacing": 12,
-            "button_height": 50,
-            "button_border_radius": 4,
-            "button_font_size": 16,
-            "desktop_width_percent": 100,
-            "fallback_button_color": "#2e413d",
-            "fallback_button_text_color": "#ffffff",
-            "fallback_button_hover_color": "#1f2d2a",
-            "show_message": true,
-            "message": "<p>More payment options available at checkout</p>",
-            "message_font_size": 13,
-            "message_text_color": "#666666",
-            "message_spacing": 12,
-            "text_alignment": "center"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_3ab446d_3RyPHF"
-      ],
-      "settings": {}
-    },
     "text_with_icons_PCRGt7": {
       "type": "text-with-icons",
       "blocks": {
@@ -799,7 +766,6 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "177756143809c2fcab",
     "text_with_icons_PCRGt7",
     "custom_html_yn96ir",
     "rich_text_NxwLDg",
