@@ -77,12 +77,8 @@
 				{%- if show_dynamic_checkout -%}
 		      {% comment %} {{ form | payment_button }} {% endcomment %}
 			   {% if product.selected_or_first_available_variant.available %}
- <div class="shopify-payment-button">
-  <button type="button" style="width:100%;" id="flo-buy-now-button" onclick="handleFloBuyNowBtn(event)" class="shopify-payment-button__button shopify-payment-button__button--unbranded" name="flo-buy-now-button">
-    {{ 'BUY IT NOW' }}
-</button>
- </div>
- {%- endif -%}
+  {{ form | payment_button }}
+{% endif %}
  
 		    {%- endif -%}
 		  </div>
