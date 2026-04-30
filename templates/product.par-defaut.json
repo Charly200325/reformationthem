@@ -121,7 +121,10 @@
         "complementary_YL4PR6",
         "custom_liquid_HxCPtY"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".payment-icons {display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; /* ↓ plus serré */}",
+        ".payment-icons figure {margin: 0;}"
+      ],
       "settings": {
         "full_width": false,
         "enable_sticky_info": true,
