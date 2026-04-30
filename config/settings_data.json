@@ -181,7 +181,14 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "6012664788653924950": {
+        "type": "shopify://apps/mps-buy-me/blocks/app-embed/da5cef02-d610-4c52-adf7-383273d1f67b",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "installed_preset_name": "Reformation",
   "presets": {
