@@ -16,6 +16,13 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "shipping_estimator_DhbhVb": {
+          "type": "shipping_estimator",
+          "settings": {
+            "default_country": "France",
+            "open": true
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -101,6 +108,7 @@
         }
       },
       "block_order": [
+        "shipping_estimator_DhbhVb",
         "title",
         "custom_liquid_nQVbh4",
         "custom_liquid_wQJbyY",
