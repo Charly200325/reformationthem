@@ -74,13 +74,11 @@ d    {%- endif -%}
 					</span>
 					<span class="loading-overlay">{%- render 'svg-icons' with 'thb-loading' -%}</span>
 				</button>
-				{%- if show_dynamic_checkout -%}
-		      {% comment %} {{ form | payment_button }} {% endcomment %}
-			   {% if product.selected_or_first_available_variant.available %}
-  {{ form | payment_button }}
+				{% if product.selected_or_first_available_variant.available %}
+  <div class="dynamic-checkout-wrapper">
+    {{ form | payment_button }}
+  </div>
 {% endif %}
- 
-		    {%- endif -%}
 		  </div>
 		</div>
 		{%- endform -%}
