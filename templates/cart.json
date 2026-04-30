@@ -1,17 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main-cart": {
       "type": "main-cart",
       "settings": {
-        "cart_notes_enable": true
+        "cart_notes_enable": true,
+        "cart_add_discounts": true
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
-        "heading_left": false,
-        "description": "<p>Describe your featured collection here<\/p>",
+        "heading": "YOU MAY ALSO LIKE",
+        "heading_left": true,
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": true,
@@ -23,7 +33,7 @@
       "settings": {
         "heading": "Recently viewed products",
         "heading_left": false,
-        "description": "<p>Describe your recently viewed products here<\/p>",
+        "description": "<p>Describe your recently viewed products here</p>",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
