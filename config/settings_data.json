@@ -183,8 +183,8 @@
     },
     "content_for_index": [],
     "blocks": {
-      "6012664788653924950": {
-        "type": "shopify://apps/mps-buy-me/blocks/app-embed/da5cef02-d610-4c52-adf7-383273d1f67b",
+      "6057396104599647433": {
+        "type": "shopify://apps/xboost-estimated-delivery/blocks/edd/019bdfa2-9b13-7c30-9947-7a10a21eff5e",
         "disabled": false,
         "settings": {}
       }
