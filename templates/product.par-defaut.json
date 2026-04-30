@@ -113,7 +113,9 @@
         "collapsible_tab_B6HRtz",
         "complementary_YL4PR6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "shop-pay-wallet-button {display: none !important;}"
+      ],
       "settings": {
         "full_width": false,
         "enable_sticky_info": true,
