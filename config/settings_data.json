@@ -183,27 +183,8 @@
     },
     "content_for_index": [],
     "blocks": {
-      "6057396104599647433": {
-        "type": "shopify://apps/xboost-estimated-delivery/blocks/edd/019bdfa2-9b13-7c30-9947-7a10a21eff5e",
-        "disabled": false,
-        "settings": {}
-      },
-      "3300017149626794902": {
-        "type": "shopify://apps/xboost-bundle/blocks/core_script/8707ef23-ba0e-4d63-a83a-1460e9bac021",
-        "disabled": false,
-        "settings": {
-          "customScript": "",
-          "showExampleQb": false,
-          "showExampleAddon": false,
-          "showExampleBxgy": false,
-          "showExampleFB": false,
-          "showExampleFBT": false,
-          "showExampleRec": false,
-          "showExampleMM": false
-        }
-      },
-      "22230382528836309": {
-        "type": "shopify://apps/xb-ai-cart-upsell/blocks/core_script/e9179814-5d2a-40d0-a03d-245bcb819e73",
+      "7902831097370503076": {
+        "type": "shopify://apps/delivery-date-eta/blocks/estimated-delivery-days/d8155dd1-6598-4174-aaeb-cbcf85a857bc",
         "disabled": false,
         "settings": {}
       }
