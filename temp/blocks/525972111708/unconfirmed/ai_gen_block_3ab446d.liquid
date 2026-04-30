@@ -1,6 +1,268 @@
+{% doc %}
+  @prompt
+    bouton de paiement dynamic apple pay 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-dynamic-payment-button-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-dynamic-payment-button__container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+  }
+
+  .ai-dynamic-payment-button__wrapper-{{ ai_gen_id }} {
+    width: 100%;
+  }
+
+  .ai-dynamic-payment-button__wrapper-{{ ai_gen_id }} .shopify-payment-button {
+    width: 100%;
+  }
+
+  .ai-dynamic-payment-button__wrapper-{{ ai_gen_id }} .shopify-payment-button__button {
+    border-radius: {{ block.settings.button_border_radius }}px;
+    min-height: {{ block.settings.button_height }}px;
+  }
+
+  .ai-dynamic-payment-button__wrapper-{{ ai_gen_id }} .shopify-payment-button__button--unbranded {
+    background-color: {{ block.settings.fallback_button_color }};
+    color: {{ block.settings.fallback_button_text_color }};
+    font-size: {{ block.settings.button_font_size }}px;
+  }
+
+  .ai-dynamic-payment-button__wrapper-{{ ai_gen_id }} .shopify-payment-button__button--unbranded:hover {
+    background-color: {{ block.settings.fallback_button_hover_color }};
+  }
+
+  .ai-dynamic-payment-button__message-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.message_spacing }}px;
+    text-align: {{ block.settings.text_alignment }};
+    color: {{ block.settings.message_text_color }};
+    font-size: {{ block.settings.message_font_size }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-dynamic-payment-button-{{ ai_gen_id }} {
+      width: 100%;
+    }
+  }
+{% endstyle %}
+
+<div
+  class="ai-dynamic-payment-button-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-dynamic-payment-button__container-{{ ai_gen_id }}">
+    {% if block.settings.show_heading and block.settings.heading != blank %}
+      <div class="ai-dynamic-payment-button__heading-{{ ai_gen_id }}" style="margin-bottom: {{ block.settings.heading_spacing }}px; text-align: {{ block.settings.text_alignment }}; color: {{ block.settings.heading_color }}; font-size: {{ block.settings.heading_font_size }}px;">
+        {{ block.settings.heading }}
+      </div>
+    {% endif %}
+
+    <div class="ai-dynamic-payment-button__wrapper-{{ ai_gen_id }}">
+      {{ form | payment_button }}
+    </div>
+
+    {% if block.settings.show_message and block.settings.message != blank %}
+      <div class="ai-dynamic-payment-button__message-{{ ai_gen_id }}">
+        {{ block.settings.message }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Dynamic payment button",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_heading",
+      "label": "Show heading",
+      "default": false
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading text",
+      "default": "Express checkout"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Heading spacing",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "range",
+      "id": "button_height",
+      "label": "Button height",
+      "min": 40,
+      "max": 70,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Fallback button"
+    },
+    {
+      "type": "paragraph",
+      "content": "These colors apply when no dynamic payment method is available"
+    },
+    {
+      "type": "color",
+      "id": "fallback_button_color",
+      "label": "Background",
+      "default": "#2e413d"
+    },
+    {
+      "type": "color",
+      "id": "fallback_button_text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "fallback_button_hover_color",
+      "label": "Hover background",
+      "default": "#1f2d2a"
+    },
+    {
+      "type": "header",
+      "content": "Message"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_message",
+      "label": "Show message",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "message",
+      "label": "Message text",
+      "default": "<p>More payment options available at checkout</p>"
+    },
+    {
+      "type": "range",
+      "id": "message_font_size",
+      "label": "Message size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "color",
+      "id": "message_text_color",
+      "label": "Message color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "message_spacing",
+      "label": "Message spacing",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Alignment"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dynamic payment button"
+    }
+  ]
+}
 {% endschema %}
