@@ -1,0 +1,90 @@
+<div class="flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]">
+  <img src="{{ 'truck.svg' | asset_url }}" alt="" class="w-[24px] h-[24px] shrink-0">
+
+  <div class="ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase leading-[100%]">
+
+    <p id="delivery-text-{{ section.id }}" style="margin:0;"></p>
+    <p id="countdown-text-{{ section.id }}" style="margin:0;"></p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+
+  const CUT_OFF = 16;
+
+  const deliveryEl = document.getElementById("delivery-text-{{ section.id }}");
+  const countdownEl = document.getElementById("countdown-text-{{ section.id }}");
+
+  function isWeekend(d) {
+    return d.getDay() === 0 || d.getDay() === 6;
+  }
+
+  function nextWorkingDay(d) {
+    let date = new Date(d);
+    date.setDate(date.getDate() + 1);
+
+    while (isWeekend(date)) {
+      date.setDate(date.getDate() + 1);
+    }
+
+    return date;
+  }
+
+  function getCutoff() {
+    let now = new Date();
+    let cutoff = new Date();
+
+    cutoff.setHours(CUT_OFF, 0, 0, 0);
+
+    if (now >= cutoff || isWeekend(now)) {
+      cutoff = nextWorkingDay(now);
+      cutoff.setHours(CUT_OFF, 0, 0, 0);
+    }
+
+    return cutoff;
+  }
+
+  function getDeliveryDate(from) {
+    let d = new Date(from);
+    let added = 0;
+
+    while (added < 5) {
+      d.setDate(d.getDate() + 1);
+      if (d.getDay() !== 0) added++;
+    }
+
+    return d;
+  }
+
+  const cutoffTime = getCutoff();
+  const deliveryDate = getDeliveryDate(cutoffTime);
+
+  const options = { weekday: 'long', day: 'numeric', month: 'long' };
+
+  function update() {
+    let now = new Date();
+    let diff = cutoffTime - now;
+
+    if (diff < 0) diff = 0;
+
+    let hours = Math.floor(diff / (1000 * 60 * 60));
+    let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    deliveryEl.innerHTML =
+      "Livraison estimée le <strong>" +
+      deliveryDate.toLocaleDateString('fr-FR', options).toUpperCase() +
+      "</strong>";
+
+    countdownEl.innerHTML =
+      "Commandez dans <strong>" +
+      hours + "h " + minutes + "min " + seconds + "s</strong> pour expédition aujourd’hui";
+  }
+
+  update();
+  setInterval(update, 1000);
+
+})();
+</script>
