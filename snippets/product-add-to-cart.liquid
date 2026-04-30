@@ -75,12 +75,12 @@
 					<span class="loading-overlay">{%- render 'svg-icons' with 'thb-loading' -%}</span>
 				</button>
 				{%- if show_dynamic_checkout -%}
-		      {% comment %} {{ form | payment_button }} {% endcomment %}
-			   {% if product.selected_or_first_available_variant.available %}
-  {{ form | payment_button }}
-{% endif %}
- 
-		    {%- endif -%}
+  {% if product.selected_or_first_available_variant.available %}
+    <div class="product-dynamic-checkout-buttons">
+      {{ content_for_additional_checkout_buttons }}
+    </div>
+  {% endif %}
+{%- endif -%}
 		  </div>
 		</div>
 		{%- endform -%}
