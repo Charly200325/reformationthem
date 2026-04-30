@@ -66,12 +66,6 @@
             "custom_liquid": "<div class=\"tp-widget-wrap\">\n  <div\n    class=\"trustpilot-widget\"\n    data-locale=\"fr-FR\"\n    data-template-id=\"5419b637fa0340045cd0c936\"\n    data-businessunit-id=\"5c4983bd4ec3280001977e4f\"\n    data-style-height=\"20px\"\n    data-style-width=\"100%\"\n    data-theme=\"light\">\n  </div>\n</div>\n\n<style>\n/* Desktop uniquement */\n@media screen and (min-width: 768px) {\n\n  .payment-icons {\n    display: flex !important;\n    justify-content: center !important; /* centre les badges */\n    align-items: center;\n    flex-wrap: wrap; /* évite que ça casse si trop long */\n    gap: 8px; /* espace propre entre les icônes */\n  }\n\n  .payment-icons figure {\n    margin: 0 !important;\n  }\n/* centre les badges paiement partout */\n.payment-icons {\n  display: flex !important;\n  justify-content: center !important;\n  align-items: center;\n  flex-wrap: wrap; /* passe à la ligne si besoin sur mobile */\n  gap: 8px; /* espace propre entre les logos */\n  text-align: center;\n}\n\n/* enlève les marges parasites */\n.payment-icons figure {\n  margin: 0 !important;\n}\n}\n.tp-widget-wrap {\n  margin-top: -30px !important;   /* remonte le badge vers les payment icons */\n  margin-bottom: 20px !important;\n  padding: 0 !important;\n  text-align: center;\n  line-height: 1 !important;\n}\n\n.tp-widget-wrap .trustpilot-widget {\n  max-width: 300px;\n  margin: 0 auto !important;\n  min-height: 20px;\n}\n\n.tp-widget-wrap iframe {\n  pointer-events: none !important;\n  display: block !important;\n  margin: 0 auto !important;\n}\n\n/* enlève l’espace automatique avant la description */\n.tp-widget-wrap + * {\n  margin-top: 8px !important;\n}\n</style>\n\n<script>\n(function () {\n  function initTP() {\n    var el = document.querySelector('.tp-widget-wrap .trustpilot-widget');\n    if (!el) return;\n\n    if (window.Trustpilot) {\n      window.Trustpilot.loadFromElement(el, true);\n    } else {\n      var script = document.createElement('script');\n      script.src = 'https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js';\n      script.async = true;\n      script.onload = function () {\n        if (window.Trustpilot) {\n          window.Trustpilot.loadFromElement(el, true);\n        }\n      };\n      document.head.appendChild(script);\n    }\n  }\n\n  initTP();\n  document.addEventListener('shopify:section:load', initTP);\n})();\n</script>"
           }
         },
-        "custom_liquid_HxCPtY": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign seconds_in_day = 86400 %}\n{% assign days_to_add = 6 %}\n{% assign offset_seconds = seconds_in_day | times: days_to_add | plus: 7200 %}\n{% assign delivery_timestamp = 'now' | date: '%s' | plus: offset_seconds %}\n\n<div class=\"flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]\">\n  <div class=\"ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase\" style=\"line-height:1.2;\">\n    <p style=\"margin:0;padding:0;display:flex;align-items:center;gap:6px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <rect x=\"1\" y=\"3\" width=\"15\" height=\"13\" rx=\"1\"/><path d=\"M16 8h4l3 5v4h-7V8z\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>\n      </svg>\n      Estimated delivery on {{ delivery_timestamp | date: '%A %-d %B' | upcase }}.\n    </p>\n    <p style=\"margin:0;padding:0;\">Order within <span id=\"countdown\"></span>.</p>\n  </div>\n</div>\n\n<script>\n  function updateCountdown() {\n    const now = new Date();\n    const deadline = new Date();\n    deadline.setHours(23, 59, 59, 0);\n    const diff = deadline - now;\n    if (diff <= 0) {\n      document.getElementById('countdown').textContent = '0h00min';\n      return;\n    }\n    const totalMinutes = Math.floor(diff / 1000 / 60);\n    const hours = Math.floor(totalMinutes / 60);\n    const minutes = totalMinutes % 60;\n    document.getElementById('countdown').textContent =\n      hours + 'h' + String(minutes).padStart(2, '0') + 'min';\n  }\n  updateCountdown();\n  setInterval(updateCountdown, 1000);\n</script>"
-          }
-        },
         "collapsible_tab_7Mx4XW": {
           "type": "collapsible_tab",
           "settings": {
@@ -102,6 +96,12 @@
             "custom_liquid": ""
           }
         },
+        "custom_liquid_HxCPtY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign seconds_in_day = 86400 %}\n{% assign days_to_add = 6 %}\n{% assign offset_seconds = seconds_in_day | times: days_to_add | plus: 7200 %}\n{% assign delivery_timestamp = 'now' | date: '%s' | plus: offset_seconds %}\n\n<div class=\"flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]\">\n  <div class=\"ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase\" style=\"line-height:1.2;\">\n    <p style=\"margin:0;padding:0;display:flex;align-items:center;gap:6px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <rect x=\"1\" y=\"3\" width=\"15\" height=\"13\" rx=\"1\"/><path d=\"M16 8h4l3 5v4h-7V8z\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>\n      </svg>\n      Estimated delivery on {{ delivery_timestamp | date: '%A %-d %B' | upcase }}.\n    </p>\n    <p style=\"margin:0;padding:0;\">Order within <span id=\"countdown\"></span>.</p>\n  </div>\n</div>\n\n<script>\n  function updateCountdown() {\n    const now = new Date();\n    const deadline = new Date();\n    deadline.setHours(23, 59, 59, 0);\n    const diff = deadline - now;\n    if (diff <= 0) {\n      document.getElementById('countdown').textContent = '0h00min';\n      return;\n    }\n    const totalMinutes = Math.floor(diff / 1000 / 60);\n    const hours = Math.floor(totalMinutes / 60);\n    const minutes = totalMinutes % 60;\n    document.getElementById('countdown').textContent =\n      hours + 'h' + String(minutes).padStart(2, '0') + 'min';\n  }\n  updateCountdown();\n  setInterval(updateCountdown, 1000);\n</script>"
+          }
+        },
         "complementary_YL4PR6": {
           "type": "complementary",
           "disabled": true,
@@ -120,10 +120,10 @@
         "buy_buttons",
         "payment_icons_pfFJzj",
         "custom_liquid_KUKXQx",
-        "custom_liquid_HxCPtY",
         "collapsible_tab_7Mx4XW",
         "collapsible_tab_4M6Nkt",
         "collapsible_tab_B6HRtz",
+        "custom_liquid_HxCPtY",
         "complementary_YL4PR6"
       ],
       "custom_css": [
