@@ -580,9 +580,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "YOU MAY ALSO LIKE",
         "heading_left": true,
-        "description": "<p>Describe your featured collection here</p>",
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
@@ -699,7 +699,7 @@
           "settings": {
             "air_blockreviews_summaryHeading": "Reviews",
             "air_blockreviews_layout": "list",
-            "air_blockreviews_singleStarColor": "#16A086",
+            "air_blockreviews_singleStarColor": "#16a086",
             "air_blockreviews_primaryColor": "#121212"
           }
         }
