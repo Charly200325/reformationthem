@@ -1,0 +1,93 @@
+<div class="flex items-center justify-center xl:justify-start mt-[20px] xl:mt-[30px]">
+
+  <!-- ICON -->
+  <img src="{{ 'truck.svg' | asset_url }}" alt="Livraison" class="w-[24px] h-[24px] shrink-0">
+
+  <!-- TEXT -->
+  <div class="ml-[10px] xl:ml-[20px] text-[11px] xl:text-[14px] text-gray-900 uppercase leading-[110%]">
+
+    <p id="delivery-date">Chargement de la livraison...</p>
+    <p id="order-countdown">Calcul du délai...</p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+
+  // CONFIG
+  const deliveryDays = 3; // délai de livraison en jours ouvrés
+  const cutoffHour = 16; // heure limite de commande (16h)
+  
+  // jours fériés (format YYYY-MM-DD)
+  const holidays = [
+    "2026-05-01",
+    "2026-05-08"
+  ];
+
+  function isHoliday(date) {
+    const iso = date.toISOString().split('T')[0];
+    return holidays.includes(iso);
+  }
+
+  function addBusinessDays(date, days) {
+    let result = new Date(date);
+
+    while (days > 0) {
+      result.setDate(result.getDate() + 1);
+
+      // skip dimanche (0) + jours fériés
+      if (result.getDay() !== 0 && !isHoliday(result)) {
+        days--;
+      }
+    }
+    return result;
+  }
+
+  function formatDate(date) {
+    return date.toLocaleDateString('fr-FR', {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long'
+    }).toUpperCase();
+  }
+
+  function updateDelivery() {
+    const now = new Date();
+
+    // cutoff logic
+    let startDate = new Date(now);
+    if (now.getHours() >= cutoffHour) {
+      startDate.setDate(startDate.getDate() + 1);
+    }
+
+    const deliveryDate = addBusinessDays(startDate, deliveryDays);
+
+    document.getElementById("delivery-date").innerText =
+      "Livraison estimée le " + formatDate(deliveryDate) + ".";
+  }
+
+  function updateCountdown() {
+    const now = new Date();
+    const cutoff = new Date();
+    cutoff.setHours(16, 0, 0, 0);
+
+    if (now > cutoff) {
+      cutoff.setDate(cutoff.getDate() + 1);
+    }
+
+    const diff = cutoff - now;
+
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+    document.getElementById("order-countdown").innerText =
+      "Commandez dans " + hours + "h" + minutes + "min.";
+  }
+
+  updateDelivery();
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
+
+})();
+</script>
