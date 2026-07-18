@@ -138,10 +138,33 @@
     },
     "custom_liquid_W3mLrm": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom liquid",
       "settings": {
         "custom_liquid": "<div id=\"shopify-section-template--27655111836030__logo_list_yQwKPV\" class=\"shopify-section section-logo-list\">\n  <link href=\"//babygo.uk/cdn/shop/t/108/assets/logo-list.css?v=158384124275033659971772638349\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n\n  <style>\n    #shopify-section-template--27655111836030__logo_list_yQwKPV {\n      background: #ffffff; /* 🔥 CHANGE ICI */\n    }\n\n    #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n      padding-top: 35px;\n      padding-bottom: 35px;\n    }\n\n    @media screen and (min-width: 768px) {\n      #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n        padding-top: 40px;\n        padding-bottom: 40px;\n      }\n    }\n  </style>\n\n  <div class=\"logo-list logo-list--centered-true\">\n    <div class=\"logo-list__inner swipe-on-mobile\" style=\"--logo-columns: 5\">\n\n      <div class=\"logo-list__logo\"><img width=\"338\" height=\"55\" src=\"//babygo.uk/cdn/shop/files/mother-_-baby_338x55_crop_center.svg?v=1715935528\"></div>\n      <div class=\"logo-list__logo\"><img width=\"441\" height=\"62\" src=\"//babygo.uk/cdn/shop/files/made-for-mums_441x62_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"319\" height=\"64\" src=\"//babygo.uk/cdn/shop/files/womenshealth_319x64_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"520\" height=\"85\" src=\"//babygo.uk/cdn/shop/files/emmas-diary_520x85_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"600\" height=\"77\" src=\"//babygo.uk/cdn/shop/files/independent_600x77_crop_center.svg?v=1715935555\"></div>\n\n    </div>\n  </div>\n</div>\n<style>\n  #shopify-section-template--27655111836030__logo_list_yQwKPV {\n    background: #ffffff;\n    border-radius: 0 !important; /* 🔥 supprime les arrondis */\n    overflow: hidden; /* évite les effets bizarres */\n  }\n</style>",
         "section_width": "full-width-row-full"
+      }
+    },
+    "1784403169f7ec5dd9": {
+      "type": "apps",
+      "blocks": {
+        "bl_custom_html_css_js_liquid_block_code_FNfmH9": {
+          "type": "shopify://apps/bl-custom-html-css-js-liquid/blocks/block-code/96fc73ef-2727-4174-82ec-12cfce5b3426",
+          "settings": {
+            "html_code": "<div id=\"shopify-section-template--27655111836030__logo_list_yQwKPV\" class=\"shopify-section section-logo-list\">\n  <link href=\"//babygo.uk/cdn/shop/t/108/assets/logo-list.css?v=158384124275033659971772638349\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n\n  <style>\n    #shopify-section-template--27655111836030__logo_list_yQwKPV {\n      background: #ffffff; /* 🔥 CHANGE ICI */\n    }\n\n    #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n      padding-top: 35px;\n      padding-bottom: 35px;\n    }\n\n    @media screen and (min-width: 768px) {\n      #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n        padding-top: 40px;\n        padding-bottom: 40px;\n      }\n    }\n  </style>\n\n  <div class=\"logo-list logo-list--centered-true\">\n    <div class=\"logo-list__inner swipe-on-mobile\" style=\"--logo-columns: 5\">\n\n      <div class=\"logo-list__logo\"><img width=\"338\" height=\"55\" src=\"//babygo.uk/cdn/shop/files/mother-_-baby_338x55_crop_center.svg?v=1715935528\"></div>\n      <div class=\"logo-list__logo\"><img width=\"441\" height=\"62\" src=\"//babygo.uk/cdn/shop/files/made-for-mums_441x62_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"319\" height=\"64\" src=\"//babygo.uk/cdn/shop/files/womenshealth_319x64_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"520\" height=\"85\" src=\"//babygo.uk/cdn/shop/files/emmas-diary_520x85_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"600\" height=\"77\" src=\"//babygo.uk/cdn/shop/files/independent_600x77_crop_center.svg?v=1715935555\"></div>\n\n    </div>\n  </div>\n</div>\n<style>\n  #shopify-section-template--27655111836030__logo_list_yQwKPV {\n    background: #ffffff;\n    border-radius: 0 !important; /* 🔥 supprime les arrondis */\n    overflow: hidden; /* évite les effets bizarres */\n  }\n</style>",
+            "css_code": "",
+            "js_code": "",
+            "liquid_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "bl_custom_html_css_js_liquid_block_code_FNfmH9"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "collection_list_xCj9Kp": {
@@ -698,6 +721,7 @@
     "slideshow_yCeeEz",
     "rich_text_4rkEd8",
     "custom_liquid_W3mLrm",
+    "1784403169f7ec5dd9",
     "collection_list_xCj9Kp",
     "featured_collection_hcWRVJ",
     "gallery_MkJH67",
