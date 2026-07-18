@@ -103,7 +103,7 @@
         "text_qAxhaB": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p>Offrez-lui un appui confortable pour profiter de chaque trajet en voiture, en toute sérénité.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -111,9 +111,9 @@
         "button_G6cTcg": {
           "type": "button",
           "settings": {
-            "link_label": "Learn More",
+            "link_label": "Découvrir Pawlie",
             "link": "",
-            "button_outline": false
+            "button_outline": true
           }
         }
       },
@@ -127,8 +127,8 @@
       "settings": {
         "section_width": "grid",
         "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
+        "text_position": "left",
+        "text_alignment": "left",
         "color_bg": "transparent",
         "color_text": "#151515",
         "color_links": "#151515",
