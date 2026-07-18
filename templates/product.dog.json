@@ -90,8 +90,8 @@
         "collapsible_tab_B6HRtz": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Expédition & Livraison",
-            "open": true,
+            "heading": "EXPÉDITION & LIVRAISON",
+            "open": false,
             "content": "<p>✓ Livraison gratuite en France </p><p>✓ Expédition sous 24 à 48 heures ouvrées</p><p>✓ Livraison suivie à domicile</p><p>Une fois votre commande expédiée, vous recevrez automatiquement votre numéro de suivi afin de suivre son acheminement.</p>",
             "page": "",
             "custom_liquid": ""
