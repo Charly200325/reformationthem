@@ -38,7 +38,7 @@
         "custom_liquid_wQJbyY": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-benefits\">\n  <p>✓ ORDERED ON WEEKDAYS BEFORE 4 PM, SHIPPED THE SAME DAY</p>\n\n  <p>✓ FREE SHIPPING IN EUROPE</p>\n\n  <p>✓ FROM 9 MONTHS TO 4 YEARS (max 20kg)</p>\n\n  <p>✓ A UNIQUE, TRENDY AND COMFORTABLE BABY CARRIER<br>\n  (RELIEVES BACK &amp; SHOULDER STRAIN)</p>\n\n  <p>✓ LESS BULKY THAN A STROLLER, MUCH MORE PRACTICAL</p>\n</div>\n\n<div id=\"inventory-template--24770738553208__main-product\" class=\"product-inventory-notice--wrapper\">\n  <div class=\"product-inventory-notice product-inventory-notice--normal\">\n    <div class=\"product-inventory-notice--text\">\n      <div class=\"product-inventory-notice--pulse\"></div>\n      In stock\n    </div>\n  </div>\n</div>\n\n<style>\n.product-benefits {\n  margin-top: 4px;\n}\n\n.product-benefits p {\n  text-transform: uppercase;\n  font-size: 0.6875rem;\n  letter-spacing: 0.1em;\n  opacity: 0.6;\n  margin: 0 0 10px 0;\n}\n\n.not-rte {\n  margin-bottom: 2px !important;\n  padding-left: 0 !important;\n  margin-left: -2px !important;\n}\n</style>"
+            "custom_liquid": "<div class=\"product-benefits\">\n  <p>✓ CONFORTABLE POUR VOTRE CHIEN PENDANT TOUS VOS TRAJETS </p>\n\n  <p>✓ MOUSSE ULTRA-DOUCE POUR SOUTENIR SA TÊTE ET SON COU </p>\n\n  <p>✓ S’INSTALLE FACILEMENT SUR LA FENÊTRE DE LA VOITURE </p>\n\n  <p>✓ LAVABL ET CONÇU POUR RÉSISTER AUX AVENTURES DU QUOTIDIEN </p>\n\n</div>\n\n<div id=\"inventory-template--24770738553208__main-product\" class=\"product-inventory-notice--wrapper\">\n  <div class=\"product-inventory-notice product-inventory-notice--normal\">\n    <div class=\"product-inventory-notice--text\">\n      <div class=\"product-inventory-notice--pulse\"></div>\n      In stock\n    </div>\n  </div>\n</div>\n\n<style>\n.product-benefits {\n  margin-top: 4px;\n}\n\n.product-benefits p {\n  text-transform: uppercase;\n  font-size: 0.6875rem;\n  letter-spacing: 0.1em;\n  opacity: 0.6;\n  margin: 0 0 10px 0;\n}\n\n.not-rte {\n  margin-bottom: 2px !important;\n  padding-left: 0 !important;\n  margin-left: -2px !important;\n}\n</style>"
           }
         },
         "custom_liquid_ar84P9": {
@@ -569,7 +569,6 @@
         "show_read_more_top": false,
         "read_more_label": "Read more",
         "read_more_link": "",
-        "background_image": "shopify://shop_images/trustpilot-widget-bg-2.webp",
         "section_bg": "#ffffff",
         "background_opacity": 100,
         "content_width": 860,
