@@ -118,6 +118,7 @@
         },
         "button_G6cTcg": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_label": "Découvrir Pawlie",
             "link": "",
@@ -144,6 +145,66 @@
         "disable_bottom_spacing": false
       }
     },
+    "featured_product_tNXX8a": {
+      "type": "featured-product",
+      "blocks": {
+        "title_66PBe8": {
+          "type": "title",
+          "settings": {
+            "uppercase": true,
+            "show_products_rating": true,
+            "show_custom_badges": true
+          }
+        },
+        "variant_picker_dTUi9p": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_size": "regular",
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": "",
+            "custom_liquid": ""
+          }
+        },
+        "buy_buttons_M9wdGe": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "outline_button": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_66PBe8",
+        "variant_picker_dTUi9p",
+        "buy_buttons_M9wdGe"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "heading": "Featured product",
+        "heading_left": false,
+        "description": "<p>Add a short description for this featured product</p>",
+        "full_width": false,
+        "product": "",
+        "show_taxes_included": true,
+        "enable_sticky_info": true,
+        "media_layout": "grid",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "custom_liquid_W3mLrm": {
       "type": "custom-liquid",
       "disabled": true,
@@ -151,14 +212,6 @@
       "settings": {
         "custom_liquid": "<div id=\"shopify-section-template--27655111836030__logo_list_yQwKPV\" class=\"shopify-section section-logo-list\">\n  <link href=\"//babygo.uk/cdn/shop/t/108/assets/logo-list.css?v=158384124275033659971772638349\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n\n  <style>\n    #shopify-section-template--27655111836030__logo_list_yQwKPV {\n      background: #ffffff; /* 🔥 CHANGE ICI */\n    }\n\n    #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n      padding-top: 35px;\n      padding-bottom: 35px;\n    }\n\n    @media screen and (min-width: 768px) {\n      #shopify-section-template--27655111836030__logo_list_yQwKPV .logo-list {\n        padding-top: 40px;\n        padding-bottom: 40px;\n      }\n    }\n  </style>\n\n  <div class=\"logo-list logo-list--centered-true\">\n    <div class=\"logo-list__inner swipe-on-mobile\" style=\"--logo-columns: 5\">\n\n      <div class=\"logo-list__logo\"><img width=\"338\" height=\"55\" src=\"//babygo.uk/cdn/shop/files/mother-_-baby_338x55_crop_center.svg?v=1715935528\"></div>\n      <div class=\"logo-list__logo\"><img width=\"441\" height=\"62\" src=\"//babygo.uk/cdn/shop/files/made-for-mums_441x62_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"319\" height=\"64\" src=\"//babygo.uk/cdn/shop/files/womenshealth_319x64_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"520\" height=\"85\" src=\"//babygo.uk/cdn/shop/files/emmas-diary_520x85_crop_center.svg?v=1715935555\"></div>\n      <div class=\"logo-list__logo\"><img width=\"600\" height=\"77\" src=\"//babygo.uk/cdn/shop/files/independent_600x77_crop_center.svg?v=1715935555\"></div>\n\n    </div>\n  </div>\n</div>\n<style>\n  #shopify-section-template--27655111836030__logo_list_yQwKPV {\n    background: #ffffff;\n    border-radius: 0 !important; /* 🔥 supprime les arrondis */\n    overflow: hidden; /* évite les effets bizarres */\n  }\n</style>",
         "section_width": "full-width-row-full"
-      }
-    },
-    "1784403169f7ec5dd9": {
-      "type": "apps",
-      "settings": {
-        "section_width": "full-width-row",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
       }
     },
     "collection_list_xCj9Kp": {
@@ -715,8 +768,8 @@
     "slideshow_yCeeEz",
     "custom_liquid_TWactA",
     "rich_text_4rkEd8",
+    "featured_product_tNXX8a",
     "custom_liquid_W3mLrm",
-    "1784403169f7ec5dd9",
     "collection_list_xCj9Kp",
     "featured_collection_hcWRVJ",
     "gallery_MkJH67",
