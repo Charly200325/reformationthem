@@ -97,6 +97,16 @@
             "custom_liquid": ""
           }
         },
+        "collapsible_tab_Qi8z7A": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "COMMENT UTILISER",
+            "open": false,
+            "content": "<h3>Comment utiliser votre coussin de fenêtre ?</h3><ol><li>Descendez la fenêtre à une hauteur adaptée pour votre chien.</li><li>Ouvrez légèrement la partie inférieure du coussin afin de créer un espace pour la vitre.</li><li>Placez délicatement le coussin sur le rebord de la fenêtre, de l'avant vers l'arrière.</li><li>Laissez votre chien découvrir son nouvel espace confortablement.</li></ol><p>La plupart des chiens adoptent rapidement ce nouvel endroit et apprécient leurs trajets encore davantage.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
         "custom_liquid_HxCPtY": {
           "type": "custom_liquid",
           "settings": {
@@ -124,6 +134,7 @@
         "collapsible_tab_7Mx4XW",
         "collapsible_tab_4M6Nkt",
         "collapsible_tab_B6HRtz",
+        "collapsible_tab_Qi8z7A",
         "custom_liquid_HxCPtY",
         "complementary_YL4PR6"
       ],
