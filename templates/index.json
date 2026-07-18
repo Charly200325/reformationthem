@@ -110,6 +110,7 @@
         },
         "text_qAxhaB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Offrez-lui un appui confortable pour profiter de chaque trajet en voiture, en toute sérénité.</p>",
             "custom_liquid": "",
@@ -142,7 +143,7 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "featured_product_tNXX8a": {
@@ -187,9 +188,9 @@
       ],
       "name": "Featured product",
       "settings": {
-        "heading": "Featured product",
+        "heading": "",
         "heading_left": false,
-        "description": "<p>Add a short description for this featured product</p>",
+        "description": "",
         "full_width": false,
         "product": "157-inch-dog-car-window-cushion-dog-headrest-bumper-safe-car-window-gap-filler-fits-most-cars-120421646678-gislj",
         "show_taxes_included": true,
