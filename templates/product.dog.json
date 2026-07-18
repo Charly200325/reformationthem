@@ -71,8 +71,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "DESCRIPTION DU PRODUIT",
-            "open": true,
-            "content": "<h4>PAWLIE™ — Le confort que votre chien mérite pendant chaque trajet 🐾</h4><p>Votre chien adore regarder par la fenêtre pendant les balades… mais une vitre dure n’est pas l’endroit idéal pour poser sa tête.<br/><br/>PAWLIE™ transforme chaque trajet en un moment plus confortable grâce à son coussin spécialement conçu pour offrir un soutien doux à la tête et au cou de votre compagnon.</p><p>Que ce soit pour une petite sortie ou une longue aventure, votre chien peut désormais profiter du paysage confortablement, à vos côtés.</p><p>✓ Plus de confort pendant les trajets<br/>✓ Soutient naturellement la tête et le cou<br/>✓ Installation rapide sur la fenêtre de voiture<br/>✓ Léger, résistant et facile à entretenir</p>",
+            "open": false,
+            "content": "<p><strong>PAWLIE™ — Le confort que votre chien mérite pendant chaque trajet 🐾</strong></p><p>Votre chien adore regarder par la fenêtre pendant les balades… mais une vitre dure n’est pas l’endroit idéal pour poser sa tête.<br/><br/>PAWLIE™ transforme chaque trajet en un moment plus confortable grâce à son coussin spécialement conçu pour offrir un soutien doux à la tête et au cou de votre compagnon.</p><p>Que ce soit pour une petite sortie ou une longue aventure, votre chien peut désormais profiter du paysage confortablement, à vos côtés.</p><p>✓ Plus de confort pendant les trajets<br/>✓ Soutient naturellement la tête et le cou<br/>✓ Installation rapide sur la fenêtre de voiture<br/>✓ Léger, résistant et facile à entretenir</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -80,7 +80,7 @@
         "collapsible_tab_4M6Nkt": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "SHIPPING & DELIVERY",
+            "heading": "DETAILS DU PRODUIT",
             "open": false,
             "content": "<p>We deliver <strong>worldwide</strong>, so you can enjoy Momplush wherever life takes you, effortlessly.</p><ul><li><strong>Free Worldwide Delivery</strong> – No minimum order</li><li><strong>Tracked Shipping</strong> – Follow your order every step of the way</li><li><strong>Processing Time</strong> – Orders are prepared within 1–2 business days<br/></li></ul><p><strong>Estimated delivery times:</strong></p><ul><li><strong>Europe</strong>: up to 5 business days</li><li><strong>North America</strong>: up to 10–15 business days</li><li><strong>South America</strong>: up to 20–25 business days</li><li><strong>Middle East</strong>: up to 15–20 business days</li><li><strong>Asia</strong>: up to 15–23 business days</li><li><strong>Africa</strong>: up to 20–25 business days<br/></li></ul><p>Please note: Delivery times may vary slightly during peak periods or due to customs delays.</p>",
             "page": "",
