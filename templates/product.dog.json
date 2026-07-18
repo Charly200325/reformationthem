@@ -266,7 +266,7 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "image_with_text_JVDj3d": {
@@ -293,7 +293,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/IMG_0855_65fe27d0-e20f-4bb1-98eb-34e213fc40d3.jpg",
+        "image": "shopify://shop_images/IMG_0849.webp",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -306,8 +306,8 @@
         "color_bg": "#ffffff",
         "color_text": "#151515",
         "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_NxwLDg": {
