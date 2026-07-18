@@ -90,9 +90,9 @@
         "collapsible_tab_B6HRtz": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "RETURNS & GUARANTEE",
-            "open": false,
-            "content": "<p>Try Momplush with complete peace of mind.</p><ul><li><strong>30-Day Risk-Free Trial</strong> – Not satisfied? Get your money back</li><li><strong>Easy Returns</strong> – Simple and hassle-free process</li><li><strong>Support That Cares</strong> – Our team is here for you every step of the way<br/></li></ul><p>Your comfort and your child’s always comes first.</p>",
+            "heading": "Expédition & Livraison",
+            "open": true,
+            "content": "<p>✓ Livraison gratuite en France </p><p>✓ Expédition sous 24 à 48 heures ouvrées</p><p>✓ Livraison suivie à domicile</p><p>Une fois votre commande expédiée, vous recevrez automatiquement votre numéro de suivi afin de suivre son acheminement.</p>",
             "page": "",
             "custom_liquid": ""
           }
