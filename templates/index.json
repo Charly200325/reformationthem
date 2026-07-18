@@ -14,13 +14,13 @@
       "blocks": {
         "slide_j4hHi3": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
             "video": "",
-            "subheading": "THE TODDLER SLING CARRIER",
-            "heading": "MOMPLUSH",
+            "video_hosted": "shopify://files/videos/Living his fairytale life 😍💙We’ve now traveled over 50,000 miles since our first sample, “test.mov",
+            "subheading": "Laissez-le profiter du voyage",
+            "heading": "PAWLIE",
             "heading_size": "h1-large",
             "content": "",
             "description_size": "medium",
@@ -35,7 +35,7 @@
             "button_1_text": "",
             "button_1_link": "",
             "button_1_outline": true,
-            "button_2_text": "SHOP CARRIERS",
+            "button_2_text": "COMMANDER MAINTENANT",
             "button_2_link": "shopify://collections/baby-carriers",
             "button_2_outline": false
           }
