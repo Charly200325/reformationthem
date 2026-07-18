@@ -252,6 +252,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/IMG_0855_65fe27d0-e20f-4bb1-98eb-34e213fc40d3.jpg",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
