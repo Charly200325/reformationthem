@@ -84,6 +84,58 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_4rkEd8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KGK844": {
+          "type": "heading",
+          "settings": {
+            "text": "DES TRAJETS PLUS CONFORTABLE POUR VOTRE CHIEN",
+            "size": "h3"
+          }
+        },
+        "subheading_k8P8nD": {
+          "type": "subheading",
+          "settings": {
+            "text": "Parce qu'il mérite le meilleur, à chaque aventure."
+          }
+        },
+        "text_qAxhaB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_G6cTcg": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KGK844",
+        "subheading_k8P8nD",
+        "text_qAxhaB",
+        "button_G6cTcg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "custom_liquid_W3mLrm": {
       "type": "custom-liquid",
       "name": "Custom liquid",
@@ -644,6 +696,7 @@
   },
   "order": [
     "slideshow_yCeeEz",
+    "rich_text_4rkEd8",
     "custom_liquid_W3mLrm",
     "collection_list_xCj9Kp",
     "featured_collection_hcWRVJ",
