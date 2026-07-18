@@ -183,12 +183,21 @@
             "heading": "MOMPLUSH® Support Team",
             "text": "<p>Here To Help</p>"
           }
+        },
+        "icon_R34GaY": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
         }
       },
       "block_order": [
         "icon_mUigEx",
         "icon_jzB3pR",
-        "icon_GdgRWq"
+        "icon_GdgRWq",
+        "icon_R34GaY"
       ],
       "custom_css": [
         "/* Réduction hauteur section */.text-with-icons {padding-top: 10px; padding-bottom: 10px;}",
