@@ -164,16 +164,16 @@
           "type": "icon",
           "settings": {
             "icon": "truck",
-            "heading": "Free Worldwide Shipping",
-            "text": "<p>We ship worldwide for free.</p>"
+            "heading": "Livraison Gratuite",
+            "text": "<p>Livraison gratuite en France</p>"
           }
         },
         "icon_jzB3pR": {
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "Easy Returns",
-            "text": "<p>Return within 30 days.</p>"
+            "heading": "Retour facile",
+            "text": "<p>Retour sous 30 jours </p>"
           }
         },
         "icon_GdgRWq": {
