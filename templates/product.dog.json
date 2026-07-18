@@ -269,6 +269,42 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_NxwLDg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_nW8RD3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Trusted by 10,000+ parents worldwide"
+          }
+        },
+        "heading_jUXhw8": {
+          "type": "heading",
+          "settings": {
+            "text": "THANK YOU FOR YOUR TRUST! 🤍",
+            "size": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nW8RD3",
+        "heading_jUXhw8"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 30px;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "image_with_text_JVDj3d": {
       "type": "image-with-text",
       "blocks": {
@@ -307,42 +343,6 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_NxwLDg": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_nW8RD3": {
-          "type": "subheading",
-          "settings": {
-            "text": "Trusted by 10,000+ parents worldwide"
-          }
-        },
-        "heading_jUXhw8": {
-          "type": "heading",
-          "settings": {
-            "text": "THANK YOU FOR YOUR TRUST! 🤍",
-            "size": "h4"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_nW8RD3",
-        "heading_jUXhw8"
-      ],
-      "custom_css": [
-        ".rich-text {padding-top: 30px;}"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -874,9 +874,9 @@
     "text_with_icons_PCRGt7",
     "custom_html_yn96ir",
     "image_with_text_nB3wUe",
-    "image_with_text_JVDj3d",
     "rich_text_NxwLDg",
     "custom_reviews_KgPArc",
+    "image_with_text_JVDj3d",
     "custom_html_GzNNJH",
     "product-recommendations",
     "collapsible_content_WQ4zzi",
