@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {}
     },
     "main-product": {
@@ -33,6 +34,12 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n/* 🔥 cible le bloc produit complet */\n.product__info-wrapper * {\n  min-height: unset !important;\n}\n\n/* 🔥 cible TON bloc précisément */\n.product__info-wrapper p {\n  margin-top: 4px !important;\n  margin-bottom: 10px !important;\n}\n\n/* 🔥 supprime espace du container */\n.product__info-wrapper > * {\n  margin-bottom: 8px !important;\n}\n</style>\n\n<p class=\"not-rte\" style=\"display: flex; align-items: center; gap: 8px; font-size: 0.6875rem; letter-spacing: 0.02em; color: #000; opacity: 0.5;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0012/5137/7230/files/bag-icon.svg\" \n    alt=\"Bag icon\"\n    style=\"width: 14px; height: 14px; opacity: 0.7;\"\n  >\n  <span><strong style=\"font-weight: 500;\">In 100+ bags</strong> in the last month</span>\n</p>"
+          }
+        },
+        "custom_liquid_4tT3Ca": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.product--text.style_vendor {\n  color: #4a4a4a !important;\n  opacity: 1 !important;\n  font-weight: 500 !important;\n}\n</style>\n\n<p class=\"product--text style_vendor\">✓ ORDERED ON WEEKDAYS BEFORE 4 PM, SHIPPED THE SAME DAY</p>\n<p class=\"product--text style_vendor\">✓ FREE SHIPPING WITHIN THE EU ON ALL ORDERS FROM €90</p>"
           }
         },
         "custom_liquid_wQJbyY": {
@@ -127,6 +134,7 @@
         "share_jJ44gj",
         "title",
         "custom_liquid_nQVbh4",
+        "custom_liquid_4tT3Ca",
         "custom_liquid_wQJbyY",
         "custom_liquid_ar84P9",
         "buy_buttons",
@@ -234,7 +242,7 @@
         "heading_jdjAkH": {
           "type": "heading",
           "settings": {
-            "text": "FINI LA TÊTE POSÉE SUR J’E VITRE DURE",
+            "text": "FINI LA TÊTE POSÉE SUR LA VITRE DURE",
             "heading_size": "h3"
           }
         },
@@ -302,47 +310,6 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "image_with_text_JVDj3d": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_yjHeRG": {
-          "type": "heading",
-          "settings": {
-            "text": "UN CONFORT PENSÉ POUR LEURS MOMENTS PRÉFÉRÉS",
-            "heading_size": "h3"
-          }
-        },
-        "text_Q8qWbh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Grâce à sa mousse douce et résistante, PAWLIE™ offre un soutien agréable pour la tête et le cou de votre chien.</p><p>✓ Léger et confortable<br/>✓ Résistant aux aventures du quotidien<br/>✓ Facile à nettoyer après les balades</p>",
-            "description_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_yjHeRG",
-        "text_Q8qWbh"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/IMG_0849.webp",
-        "use_video": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_autoplay": true,
-        "video_controls": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "grid",
-        "layout": "image_first",
-        "content_position": "text-left",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -680,6 +647,47 @@
         "section_padding_bottom": 36,
         "section_padding_top_mobile": 28,
         "section_padding_bottom_mobile": 28
+      }
+    },
+    "image_with_text_JVDj3d": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yjHeRG": {
+          "type": "heading",
+          "settings": {
+            "text": "UN CONFORT PENSÉ POUR LEURS MOMENTS PRÉFÉRÉS",
+            "heading_size": "h3"
+          }
+        },
+        "text_Q8qWbh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grâce à sa mousse douce et résistante, PAWLIE™ offre un soutien agréable pour la tête et le cou de votre chien.</p><p>✓ Léger et confortable<br/>✓ Résistant aux aventures du quotidien<br/>✓ Facile à nettoyer après les balades</p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yjHeRG",
+        "text_Q8qWbh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/IMG_0849.webp",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "custom_html_GzNNJH": {
