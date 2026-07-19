@@ -199,22 +199,12 @@
           "type": "payment_icons",
           "settings": {}
         },
-        "collapsible_tab_jtqYUb": {
+        "collapsible_tab_dHpPM7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "DESCRIPTION DU PRODUIT",
             "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_8b869A": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
+            "content": "<p><strong>PAWLIE™ — Le confort que votre chien mérite pendant chaque trajet 🐾</strong></p><p>Votre chien adore regarder par la fenêtre pendant les balades… mais une vitre dure n’est pas l’endroit idéal pour poser sa tête.<br/><br/>PAWLIE™ transforme chaque trajet en un moment plus confortable grâce à son coussin spécialement conçu pour offrir un soutien doux à la tête et au cou de votre compagnon.</p><p>Que ce soit pour une petite sortie ou une longue aventure, votre chien peut désormais profiter du paysage confortablement, à vos côtés.</p><p>✓ Plus de confort pendant les trajets<br/>✓ Soutient naturellement la tête et le cou<br/>✓ Installation rapide sur la fenêtre de voiture<br/>✓ Léger, résistant et facile à entretenir</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -222,19 +212,29 @@
         "collapsible_tab_XbaDyr": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "DETAILS DU PRODUIT",
             "open": false,
-            "content": "",
+            "content": "<p>✓ Conçu pour la plupart des fenêtres de voitures et SUV</p><p>✓ Mousse confortable offrant un soutien agréable</p><p>✓ Design ergonomique adapté à la position naturelle du chien</p><p>✓ Installation simple, sans outils nécessaires</p><p>✓ Format compact, facile à transporter</p><p>✓ Lavable et conçu pour résister aux aventures du quotidien</p><h3>Caractéristiques</h3><p>Matière : mousse haute densité confortable</p><p>Dimensions : <strong>39 cm × 7 cm × 7 cm</strong></p><p>Couleur : Noir / Bleu </p><p>Convient aux chiens de petite à grande taille selon la hauteur de la fenêtre.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
-        "collapsible_tab_dHpPM7": {
+        "collapsible_tab_8b869A": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "DESCRIPTION DU PRODUIT",
+            "heading": "EXPÉDITION & LIVRAISON",
             "open": false,
-            "content": "<p><strong>PAWLIE™ — Le confort que votre chien mérite pendant chaque trajet 🐾</strong></p><p>Votre chien adore regarder par la fenêtre pendant les balades… mais une vitre dure n’est pas l’endroit idéal pour poser sa tête.<br/><br/>PAWLIE™ transforme chaque trajet en un moment plus confortable grâce à son coussin spécialement conçu pour offrir un soutien doux à la tête et au cou de votre compagnon.</p><p>Que ce soit pour une petite sortie ou une longue aventure, votre chien peut désormais profiter du paysage confortablement, à vos côtés.</p><p>✓ Plus de confort pendant les trajets<br/>✓ Soutient naturellement la tête et le cou<br/>✓ Installation rapide sur la fenêtre de voiture<br/>✓ Léger, résistant et facile à entretenir</p>",
+            "content": "<p>✓ Livraison gratuite en France </p><p>✓ Expédition sous 24 à 48 heures ouvrées</p><p>✓ Livraison suivie à domicile</p><p>Une fois votre commande expédiée, vous recevrez automatiquement votre numéro de suivi afin de suivre son acheminement.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_jtqYUb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "COMMENT UTILISER",
+            "open": false,
+            "content": "<h3></h3><ol><li>Descendez la fenêtre à une hauteur adaptée pour votre chien.</li><li>Ouvrez légèrement la partie inférieure du coussin afin de créer un espace pour la vitre.</li><li>Placez délicatement le coussin sur le rebord de la fenêtre, de l'avant vers l'arrière.</li><li>Laissez votre chien découvrir son nouvel espace confortablement.</li></ol><p>La plupart des chiens adoptent rapidement ce nouvel endroit et apprécient leurs trajets encore davantage.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -246,10 +246,10 @@
         "variant_picker_dTUi9p",
         "buy_buttons_M9wdGe",
         "payment_icons_YkcCmd",
-        "collapsible_tab_jtqYUb",
-        "collapsible_tab_8b869A",
+        "collapsible_tab_dHpPM7",
         "collapsible_tab_XbaDyr",
-        "collapsible_tab_dHpPM7"
+        "collapsible_tab_8b869A",
+        "collapsible_tab_jtqYUb"
       ],
       "name": "Featured product",
       "settings": {
