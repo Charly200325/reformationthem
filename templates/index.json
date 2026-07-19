@@ -251,6 +251,10 @@
         "collapsible_tab_8b869A",
         "collapsible_tab_jtqYUb"
       ],
+      "custom_css": [
+        ".payment-icons {display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; /* ↓ plus serré */}",
+        ".payment-icons figure {margin: 0;}"
+      ],
       "name": "Featured product",
       "settings": {
         "heading": "",
