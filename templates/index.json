@@ -754,6 +754,7 @@
         "show_read_more_top": false,
         "read_more_label": "Read more",
         "read_more_link": "",
+        "background_image": "shopify://shop_images/trustpilot-widget-bg-2.webp",
         "section_bg": "#ffffff",
         "background_opacity": 100,
         "content_width": 860,
