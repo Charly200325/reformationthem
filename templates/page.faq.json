@@ -79,9 +79,9 @@
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How To Return My Items?",
+            "heading": "Est-il résistant à l'eau ?",
             "open": false,
-            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "content": "<p>Oui, PAWLIE™ résiste à la pluie et à l'humidité. Il se nettoie facilement d'un coup d'éponge après une sortie sous la pluie ou dans la boue.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -89,9 +89,9 @@
         "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How Can I Choose The Right Size For Me?",
+            "heading": "Va-t-il s'adapter à ma vitre ?",
             "open": false,
-            "content": "<p>Habitat has created a universal sizing system that aims to provide a unique reference for all countries. You can easily spot the best size for you by referring to our Size Guide that provides a conversion table to all major country size systems. </p><p>The Size Guide is conveniently available on the page of each product.</p>",
+            "content": "<p>PAWLIE™ mesure 39 x 7 x 7 cm et s'adapte à la grande majorité des vitres de voitures, SUV et utilitaires. Placez-le simplement à l'endroit où votre chien pose naturellement sa tête — il n'a pas besoin de couvrir toute la largeur de la vitre pour bien fonctionner. En cas de doute sur la compatibilité avec votre véhicule, contactez-nous et nous vous aiderons à vérifier avant votre commande.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -99,9 +99,9 @@
         "5f34dba8-15e0-4aac-91f7-5a103657361d": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Which Payment Methods Do You Accept?",
+            "heading": "Peut-on en installer deux sur la même fenêtre ?",
             "open": false,
-            "content": "<p>Habitat accepts the following payment methods for online purchases:<br/><br/>• All major credit cards, as shown at checkout</p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us</p><p>• Apple Pay, Google Pay, Samsung Pay</p><p>Please note that your billing address must match the address on your credit card statement.</p>",
+            "content": "<p>Sur les vitres plus larges (utilitaires, grands SUV), il est possible d'installer deux PAWLIE™ côte à côte pour offrir plus de surface d'appui, notamment pour les grands chiens.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -109,9 +109,19 @@
         "fa2985e2-4983-462b-80c8-596d4ae47540": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How Can I Track My Order?",
+            "heading": "Comment l'installer ?",
             "open": false,
-            "content": "<p>Once you place your order online, you will be able to see the details of the purchase, follow its preparation, and see shipping updates in the My Account area.</p>",
+            "content": "<p>Descendez votre vitre jusqu'à la hauteur où votre chien pose naturellement son menton — ou suffisamment haut pour que son corps ne puisse pas passer par l'ouverture. Ouvrez légèrement la partie inférieure de PAWLIE™ et placez-le sur le rebord de la vitre, de l'avant vers l'arrière. Aucun outil, aucun aimant, aucune ventouse nécessaire.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_AEHHRH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Peut-on remonter la vitre avec PAWLIE™ installé ?",
+            "open": false,
+            "content": "",
             "page": "",
             "custom_liquid": ""
           }
@@ -123,7 +133,8 @@
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
         "5f34dba8-15e0-4aac-91f7-5a103657361d",
-        "fa2985e2-4983-462b-80c8-596d4ae47540"
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "collapsible_tab_AEHHRH"
       ],
       "settings": {
         "heading": "",
