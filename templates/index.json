@@ -198,6 +198,46 @@
         "payment_icons_YkcCmd": {
           "type": "payment_icons",
           "settings": {}
+        },
+        "collapsible_tab_jtqYUb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_8b869A": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_XbaDyr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_dHpPM7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -205,7 +245,11 @@
         "custom_liquid_EHYAnA",
         "variant_picker_dTUi9p",
         "buy_buttons_M9wdGe",
-        "payment_icons_YkcCmd"
+        "payment_icons_YkcCmd",
+        "collapsible_tab_jtqYUb",
+        "collapsible_tab_8b869A",
+        "collapsible_tab_XbaDyr",
+        "collapsible_tab_dHpPM7"
       ],
       "name": "Featured product",
       "settings": {
