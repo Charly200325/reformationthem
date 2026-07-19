@@ -519,7 +519,7 @@
           "type": "review",
           "settings": {
             "stars": 5,
-            "verified": false,
+            "verified": true,
             "author": "Élodie Morel",
             "date": "28 juin",
             "title": "Un super achat",
@@ -536,7 +536,7 @@
           "type": "review",
           "settings": {
             "stars": 5,
-            "verified": false,
+            "verified": true,
             "author": "Manon Petit",
             "date": "13 juin",
             "title": "Un vrai changement pour nos voyages",
