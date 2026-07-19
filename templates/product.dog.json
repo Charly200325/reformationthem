@@ -39,11 +39,12 @@
         "custom_liquid_4tT3Ca": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.product--text.style_vendor {\n  color: #4a4a4a !important;\n  opacity: 1 !important;\n  font-weight: 500 !important;\n}\n</style>\n\n<p class=\"product--text style_vendor\">✓ ORDERED ON WEEKDAYS BEFORE 4 PM, SHIPPED THE SAME DAY</p>\n<p class=\"product--text style_vendor\">✓ FREE SHIPPING WITHIN THE EU ON ALL ORDERS FROM €90</p>"
+            "custom_liquid": "<style>\n.product--text.style_vendor {\n  color: #4a4a4a !important;\n  opacity: 1 !important;\n  font-weight: 500 !important;\n  margin-bottom: 2px !important; /* Mets 0px si tu ne veux aucun espace */\n}\n</style>\n\n<p class=\"product--text style_vendor\">✓ COMMANDÉ EN SEMAINE AVANT 16H, EXPÉDIÉ LE JOUR MÊME</p>\n<p class=\"product--text style_vendor\">✓ LIVRAISON GRATUITE EN FRANCE</p>\n<p class=\"product--text style_vendor\">✓ MOUSSE ULTRA-DOUCE POUR SOUTENIR SA TÊTE ET SON COU</p>\n<p class=\"product--text style_vendor\">✓ S'INSTALLE FACILEMENT SUR LA FENÊTRE DE LA VOITURE</p>\n<p class=\"product--text style_vendor\">✓ LAVABLE ET CONÇU POUR RÉSISTER AUX AVENTURES DU QUOTIDIEN</p>"
           }
         },
         "custom_liquid_wQJbyY": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"product-benefits\">\n<p>✓ LIVRAISON GRATUITE EN FRANCE </p>\n  <p>✓ CONFORTABLE POUR VOTRE CHIEN PENDANT TOUS VOS TRAJETS </p>\n\n  <p>✓ MOUSSE ULTRA-DOUCE POUR SOUTENIR SA TÊTE ET SON COU </p>\n\n  <p>✓ S’INSTALLE FACILEMENT SUR LA FENÊTRE DE LA VOITURE </p>\n\n  <p>✓ LAVABLE ET CONÇU POUR RÉSISTER AUX AVENTURES DU QUOTIDIEN </p>\n\n</div>\n\n<div id=\"inventory-template--24770738553208__main-product\" class=\"product-inventory-notice--wrapper\">\n  <div class=\"product-inventory-notice product-inventory-notice--normal\">\n    <div class=\"product-inventory-notice--text\">\n      <div class=\"product-inventory-notice--pulse\"></div>\n      In stock\n    </div>\n  </div>\n</div>\n\n<style>\n.product-benefits {\n  margin-top: 4px;\n}\n\n.product-benefits p {\n  text-transform: uppercase;\n  font-size: 0.6875rem;\n  letter-spacing: 0.1em;\n  opacity: 0.6;\n  margin: 0 0 10px 0;\n}\n\n.not-rte {\n  margin-bottom: 2px !important;\n  padding-left: 0 !important;\n  margin-left: -2px !important;\n}\n</style>"
           }
