@@ -190,17 +190,22 @@
         "buy_buttons_M9wdGe": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
-            "outline_button": true,
+            "show_quantity_selector": false,
+            "outline_button": false,
             "show_dynamic_checkout": true
           }
+        },
+        "payment_icons_YkcCmd": {
+          "type": "payment_icons",
+          "settings": {}
         }
       },
       "block_order": [
         "title_66PBe8",
         "custom_liquid_EHYAnA",
         "variant_picker_dTUi9p",
-        "buy_buttons_M9wdGe"
+        "buy_buttons_M9wdGe",
+        "payment_icons_YkcCmd"
       ],
       "name": "Featured product",
       "settings": {
