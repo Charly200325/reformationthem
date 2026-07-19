@@ -159,9 +159,9 @@
         "show_taxes_included": false,
         "media_layout": "collage",
         "display_slider_pagination": false,
-        "media_aspect_ratio": "portrait",
-        "display_captions": true,
-        "hide_variants": false,
+        "media_aspect_ratio": "adapt",
+        "display_captions": false,
+        "hide_variants": true,
         "lightbox": true,
         "enable_video_looping": false
       }
