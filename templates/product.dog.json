@@ -801,9 +801,9 @@
         "collapsible_tab_htFyKN": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How long does it take to receive my order?",
+            "heading": "Peut-on remonter la vitre avec PAWLIE™ installé ?",
             "open": false,
-            "content": "<p>Delivery across Europe typically takes 5 to 8 working days. We do our best to ensure your order arrives as quickly as possible, so you can start enjoying it without delay.</p>",
+            "content": "<p>Oui, remontez votre vitre jusqu'à ce que PAWLIE™ comble l'espace confortablement. Selon la taille de votre vitre, il peut rester un peu d'espace de chaque côté, ce qui laisse aussi passer un peu d'air pour votre chien.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -811,9 +811,9 @@
         "collapsible_tab_WBPUYa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What payment methods can I use?",
+            "heading": "Reste-t-il bien fixé pendant la conduite ?",
             "open": false,
-            "content": "<p>We offer many different payment methods including major providers like American Express, Meastro, Mastercard, Union Pay, Visa, PayPal, Shop Pay, Google Pay, and Apple Pay. We also offer different local payment methods depending on your location, including iDEAL, Sofort, giropay, and many more.</p>",
+            "content": "<p>Oui, PAWLIE™ tient en place par friction sur le rebord de la vitre. Pour un résultat optimal, assurez-vous que votre vitre est propre avant l'installation et gardez la mousse propre entre les trajets.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -821,7 +821,7 @@
         "collapsible_tab_8hxBFG": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Do you offer refunds?",
+            "heading": "Est-ce résistant à la mastication ?",
             "open": false,
             "content": "<p>Yes, we offer a 30-day guarantee.</p><p>If you experience any issue with your baby carrier, simply contact our customer support team for an exchange or a full refund.</p>",
             "page": "",
@@ -831,9 +831,19 @@
         "collapsible_tab_UzyNEq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How To Return My Items?",
+            "heading": "La livraison est-elle gratuite ?",
             "open": false,
-            "content": "<p>We do not currently offer free returns to overseas customers. You will therefore need to cover all costs of returning any items to us yourself. We advise that you mark your package ‘returned goods’ to avoid further duties. Remember: We strongly recommend that you return any items via a registered trackable service and obtain and retain proof of posting as we do not accept responsibility for items that fail to arrive with us.</p>",
+            "content": "<p>Oui, la livraison est offerte en France, sans minimum d'achat.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_jtBViy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quand ma commande sera-t-elle expédiée ?",
+            "open": true,
+            "content": "<p>Toutes les commandes sont préparées et expédiées sous 24 à 48 heures ouvrées.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -847,7 +857,8 @@
         "collapsible_tab_htFyKN",
         "collapsible_tab_WBPUYa",
         "collapsible_tab_8hxBFG",
-        "collapsible_tab_UzyNEq"
+        "collapsible_tab_UzyNEq",
+        "collapsible_tab_jtBViy"
       ],
       "settings": {
         "heading": "F.A.Q.",
