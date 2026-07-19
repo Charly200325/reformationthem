@@ -161,7 +161,7 @@
         "title_66PBe8": {
           "type": "title",
           "settings": {
-            "uppercase": true,
+            "uppercase": false,
             "show_products_rating": true,
             "show_custom_badges": true
           }
