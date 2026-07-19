@@ -831,38 +831,38 @@
         "border_separator_full": true
       }
     },
-    "text_with_icons_Kc8UjC": {
+    "text_with_icons_3NB7NQ": {
       "type": "text-with-icons",
       "blocks": {
-        "icon_xHw4yg": {
+        "icon_jCELEa": {
           "type": "icon",
           "settings": {
             "icon": "truck",
-            "heading": "Free Worldwide Shipping",
-            "text": "<p>We ship worldwide for free.</p>"
+            "heading": "Livraison offerte",
+            "text": "<p>Partout en France</p>"
           }
         },
-        "icon_6ma8NU": {
+        "icon_phHqLa": {
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "Easy Returns",
-            "text": "<p>Return within 30 days.</p>"
+            "heading": "Retours 30 jours",
+            "text": "<p>Simple & rapide</p>"
           }
         },
-        "icon_Wkg99D": {
+        "icon_cF9WgV": {
           "type": "icon",
           "settings": {
             "icon": "silhouette",
-            "heading": "MOMPLUSH® Support Team",
-            "text": "<p>Here To Help</p>"
+            "heading": "Service client",
+            "text": "<p>Réponse sous 24 h</p>"
           }
         }
       },
       "block_order": [
-        "icon_xHw4yg",
-        "icon_6ma8NU",
-        "icon_Wkg99D"
+        "icon_jCELEa",
+        "icon_phHqLa",
+        "icon_cF9WgV"
       ],
       "settings": {
         "text_alignment": "left",
@@ -891,6 +891,6 @@
     "custom_reviews_LLgyUw",
     "promotional_banner_CJMrDA",
     "spacer_jTkRCj",
-    "text_with_icons_Kc8UjC"
+    "text_with_icons_3NB7NQ"
   ]
 }
