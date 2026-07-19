@@ -159,7 +159,7 @@
         "show_taxes_included": false,
         "media_layout": "collage",
         "display_slider_pagination": false,
-        "media_aspect_ratio": "adapt",
+        "media_aspect_ratio": "portrait",
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
