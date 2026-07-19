@@ -758,16 +758,6 @@
     "collapsible_content_WQ4zzi": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_tab_9Kw8rM": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "En quoi est-il fabriqué ?",
-            "open": false,
-            "content": "<p>PAWLIE™ est fabriqué en mousse haute densité, souple au toucher mais suffisamment ferme pour ne pas s'écraser. Elle est pensée pour résister à un usage quotidien tout en gardant sa forme trajet après trajet.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
         "collapsible_tab_zHhgWE": {
           "type": "collapsible_tab",
           "settings": {
@@ -784,16 +774,6 @@
             "heading": "Peut-on en installer deux sur la même fenêtre ?",
             "open": false,
             "content": "<p>Sur les vitres plus larges (utilitaires, grands SUV), il est possible d'installer deux PAWLIE™ côte à côte pour offrir plus de surface d'appui, notamment pour les grands chiens.</p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_i7LXFp": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Comment l'installer ?",
-            "open": false,
-            "content": "<p>Descendez votre vitre jusqu'à la hauteur où votre chien pose naturellement son menton — ou suffisamment haut pour que son corps ne puisse pas passer par l'ouverture. Ouvrez légèrement la partie inférieure de PAWLIE™ et placez-le sur le rebord de la vitre, de l'avant vers l'arrière. Aucun outil, aucun aimant, aucune ventouse nécessaire.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -818,12 +798,22 @@
             "custom_liquid": ""
           }
         },
-        "collapsible_tab_8hxBFG": {
+        "collapsible_tab_9Kw8rM": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Est-ce résistant à la mastication ?",
+            "heading": "En quoi est-il fabriqué ?",
             "open": false,
-            "content": "<p>Yes, we offer a 30-day guarantee.</p><p>If you experience any issue with your baby carrier, simply contact our customer support team for an exchange or a full refund.</p>",
+            "content": "<p>PAWLIE™ est fabriqué en mousse haute densité, souple au toucher mais suffisamment ferme pour ne pas s'écraser. Elle est pensée pour résister à un usage quotidien tout en gardant sa forme trajet après trajet.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_i7LXFp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment l'installer ?",
+            "open": false,
+            "content": "<p>Descendez votre vitre jusqu'à la hauteur où votre chien pose naturellement son menton — ou suffisamment haut pour que son corps ne puisse pas passer par l'ouverture. Ouvrez légèrement la partie inférieure de PAWLIE™ et placez-le sur le rebord de la vitre, de l'avant vers l'arrière. Aucun outil, aucun aimant, aucune ventouse nécessaire.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -857,19 +847,29 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "collapsible_tab_8hxBFG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quelle est votre politique de retour ?",
+            "open": false,
+            "content": "<p>Nous offrons un retour sous 30 jours, sans question. Si PAWLIE™ ne vous convient pas, contactez-nous et nous trouverons une solution.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_tab_9Kw8rM",
         "collapsible_tab_zHhgWE",
         "collapsible_tab_TknM8E",
-        "collapsible_tab_i7LXFp",
         "collapsible_tab_htFyKN",
         "collapsible_tab_WBPUYa",
-        "collapsible_tab_8hxBFG",
+        "collapsible_tab_9Kw8rM",
+        "collapsible_tab_i7LXFp",
         "collapsible_tab_UzyNEq",
         "collapsible_tab_jtBViy",
-        "collapsible_tab_WWMcMG"
+        "collapsible_tab_WWMcMG",
+        "collapsible_tab_8hxBFG"
       ],
       "settings": {
         "heading": "F.A.Q.",
