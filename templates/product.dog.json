@@ -71,6 +71,23 @@
             "custom_liquid": ""
           }
         },
+        "side_panel_RUXtQe": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "ruler",
+            "side_panel_1_content": "<p>djjdjeje</p>",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping &amp; Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -155,6 +172,7 @@
         "custom_liquid_wQJbyY",
         "custom_liquid_ar84P9",
         "variant_picker_jXQkXa",
+        "side_panel_RUXtQe",
         "buy_buttons",
         "payment_icons_pfFJzj",
         "custom_liquid_KUKXQx",
