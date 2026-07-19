@@ -125,6 +125,66 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "collapsible_tab_UWwEwV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Reste-t-il bien fixé pendant la conduite ?",
+            "open": false,
+            "content": "<p>Oui, PAWLIE™ tient en place par friction sur le rebord de la vitre. Pour un résultat optimal, assurez-vous que votre vitre est propre avant l'installation et gardez la mousse propre entre les trajets.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_YkRFnQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Et si mon chien ne l'adopte pas tout de suite ?",
+            "open": false,
+            "content": "<p>La plupart des chiens comprennent son utilité dès le 3e ou 4e trajet — ensuite, ils ne veulent plus s'en passer. Laissez-lui quelques sorties pour s'habituer. Si vraiment il ne l'adopte pas, notre politique de retour de 30 jours vous couvre, sans question.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_TWi8dN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment le nettoyer ?",
+            "open": false,
+            "content": "<p>Nettoyez avec un peu de savon doux et de l'eau tiède, puis essuyez avec un chiffon propre ou du papier absorbant. Ne pas passer en machine. La bave, la boue et la pluie s'enlèvent facilement.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_7JayDm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "La livraison est gratuite ?",
+            "open": false,
+            "content": "<p>Oui la livraison est offerte sans minimum de d’achat. </p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_rGp9tm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quelle est votre politique de retour ?",
+            "open": false,
+            "content": "<p>Nous offrons un retour sous 30 jours, sans question. Si PAWLIE™ ne vous convient pas, contactez-nous et nous trouverons une solution.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_ircaEY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Quel est le délai de livraison ?",
+            "open": false,
+            "content": "<p>Les commandes sont généralement expédiées sous 24 à 48h ouvrées. Vous recevrez un numéro de suivi dès l'expédition de votre commande.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -134,7 +194,13 @@
         "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
         "5f34dba8-15e0-4aac-91f7-5a103657361d",
         "fa2985e2-4983-462b-80c8-596d4ae47540",
-        "collapsible_tab_AEHHRH"
+        "collapsible_tab_AEHHRH",
+        "collapsible_tab_UWwEwV",
+        "collapsible_tab_YkRFnQ",
+        "collapsible_tab_TWi8dN",
+        "collapsible_tab_7JayDm",
+        "collapsible_tab_rGp9tm",
+        "collapsible_tab_ircaEY"
       ],
       "settings": {
         "heading": "",
