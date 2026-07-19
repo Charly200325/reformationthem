@@ -208,6 +208,7 @@
         "icon_GdgRWq",
         "icon_R34GaY"
       ],
+      "disabled": true,
       "custom_css": [
         "/* Réduction hauteur section */.text-with-icons {padding-top: 10px; padding-bottom: 10px;}",
         " /* Réduction espace entre blocs */.text-with-icons__block {padding: 5px 10px;}",
@@ -875,7 +876,7 @@
         "heading": "F.A.Q.",
         "description": "",
         "uppercase_heading": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -918,6 +919,7 @@
         "text_hakGMJ",
         "button_wzzrHe"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "grid",
@@ -927,14 +929,6 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "1777490779b4f592aa": {
-      "type": "apps",
-      "settings": {
-        "section_width": "full-width-row",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -1011,7 +1005,6 @@
     "product-recommendations",
     "collapsible_content_WQ4zzi",
     "rich_text_ULfjtX",
-    "1777490779b4f592aa",
     "spacer_3nQJy8",
     "text_with_icons_pbwz4c"
   ]
