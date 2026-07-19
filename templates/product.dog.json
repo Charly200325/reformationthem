@@ -842,8 +842,18 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Quand ma commande sera-t-elle expédiée ?",
-            "open": true,
+            "open": false,
             "content": "<p>Toutes les commandes sont préparées et expédiées sous 24 à 48 heures ouvrées.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_WWMcMG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Comment suivre ma commande ?",
+            "open": false,
+            "content": "<p>Dès que votre commande est expédiée, vous recevez automatiquement un e-mail contenant votre numéro de suivi. Vous pourrez suivre votre colis à chaque étape jusqu'à sa livraison à domicile.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -858,7 +868,8 @@
         "collapsible_tab_WBPUYa",
         "collapsible_tab_8hxBFG",
         "collapsible_tab_UzyNEq",
-        "collapsible_tab_jtBViy"
+        "collapsible_tab_jtBViy",
+        "collapsible_tab_WWMcMG"
       ],
       "settings": {
         "heading": "F.A.Q.",
