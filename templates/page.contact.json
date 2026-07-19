@@ -62,14 +62,14 @@
         "heading_q4YTz6": {
           "type": "heading",
           "settings": {
-            "text": "Contact The MOMPLUSH® Team",
+            "text": "Une question ? Contactez-nous",
             "size": "h2"
           }
         },
         "text_UmAeyh": {
           "type": "text",
           "settings": {
-            "text": "<p>Available Monday to Saturday from 9am to 5pm. Please fill out the contact form below, and we will get back to you as soon as possible.</p>",
+            "text": "<p>Disponible du lundi au vendredi de 9h à 19h. </p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -103,6 +103,7 @@
     },
     "featured_collection_gmcC4X": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "heading": "TODDLER SLING CARRIERS",
