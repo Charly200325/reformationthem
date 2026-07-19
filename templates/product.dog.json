@@ -208,9 +208,8 @@
         "icon_GdgRWq",
         "icon_R34GaY"
       ],
-      "disabled": true,
       "custom_css": [
-        "/* Réduction hauteur section */.text-with-icons {padding-top: 10px; padding-bottom: 10px;}",
+        "/* Réduction hauteur section */.text-with-icons {padding-top: 10px; padding-bottom: 30px;}",
         " /* Réduction espace entre blocs */.text-with-icons__block {padding: 5px 10px;}",
         " /* Réduction espace icône / texte */.text-with-icons__icon {margin-bottom: 5px;}",
         " /* Réduction espace texte */.text-with-icons__block-content h6 {margin-bottom: 2px;}",
