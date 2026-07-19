@@ -715,6 +715,7 @@
         "review_qNMgBW",
         "review_F4nJW3"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 769px) {.custom-reviews-section {padding-bottom: 60px !important; }}",
         "@media screen and (min-width: 769px) {.custom-reviews-bg {top: -20px !important; bottom: -20px !important; }}"
@@ -1055,8 +1056,8 @@
     "image_with_text_nB3wUe",
     "rich_text_NxwLDg",
     "custom_reviews_KgPArc",
-    "image_with_text_JVDj3d",
     "custom_html_GzNNJH",
+    "image_with_text_JVDj3d",
     "custom_html_6Mp6ff",
     "product-recommendations",
     "collapsible_content_WQ4zzi",
