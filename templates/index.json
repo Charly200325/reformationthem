@@ -807,6 +807,7 @@
       "name": "Promotional banner",
       "settings": {
         "section_width": "grid",
+        "image": "shopify://shop_images/IMG_0874.jpg",
         "image_height": "large",
         "image_width": "split",
         "frame_border": false,
