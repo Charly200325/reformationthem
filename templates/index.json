@@ -324,6 +324,7 @@
     },
     "collection_list_xCj9Kp": {
       "type": "collection-list",
+      "disabled": true,
       "name": "Collection list",
       "settings": {
         "heading": "",
@@ -349,6 +350,7 @@
     },
     "featured_collection_hcWRVJ": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".product-card--badges {display: none !important;}"
       ],
@@ -375,6 +377,7 @@
         "image_6qPehA": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/19794123-ED7C-4785-A9D2-C7E58D3BBA4C.png",
             "subheading": "",
             "title": "",
             "text": "",
@@ -390,6 +393,7 @@
         "image_4WQrUJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/FF859E93-F5F5-4F25-BE85-0E8BA3A96C0D.png",
             "subheading": "",
             "title": "",
             "text": "",
