@@ -736,6 +736,7 @@
     },
     "custom_html_6Mp6ff": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "title": "",
