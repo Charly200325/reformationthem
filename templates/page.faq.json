@@ -146,6 +146,16 @@
             "custom_liquid": ""
           }
         },
+        "collapsible_tab_aWchRa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Est-ce résistant à la mastication ?",
+            "open": false,
+            "content": "<p>PAWLIE™ a été conçu pour résister à la mastication et à la bave de votre chien. </p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
         "collapsible_tab_TWi8dN": {
           "type": "collapsible_tab",
           "settings": {
@@ -197,6 +207,7 @@
         "collapsible_tab_AEHHRH",
         "collapsible_tab_UWwEwV",
         "collapsible_tab_YkRFnQ",
+        "collapsible_tab_aWchRa",
         "collapsible_tab_TWi8dN",
         "collapsible_tab_7JayDm",
         "collapsible_tab_rGp9tm",
