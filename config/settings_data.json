@@ -13,7 +13,7 @@
     "navigation_uppercase": true,
     "product_title_uppercase": true,
     "button_uppercase": true,
-    "color_accent": "#000000",
+    "color_accent": "#ffffff",
     "color_border": "rgba(0,0,0,0)",
     "color_input_border": "rgba(0,0,0,0)",
     "color_announcement_bar_bg": "#2e413d",
