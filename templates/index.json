@@ -272,6 +272,52 @@
         "lightbox": true,
         "enable_video_looping": false,
         "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "text_with_icons_38ywXd": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_tW9jVD": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "heading": "Livraison offerte",
+            "text": "<p>Partout en France</p>"
+          }
+        },
+        "icon_LzXYey": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Retours 30 jours",
+            "text": "<p>Simple & rapide</p>"
+          }
+        },
+        "icon_LXerkG": {
+          "type": "icon",
+          "settings": {
+            "icon": "silhouette",
+            "heading": "Service client",
+            "text": "<p>Réponse sous 24 h</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_tW9jVD",
+        "icon_LzXYey",
+        "icon_LXerkG"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "#f7f7f7",
+        "color_heading": "#737373",
+        "color_text": "#737373",
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -831,6 +877,7 @@
     "custom_liquid_W3mLrm",
     "rich_text_4rkEd8",
     "featured_product_tNXX8a",
+    "text_with_icons_38ywXd",
     "collection_list_xCj9Kp",
     "featured_collection_hcWRVJ",
     "gallery_MkJH67",
