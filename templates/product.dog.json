@@ -857,6 +857,58 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_ULfjtX": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_magV7Q": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "heading_fWezrh": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "text_hakGMJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Le Produit</h3><p><strong>Qu'est-ce que PAWLIE™ ?</strong><br/><br/>PAWLIE™ est un coussin de fenêtre pour chien qui se fixe directement sur le rebord de votre vitre. Il offre un appui doux et stable pour que votre chien puisse poser sa tête et son cou confortablement pendant chaque trajet, sans jamais être en contact avec le métal ou le verre.</p><p><strong>En quoi est-il fabriqué ?</strong><br/><br/>PAWLIE™ est fabriqué en mousse haute densité, souple au toucher mais suffisamment ferme pour ne pas s'écraser. Elle est pensée pour résister à un usage quotidien tout en gardant sa forme trajet après trajet.</p><p><strong>Est-il résistant à l'eau ?</strong><br/><br/>Oui, PAWLIE™ résiste à la pluie et à l'humidité. Il se nettoie facilement d'un coup d'éponge après une sortie sous la pluie ou dans la boue.</p><h3>Taille & Compatibilité</h3><p><strong>Va-t-il s'adapter à ma vitre ?</strong><br/><br/>PAWLIE™ mesure 39 x 7 x 7 cm et s'adapte à la grande majorité des vitres de voitures, SUV et utilitaires. Placez-le simplement à l'endroit où votre chien pose naturellement sa tête — il n'a pas besoin de couvrir toute la largeur de la vitre pour bien fonctionner. En cas de doute sur la compatibilité avec votre véhicule, contactez-nous et nous vous aiderons à vérifier avant votre commande.</p><p><strong>Peut-on en installer deux sur la même fenêtre ?</strong><br/><br/>Sur les vitres plus larges (utilitaires, grands SUV), il est possible d'installer deux PAWLIE™ côte à côte pour offrir plus de surface d'appui, notamment pour les grands chiens.</p><p><strong>Pour quelle taille de chien est-ce adapté ?</strong><br/><br/>PAWLIE™ convient aux chiens de petite à grande taille, en fonction de la hauteur de votre vitre. Il fonctionne particulièrement bien pour les chiens qui aiment déjà sortir la tête par la fenêtre.</p><h3>Installation & Utilisation</h3><p><strong>Comment l'installer ?</strong><br/><br/>Descendez votre vitre jusqu'à la hauteur où votre chien pose naturellement son menton — ou suffisamment haut pour que son corps ne puisse pas passer par l'ouverture. Ouvrez légèrement la partie inférieure de PAWLIE™ et placez-le sur le rebord de la vitre, de l'avant vers l'arrière. Aucun outil, aucun aimant, aucune ventouse nécessaire.</p><p><strong>Peut-on remonter la vitre avec PAWLIE™ installé ?</strong><br/><br/>Oui, remontez votre vitre jusqu'à ce que PAWLIE™ comble l'espace confortablement. Selon la taille de votre vitre, il peut rester un peu d'espace de chaque côté, ce qui laisse aussi passer un peu d'air pour votre chien.</p><p><strong>Reste-t-il bien fixé pendant la conduite ?</strong><br/><br/>Oui, PAWLIE™ tient en place par friction sur le rebord de la vitre. Pour un résultat optimal, assurez-vous que votre vitre est propre avant l'installation et gardez la mousse propre entre les trajets.</p><h3>Votre Chien</h3><p><strong>Et si mon chien ne l'adopte pas tout de suite ?</strong><br/><br/>La plupart des chiens comprennent son utilité dès le 3e ou 4e trajet — ensuite, ils ne veulent plus s'en passer. Laissez-lui quelques sorties pour s'habituer. Si vraiment il ne l'adopte pas, notre politique de retour de 30 jours vous couvre, sans question.</p><p><strong>Est-ce résistant à la mastication ?</strong><br/><br/>PAWLIE™ est conçu comme un appui, pas comme un jouet à mâcher. Si votre chien est un mâchouilleur compulsif, nous recommandons de surveiller ses premiers trajets pour installer de bonnes habitudes dès le départ.</p><h3>Entretien</h3><p><strong>Comment le nettoyer ?</strong><br/><br/>Nettoyez avec un peu de savon doux et de l'eau tiède, puis essuyez avec un chiffon propre ou du papier absorbant. Ne pas passer en machine. La bave, la boue et la pluie s'enlèvent facilement.</p><h3>Livraison & Retours</h3><p><strong>Livrez-vous en Suisse ?</strong><br/><br/>Oui, nous livrons en Suisse. Les frais et délais de livraison sont calculés et affichés au moment du paiement.</p><p><strong>Quelle est votre politique de retour ?</strong><br/><br/>Nous offrons un retour sous 30 jours, sans question. Si PAWLIE™ ne vous convient pas, contactez-nous et nous trouverons une solution.</p><p><strong>Quel est le délai de livraison ?</strong><br/><br/>Les commandes sont généralement expédiées sous 24 à 48h ouvrées. Vous recevrez un numéro de suivi dès l'expédition de votre commande.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_wzzrHe": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_magV7Q",
+        "heading_fWezrh",
+        "text_hakGMJ",
+        "button_wzzrHe"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "1777490779b4f592aa": {
       "type": "apps",
       "settings": {
@@ -936,6 +988,7 @@
     "custom_html_6Mp6ff",
     "product-recommendations",
     "collapsible_content_WQ4zzi",
+    "rich_text_ULfjtX",
     "1777490779b4f592aa",
     "spacer_3nQJy8",
     "text_with_icons_pbwz4c"
