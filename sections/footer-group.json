@@ -14,6 +14,19 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_g3qYPP": {
+          "type": "text",
+          "settings": {
+            "column_size": "small",
+            "title": "",
+            "image": "shopify://shop_images/IMG_0962.png",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
+        },
         "text_6a3E4h": {
           "type": "text",
           "settings": {
@@ -52,6 +65,7 @@
         }
       },
       "block_order": [
+        "text_g3qYPP",
         "text_6a3E4h",
         "menu_hqgnpN",
         "menu_qHgPqN",
