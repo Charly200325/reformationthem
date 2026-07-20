@@ -57,6 +57,7 @@
         },
         "signup_R6ECnD": {
           "type": "signup",
+          "disabled": true,
           "settings": {
             "column_size": "medium",
             "title": "NEWSLETTER",
