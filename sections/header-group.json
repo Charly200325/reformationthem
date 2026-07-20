@@ -26,7 +26,7 @@
         "text_7YxmMt": {
           "type": "text",
           "settings": {
-            "icon": "box",
+            "icon": "none",
             "text": "LIVRAISON OFFERTE EN FRANCE",
             "link": ""
           }
@@ -34,8 +34,8 @@
         "text_9Um9FH": {
           "type": "text",
           "settings": {
-            "icon": "price_tag",
-            "text": "OFFRE EXCLUSIVE : ÉCONOMISEZ 10€ AUJOURD´HUI",
+            "icon": "none",
+            "text": "OFFRE D’ÉTÉ : -22% SUR VOTRE COMMANDE",
             "link": ""
           }
         }
