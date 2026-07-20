@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "icon": "stopwatch",
-            "text": "ORDERED ON WEEKDAYS BEFORE 4 PM, SHIPPED THE SAME DAY",
+            "text": "COMMANDÉ EN SEMAINE AVANT 16H, EXPÉDIÉ LE JOUR MÊME",
             "link": ""
           }
         },
@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "icon": "box",
-            "text": "Livraison gratuite • Expédition sous 24 à 48 h",
+            "text": "LIVRAISON OFFERTE EN FRANCE",
             "link": ""
           }
         },
