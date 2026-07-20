@@ -14,7 +14,7 @@
     "product_title_uppercase": true,
     "button_uppercase": true,
     "color_accent": "#ffffff",
-    "color_border": "rgba(0,0,0,0)",
+    "color_border": "#F8F8F8",
     "color_input_border": "rgba(0,0,0,0)",
     "color_announcement_bar_bg": "#2e413d",
     "color_header_bg": "#ffffff",
