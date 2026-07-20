@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "icon": "box",
-            "text": "FREE SHIPPING WITHIN THE EU ON ALL ORDERS",
+            "text": "Livraison gratuite • Expédition sous 24 à 48 h",
             "link": ""
           }
         },
@@ -34,7 +34,7 @@
           "type": "text",
           "settings": {
             "icon": "price_tag",
-            "text": "SPRING DEALS - UP TO 40% OFF",
+            "text": "OFFRE EXCLUSIVE : ÉCONOMISEZ 10€ AUJOURD´HUI",
             "link": ""
           }
         }
@@ -58,7 +58,6 @@
       "type": "header",
       "settings": {
         "sticky_header": true,
-        "logo": "shopify://shop_images/Design_sans_titre_37_1.png",
         "logo_height_range": 34,
         "logo_height_range_mobile": 32,
         "style": "style2",
@@ -67,7 +66,6 @@
         "cart_icon": "bag",
         "use_icon_account": false,
         "transparent_header": true,
-        "logo_light": "shopify://shop_images/Adobe_Express_-_file.png",
         "transparent_header_border": true,
         "transparent_header_background": false,
         "transparent_header_background_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01) 60%)",
@@ -76,7 +74,6 @@
         "show_language_switcher": true,
         "show_currency_switcher": true,
         "mobile_secondary_menu": "",
-        "mobile_promo_image": "shopify://shop_images/7c4545a9-6309-42f0-9a6b-936ce794c09c.png",
         "mobile_promo_heading": "SPRING DEALS - UP TO 40% OFF",
         "mobile_promo_link_label": "Shop Now",
         "mobile_promo_link": "shopify://collections/baby-carriers"
