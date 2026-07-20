@@ -189,6 +189,12 @@
             "custom_liquid": ""
           }
         },
+        "rapi_bundle_rapi_bundle_WnUMnE": {
+          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons_M9wdGe": {
           "type": "buy_buttons",
           "settings": {
@@ -246,6 +252,7 @@
         "title_66PBe8",
         "custom_liquid_EHYAnA",
         "variant_picker_dTUi9p",
+        "rapi_bundle_rapi_bundle_WnUMnE",
         "buy_buttons_M9wdGe",
         "payment_icons_YkcCmd",
         "collapsible_tab_dHpPM7",
