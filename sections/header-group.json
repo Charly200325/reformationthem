@@ -16,9 +16,10 @@
       "blocks": {
         "text_hyDzRn": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "stopwatch",
-            "text": "COMMANDÉ EN SEMAINE AVANT 16H, EXPÉDIÉ LE JOUR MÊME",
+            "text": "",
             "link": ""
           }
         },
