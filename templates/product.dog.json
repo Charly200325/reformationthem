@@ -71,6 +71,15 @@
             "custom_liquid": ""
           }
         },
+        "bl_custom_html_css_js_liquid_block_code_YRDf3C": {
+          "type": "shopify://apps/bl-custom-html-css-js-liquid/blocks/block-code/96fc73ef-2727-4174-82ec-12cfce5b3426",
+          "settings": {
+            "html_code": "",
+            "css_code": "",
+            "js_code": "",
+            "liquid_code": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -155,6 +164,7 @@
         "custom_liquid_wQJbyY",
         "custom_liquid_ar84P9",
         "variant_picker_jXQkXa",
+        "bl_custom_html_css_js_liquid_block_code_YRDf3C",
         "buy_buttons",
         "payment_icons_pfFJzj",
         "custom_liquid_KUKXQx",
