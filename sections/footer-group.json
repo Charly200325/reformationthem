@@ -62,7 +62,7 @@
       ],
       "settings": {
         "full_width": true,
-        "copyright_text": "All rights reserved.",
+        "copyright_text": "",
         "show_language_switcher": true,
         "show_currency_switcher": true,
         "show_payment_icons": true,
