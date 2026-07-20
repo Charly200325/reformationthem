@@ -198,7 +198,7 @@
         "buy_buttons_M9wdGe": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": false,
+            "show_quantity_selector": true,
             "outline_button": false,
             "show_dynamic_checkout": true
           }
