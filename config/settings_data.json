@@ -10,6 +10,9 @@
 {
   "current": {
     "heading_font": "archivo_narrow_n4",
+    "body_font_scale": 100,
+    "body_font_letter_spacing": 0,
+    "body_font_line_height_scale": 100,
     "navigation_uppercase": true,
     "product_title_uppercase": true,
     "button_uppercase": true,
@@ -23,6 +26,7 @@
     "outline_button_label": "#151515",
     "color_stars": "#f4cf5b",
     "color_dots": "#151515",
+    "color_footer_text": "#FFFFFF",
     "color_footer_border": "#ffffff",
     "color_footer_bg": "#2e413d",
     "section_spacing_desktop": 90,
@@ -37,8 +41,10 @@
     "color_badge_sale": "#2e413d",
     "custom_product_badge_group_1_tag_names": "Économisez",
     "sibling_style": "swatch",
+    "cart_drawer": false,
     "cart_drawer_add_discounts": false,
     "cart_drawer_notes": false,
+    "cart_drawer_cart_button": true,
     "free_shipping": true,
     "free_shipping_minimum": "0",
     "search_product_collection": "baby-carriers",
