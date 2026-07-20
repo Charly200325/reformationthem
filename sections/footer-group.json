@@ -19,7 +19,6 @@
           "settings": {
             "column_size": "small",
             "title": "",
-            "image": "shopify://shop_images/Adobe_Express_-_file.png",
             "text": "",
             "text_size": "medium",
             "button_text": "",
@@ -31,7 +30,7 @@
           "type": "menu",
           "settings": {
             "column_size": "medium",
-            "title": "SHOP",
+            "title": "MENU",
             "menu": "main-menu"
           }
         },
@@ -39,8 +38,8 @@
           "type": "menu",
           "settings": {
             "column_size": "medium",
-            "title": "SUPPORT",
-            "menu": "support"
+            "title": "INFORMATIONS",
+            "menu": ""
           }
         },
         "signup_R6ECnD": {
