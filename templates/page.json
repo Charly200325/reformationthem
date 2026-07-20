@@ -67,6 +67,11 @@
     },
     "custom_html_MQVkXR": {
       "type": "custom-html",
+      "custom_css": [
+        ".tm_tracking_parent input::placeholder {color: #999; opacity: 1; /* Firefox */}",
+        ".tm_tracking_parent input::-webkit-input-placeholder {color: #999;}",
+        ".tm_tracking_parent input::-moz-placeholder {color: #999;}"
+      ],
       "name": "Custom HTML",
       "settings": {
         "title": "",
