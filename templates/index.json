@@ -189,12 +189,6 @@
             "custom_liquid": ""
           }
         },
-        "rapi_bundle_rapi_bundle_WnUMnE": {
-          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "buy_buttons_M9wdGe": {
           "type": "buy_buttons",
           "settings": {
@@ -206,6 +200,12 @@
         "payment_icons_YkcCmd": {
           "type": "payment_icons",
           "settings": {}
+        },
+        "rapi_bundle_rapi_bundle_WnUMnE": {
+          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
         },
         "collapsible_tab_dHpPM7": {
           "type": "collapsible_tab",
@@ -252,9 +252,9 @@
         "title_66PBe8",
         "custom_liquid_EHYAnA",
         "variant_picker_dTUi9p",
-        "rapi_bundle_rapi_bundle_WnUMnE",
         "buy_buttons_M9wdGe",
         "payment_icons_YkcCmd",
+        "rapi_bundle_rapi_bundle_WnUMnE",
         "collapsible_tab_dHpPM7",
         "collapsible_tab_XbaDyr",
         "collapsible_tab_8b869A",
