@@ -1017,7 +1017,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-form [data-shopify-buttoncontainer] {display: flex; flex-direction: column; gap: 8px;}"
+      "/* Affichage prix barré dans le cart drawer */.cart-drawer .price--on-sale .price-item--regular {display: inline !important; text-decoration: line-through !important; opacity: 0.6; margin-right: 6px;}",
+      ".cart-drawer .price--on-sale .price-item--sale {display: inline !important; color: inherit !important;}",
+      ".cart-drawer .price s,.cart-drawer .price del,.cart-drawer s.price-item {display: inline !important; text-decoration: line-through !important;}"
     ]
   }
 }
