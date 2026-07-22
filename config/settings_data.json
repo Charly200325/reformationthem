@@ -46,7 +46,7 @@
     "cart_drawer": true,
     "cart_drawer_add_discounts": false,
     "cart_drawer_notes": false,
-    "cart_drawer_cart_button": true,
+    "cart_drawer_cart_button": false,
     "free_shipping": true,
     "free_shipping_minimum": "0",
     "search_product_collection": "baby-carriers",
