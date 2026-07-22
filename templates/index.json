@@ -201,6 +201,12 @@
           "type": "payment_icons",
           "settings": {}
         },
+        "custom_liquid_zWf7gr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .faux-bundles-wrapper {\n    max-width: 700px;\n    margin: 24px auto;\n    padding: 0 16px;\n    font-family: var(--font-body-family, inherit);\n    box-sizing: border-box;\n  }\n\n  .faux-bundles-wrapper * {\n    box-sizing: border-box;\n  }\n\n  .faux-bundles-title {\n    text-align: center;\n    font-size: 22px;\n    font-weight: 700;\n    letter-spacing: 0.5px;\n    margin: 0 0 16px 0;\n    color: #111;\n    font-family: var(--font-heading-family, inherit);\n  }\n\n  .faux-bundle-card {\n    border: 1px solid #d4d4d4;\n    border-radius: 0px;\n    padding: 14px 18px;\n    margin-bottom: 12px;\n    background: #fff;\n    pointer-events: none;\n    user-select: none;\n  }\n\n  .faux-bundle-header {\n    margin-bottom: 4px;\n  }\n\n  .faux-bundle-name {\n    font-size: 18px;\n    font-weight: 700;\n    margin: 0;\n    line-height: 1.3;\n    color: #111;\n    font-family: var(--font-heading-family, inherit);\n  }\n\n  .faux-bundle-desc {\n    font-size: 14px;\n    line-height: 1.4;\n    color: #555;\n    margin: 0 0 8px 0;\n    font-family: var(--font-body-family, inherit);\n  }\n\n  .faux-bundle-prices {\n    display: flex;\n    justify-content: flex-end;\n    align-items: baseline;\n    gap: 8px;\n  }\n\n  .faux-bundle-price-new {\n    font-size: 18px;\n    font-weight: 700;\n    color: #111;\n    font-family: var(--font-heading-family, inherit);\n  }\n\n  .faux-bundle-price-old {\n    font-size: 15px;\n    color: #999;\n    text-decoration: line-through;\n    font-family: var(--font-body-family, inherit);\n  }\n</style>\n\n<div class=\"faux-bundles-wrapper\">\n\n  <h2 class=\"faux-bundles-title\">VOUS EN VOULEZ + ?</h2>\n\n  <div class=\"faux-bundle-card\">\n    <div class=\"faux-bundle-header\">\n      <h3 class=\"faux-bundle-name\">Le Duo PAWLIE — 59,99 €</h3>\n    </div>\n    <p class=\"faux-bundle-desc\">Choisissez vos deux coloris préférés et profitez d'un prix privilégié de 59,99 € au lieu de 89,98 €.</p>\n    <div class=\"faux-bundle-prices\">\n      <span class=\"faux-bundle-price-new\">€59,99</span>\n      <span class=\"faux-bundle-price-old\">€89,98</span>\n    </div>\n  </div>\n\n  <div class=\"faux-bundle-card\">\n    <div class=\"faux-bundle-header\">\n      <h3 class=\"faux-bundle-name\">Le Trio Confort — 79,99 €</h3>\n    </div>\n    <p class=\"faux-bundle-desc\">Composez votre trio avec vos coloris préférés et profitez d'un prix privilégié de 79,99 € au lieu de 134,97 €.</p>\n    <div class=\"faux-bundle-prices\">\n      <span class=\"faux-bundle-price-new\">€79,99</span>\n      <span class=\"faux-bundle-price-old\">€134,97</span>\n    </div>\n  </div>\n\n</div>"
+          }
+        },
         "rapi_bundle_rapi_bundle_WnUMnE": {
           "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "disabled": true,
@@ -255,6 +261,7 @@
         "variant_picker_dTUi9p",
         "buy_buttons_M9wdGe",
         "payment_icons_YkcCmd",
+        "custom_liquid_zWf7gr",
         "rapi_bundle_rapi_bundle_WnUMnE",
         "collapsible_tab_dHpPM7",
         "collapsible_tab_XbaDyr",
