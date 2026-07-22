@@ -859,6 +859,7 @@
       "block_order": [
         "loox_reviews_loox_dynamic_section_qEQMpU"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row",
         "disable_top_spacing": true,
