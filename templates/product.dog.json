@@ -310,6 +310,199 @@
         "section_width": "full-width-row"
       }
     },
+    "custom_reviews_NWcWBB": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_fiH9kK": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Emma Martin",
+            "date": "Il y a 3 jours",
+            "title": "Mon chien l’adore !",
+            "body": "<p>Mon chien a tout de suite adopté son nouveau repose-tête. Il est beaucoup plus détendu pendant les trajets en voiture et peut enfin reposer sa tête confortablement. La qualité est vraiment top !</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_HfmGHc": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Sophie B",
+            "date": "Il y a 5 jours",
+            "title": "Un indispensable pour les propriétaires de chiens !",
+            "body": "<p>Ce produit a changé nos trajets en voiture. Mon chien reste calme et confortable pendant tout le trajet. Il est doux, solide et très bien conçu.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_nYUHnC": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Lucas M",
+            "date": "il y a 1 semaine",
+            "title": "Parfait pour les longs trajets",
+            "body": "<p>Nous partons souvent en voyage avec notre chien et ce repose-tête est devenu indispensable. Il peut se reposer tranquillement et semble beaucoup plus à l’aise.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_enxLNc": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Chloé Lefèvre",
+            "date": "10 juillet",
+            "title": "Tellement confortable ❤️",
+            "body": "<p>Mon chien pose sa tête dessus dès qu’il monte dans la voiture. Le coussin est très doux et la finition est vraiment de qualité.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_hWJw8A": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Laura C",
+            "date": "07 juillet",
+            "title": "Mon chien dort pendant tout le trajet",
+            "body": "<p>Avant il bougeait beaucoup en voiture, maintenant il s’installe confortablement et reste calme jusqu’à l’arrivée.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_raEini": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Élodie Morel",
+            "date": "28 juin",
+            "title": "Un super achat",
+            "body": "<p>Mon chien adore son nouveau petit coin dans la voiture. C’est doux, confortable et très facile à installer.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_aJHYje": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Manon Petit",
+            "date": "13 juin",
+            "title": "Un vrai changement pour nos voyages",
+            "body": "<p>Nous faisons régulièrement de longues routes et ce produit a rendu les trajets beaucoup plus agréables. Mon chien dort paisiblement maintenant.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_FL4Kdj": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "verified": true,
+            "author": "Antoine G",
+            "date": "03 mai",
+            "title": "Je recommande à 100% !",
+            "body": "<p>Un excellent achat pour les balades en voiture. Mon chien adore et moi je suis rassuré de savoir qu’il est bien installé.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        },
+        "review_bRrggr": {
+          "type": "review",
+          "settings": {
+            "stars": 4,
+            "verified": true,
+            "author": "Camille Laurent",
+            "date": "14 avril",
+            "title": "Très belle qualité !",
+            "body": "<p>Le repose-tête est doux, pratique et donne vraiment une impression premium. Mon chien semble beaucoup plus confortable pendant nos déplacements.</p>",
+            "reply_author": "",
+            "reply_date": "",
+            "reply_text": "",
+            "show_read_more": true,
+            "read_more_label": "Voir plus",
+            "read_more_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_fiH9kK",
+        "review_HfmGHc",
+        "review_nYUHnC",
+        "review_enxLNc",
+        "review_hWJw8A",
+        "review_raEini",
+        "review_aJHYje",
+        "review_FL4Kdj",
+        "review_bRrggr"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.custom-reviews-section {padding-bottom: 60px !important; }}",
+        "@media screen and (min-width: 769px) {.custom-reviews-bg {top: -20px !important; bottom: -20px !important; }}"
+      ],
+      "name": "Avis personnalisés",
+      "settings": {
+        "heading": "Excellent",
+        "rating_text": "5 étoiles sur 5",
+        "review_count": "132 avis",
+        "subtext_before": "Basé sur",
+        "subtext_after": "Sur",
+        "brand_name": "Trustpilot",
+        "show_read_more_top": false,
+        "read_more_label": "Read more",
+        "read_more_link": "",
+        "background_image": "shopify://shop_images/trustpilot-widget-bg-2.webp",
+        "section_bg": "#ffffff",
+        "background_opacity": 100,
+        "content_width": 860,
+        "section_padding_top": 0,
+        "section_padding_bottom": 36,
+        "section_padding_top_mobile": 28,
+        "section_padding_bottom_mobile": 28
+      }
+    },
     "custom_liquid_a94XEM": {
       "type": "custom-liquid",
       "disabled": true,
@@ -1106,6 +1299,7 @@
     "text_with_icons_m8PRkj",
     "custom_liquid_TeRaqN",
     "custom_liquid_mHqqA7",
+    "custom_reviews_NWcWBB",
     "custom_liquid_a94XEM",
     "178445392366557f40",
     "custom_html_yn96ir",
